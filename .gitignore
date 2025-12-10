@@ -152,3 +152,7 @@ review_notebooks_comprehensive.py
 **/SCRIPTS/**/*.md
 *ARCHIVED*.md
 *IMPLEMENTATION_COMPLETE*.md
+
+# Exclude solution files from course folders (students shouldn't see answers)
+**/solutions/
+**/solutions/**
