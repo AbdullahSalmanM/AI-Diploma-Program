@@ -4,10 +4,10 @@
 
 By the end of this unit, students will be able to:
 - Understand what Natural Language Processing is
-- Perform text preprocessing
-- Implement tokenization
+- Perform text preprocessing (tokenization, normalization)
 - Understand word embeddings basics
-- Work with NLTK and spaCy
+- Work with text data in Python
+- Apply basic NLP techniques
 
 ---
 
@@ -19,32 +19,24 @@ By the end of this unit, students will be able to:
    - Challenges in NLP
 
 2. **Text Preprocessing**
+   - Tokenization
    - Lowercasing
    - Removing punctuation
    - Stop word removal
-   - Stemming and lemmatization
+   - Stemming and Lemmatization
 
-3. **Tokenization**
-   - Word tokenization
-   - Sentence tokenization
-   - Subword tokenization
+3. **Text Representation**
+   - Bag of Words
+   - TF-IDF
+   - Word embeddings introduction
 
-4. **Basic NLP Libraries**
-   - NLTK basics
-   - spaCy basics
-   - TextBlob basics
-
----
-
-## Files Structure | هيكل الملفات
-
-- `examples/`: Complete code examples
-- `exercises/`: Practice problems
-- `solutions/`: Solutions to exercises
-- `quizzes/`: Unit quiz
-- `tests/`: Unit test
+4. **Basic NLP Tasks**
+   - Text classification basics
+   - Sentiment analysis introduction
+   - Language detection
 
 ---
 
-**Next Unit:** [Unit 2: Text Processing](../unit2-text-processing/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Intermediate  
+**Prerequisites:** Completion of Semester 1 courses

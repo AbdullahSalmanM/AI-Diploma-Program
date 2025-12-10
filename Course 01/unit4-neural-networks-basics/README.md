@@ -4,10 +4,10 @@
 
 By the end of this unit, students will be able to:
 - Understand basic neural network concepts
-- Implement perceptrons
-- Build multi-layer perceptrons
+- Implement a simple perceptron
 - Understand activation functions
-- Apply neural networks to simple classification
+- Build a multi-layer perceptron
+- Apply neural networks to classification problems
 
 ---
 
@@ -17,27 +17,29 @@ By the end of this unit, students will be able to:
    - Biological inspiration
    - Artificial neurons
    - Network architecture
+   - Forward propagation
 
 2. **Perceptrons**
    - Single-layer perceptron
+   - Linear classification
    - Perceptron learning rule
-   - Limitations
 
-3. **Multi-Layer Perceptrons**
+3. **Activation Functions**
+   - Step function
+   - Sigmoid function
+   - ReLU function
+   - When to use each
+
+4. **Multi-Layer Perceptrons**
    - Hidden layers
-   - Forward propagation
    - Backpropagation basics
-
-4. **Activation Functions**
-   - Sigmoid
-   - ReLU
-   - Tanh
+   - Training process
 
 5. **Simple Applications**
    - Binary classification
-   - Multi-class classification basics
+   - Pattern recognition basics
 
 ---
 
-**End of Course 01**
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Intermediate

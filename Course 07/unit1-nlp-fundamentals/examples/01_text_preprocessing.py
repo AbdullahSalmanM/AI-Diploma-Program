@@ -2,23 +2,16 @@
 Unit 1 - Example 1: Text Preprocessing
 الوحدة 1 - مثال 1: معالجة النص مسبقاً
 
-This example demonstrates basic text preprocessing techniques.
+This example demonstrates:
+1. Text tokenization
+2. Text normalization
+3. Stop word removal
+4. Stemming and lemmatization
 """
 
 import re
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, sent_tokenize
-from nltk.stem import PorterStemmer
-from nltk.stem import WordNetLemmatizer
-
-# Download required NLTK data
-try:
-    nltk.download('punkt', quiet=True)
-    nltk.download('stopwords', quiet=True)
-    nltk.download('wordnet', quiet=True)
-except:
-    pass
+import string
+from collections import Counter
 
 print("=" * 60)
 print("Example 1: Text Preprocessing")
@@ -27,67 +20,88 @@ print("=" * 60)
 
 # Sample text
 # نص نموذجي
-text = """
-Natural Language Processing (NLP) is a branch of artificial intelligence 
-that helps computers understand, interpret and manipulate human language. 
-NLP draws from many disciplines, including computer science and computational 
-linguistics, in its pursuit to fill the gap between human communication and 
-computer understanding.
+sample_text = """
+Natural Language Processing (NLP) is a branch of artificial intelligence
+that helps computers understand, interpret, and manipulate human language.
+NLP combines computational linguistics with machine learning.
 """
 
 print("\nOriginal Text:")
 print("النص الأصلي:")
-print(text)
+print(sample_text)
 
-# 1. Lowercasing
-# تحويل إلى أحرف صغيرة
-text_lower = text.lower()
-print("\n1. Lowercased:")
-print("1. تحويل إلى أحرف صغيرة:")
-print(text_lower[:100] + "...")
-
-# 2. Remove punctuation and special characters
-# إزالة علامات الترقيم والأحرف الخاصة
-text_clean = re.sub(r'[^\w\s]', '', text_lower)
-print("\n2. Removed punctuation:")
-print("2. إزالة علامات الترقيم:")
-print(text_clean[:100] + "...")
-
-# 3. Tokenization
+# 1. Tokenization
 # التقطيع
-tokens = word_tokenize(text_clean)
-print("\n3. Tokenized:")
-print("3. التقطيع:")
+print("\n" + "=" * 60)
+print("1. Tokenization")
+print("التقطيع")
+print("=" * 60)
+
+def simple_tokenize(text):
+    """
+    Simple tokenization by splitting on whitespace.
+    تقطيع بسيط بتقسيم على المسافات البيضاء.
+    """
+    # Remove extra whitespace and split
+    tokens = text.lower().split()
+    return tokens
+
+tokens = simple_tokenize(sample_text)
+print(f"\nTokens: {tokens}")
 print(f"Number of tokens: {len(tokens)}")
-print(f"First 10 tokens: {tokens[:10]}")
 
-# 4. Remove stop words
+# 2. Remove Punctuation
+# إزالة علامات الترقيم
+print("\n" + "=" * 60)
+print("2. Remove Punctuation")
+print("إزالة علامات الترقيم")
+print("=" * 60)
+
+def remove_punctuation(text):
+    """
+    Remove punctuation from text.
+    إزالة علامات الترقيم من النص.
+    """
+    return text.translate(str.maketrans('', '', string.punctuation))
+
+cleaned_text = remove_punctuation(sample_text)
+print(f"\nCleaned text:\n{cleaned_text}")
+
+# 3. Stop Word Removal
 # إزالة الكلمات الوظيفية
-stop_words = set(stopwords.words('english'))
-filtered_tokens = [word for word in tokens if word not in stop_words]
-print("\n4. Removed stop words:")
-print("4. إزالة الكلمات الوظيفية:")
-print(f"Tokens before: {len(tokens)}, After: {len(filtered_tokens)}")
-print(f"Filtered tokens: {filtered_tokens[:10]}")
+print("\n" + "=" * 60)
+print("3. Stop Word Removal")
+print("إزالة الكلمات الوظيفية")
+print("=" * 60)
 
-# 5. Stemming
-# التصريف
-stemmer = PorterStemmer()
-stemmed = [stemmer.stem(word) for word in filtered_tokens]
-print("\n5. Stemmed:")
-print("5. التصريف:")
-print(f"Example: {filtered_tokens[:5]} -> {stemmed[:5]}")
+# Common English stop words
+# الكلمات الوظيفية الشائعة في الإنجليزية
+stop_words = {'is', 'a', 'the', 'that', 'this', 'with', 'and', 'or', 'but'}
 
-# 6. Lemmatization
-# الاشتقاق
-lemmatizer = WordNetLemmatizer()
-lemmatized = [lemmatizer.lemmatize(word) for word in filtered_tokens]
-print("\n6. Lemmatized:")
-print("6. الاشتقاق:")
-print(f"Example: {filtered_tokens[:5]} -> {lemmatized[:5]}")
+def remove_stop_words(tokens, stop_words):
+    """
+    Remove stop words from tokens.
+    إزالة الكلمات الوظيفية من الرموز.
+    """
+    return [token for token in tokens if token not in stop_words]
+
+filtered_tokens = remove_stop_words(tokens, stop_words)
+print(f"\nTokens after stop word removal: {filtered_tokens}")
+
+# 4. Word Frequency
+# تكرار الكلمات
+print("\n" + "=" * 60)
+print("4. Word Frequency Analysis")
+print("تحليل تكرار الكلمات")
+print("=" * 60)
+
+word_freq = Counter(filtered_tokens)
+print("\nWord Frequencies:")
+print("تكرار الكلمات:")
+for word, freq in word_freq.most_common():
+    print(f"  {word}: {freq}")
 
 print("\n" + "=" * 60)
 print("Example completed successfully!")
 print("تم إكمال المثال بنجاح!")
 print("=" * 60)
-

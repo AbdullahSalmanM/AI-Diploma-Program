@@ -7,39 +7,39 @@ By the end of this unit, students will be able to:
 - Represent knowledge using graphs and trees
 - Implement rule-based systems
 - Work with knowledge bases
-- Understand expert systems basics
+- Build simple expert systems
 
 ---
 
 ## Topics Covered | المواضيع المغطاة
 
 1. **Knowledge Representation Methods**
-   - Propositional logic
-   - First-order logic basics
+   - Logical representation
    - Semantic networks
    - Frames and scripts
+   - Production rules
 
 2. **Graph-Based Representation**
    - Knowledge graphs
    - Tree structures
-   - Graph traversal for knowledge retrieval
+   - Node and edge representation
 
 3. **Rule-Based Systems**
-   - If-then rules
+   - IF-THEN rules
    - Forward chaining
    - Backward chaining
+   - Rule inference
 
 4. **Knowledge Bases**
-   - Facts and rules storage
-   - Querying knowledge bases
-   - Knowledge inference
+   - Storing knowledge
+   - Querying knowledge
+   - Knowledge updates
 
-5. **Expert Systems**
-   - Architecture
-   - Inference engine
-   - Knowledge acquisition
+5. **Expert Systems Basics**
+   - Components of expert systems
+   - Simple expert system implementation
 
 ---
 
-**Next Unit:** [Unit 4: Neural Networks Basics](../unit4-neural-networks-basics/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Intermediate

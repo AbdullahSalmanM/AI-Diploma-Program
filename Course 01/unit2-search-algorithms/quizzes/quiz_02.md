@@ -6,75 +6,98 @@
 
 ---
 
-## Part 1: Multiple Choice | الجزء 1: الاختيار من متعدد
+## Part 1: Multiple Choice | الجزء 1: اختيار من متعدد
 **(40 points | 40 نقطة)**
 
 ### Question 1 (10 points)
-Which data structure does BFS use?
+What data structure does BFS use?
 
 أ) Stack  
 ب) Queue  
 ج) Priority Queue  
-د) Set
+د) Hash Table
 
 **Answer:** ب
 
 ---
 
 ### Question 2 (10 points)
-DFS is optimal for:
+What is the main advantage of DFS over BFS?
 
-أ) Finding shortest path in unweighted graph  
-ب) Finding any path  
-ج) Finding path with minimum cost  
-د) All of the above
+أ) Always finds shortest path  
+ب) Uses less memory  
+ج) Faster execution  
+د) More accurate
 
 **Answer:** ب
 
 ---
 
 ### Question 3 (10 points)
-A* algorithm uses:
+What makes A* algorithm optimal?
 
-أ) Only cost from start (g)  
-ب) Only heuristic (h)  
-ج) Both g and h (f = g + h)  
-د) Neither
+أ) It uses a stack  
+ب) It uses heuristics  
+ج) It always finds the shortest path  
+د) It's faster than BFS
 
 **Answer:** ج
 
 ---
 
 ### Question 4 (10 points)
-A heuristic function must be:
+Which algorithm guarantees finding the shortest path in an unweighted graph?
 
-أ) Always accurate  
-ب) Admissible (never overestimate)  
-ج) Always underestimate  
-د) Exact
+أ) DFS  
+ب) BFS  
+ج) Both  
+د) Neither
 
 **Answer:** ب
 
 ---
 
-## Part 2: Code Writing | الجزء 2: كتابة الكود
+## Part 2: Short Answer | الجزء 2: إجابة قصيرة
 **(30 points | 30 نقطة)**
 
-### Question 5 (30 points)
-Complete the BFS function:
+### Question 5 (15 points)
+Explain the difference between BFS and DFS. When would you use each?
 
+اشرح الفرق بين BFS و DFS. متى تستخدم كل منهما؟
+
+**Answer Key:**
+- BFS: Uses queue, explores level by level, finds shortest path, uses more memory
+- DFS: Uses stack, explores deep first, uses less memory, may not find shortest path
+- Use BFS when shortest path is needed
+- Use DFS when memory is limited or any path is sufficient
+
+---
+
+### Question 6 (15 points)
+What is a heuristic function in A* algorithm? Give an example.
+
+ما هي الدالة الاستدلالية في خوارزمية A*؟ أعط مثالاً.
+
+**Answer Key:**
+- Heuristic: Estimates distance from current node to goal
+- Example: Manhattan distance, Euclidean distance
+- Must be admissible (never overestimate)
+
+---
+
+## Part 3: Code Writing | الجزء 3: كتابة الكود
+**(30 points | 30 نقطة)**
+
+### Question 7 (30 points)
+Implement a BFS function that finds the shortest path in a graph.
+
+نفذ دالة BFS تجد أقصر مسار في رسم بياني.
+
+**Sample Answer:**
 ```python
 from collections import deque
 
-def bfs(graph, start, goal):
-    # TODO: Implement BFS
-    # TODO: اكتب خوارزمية BFS
-    pass
-```
-
-**Answer Key:**
-```python
-def bfs(graph, start, goal):
+def bfs_shortest_path(graph, start, goal):
     queue = deque([(start, [start])])
     visited = set([start])
     
@@ -94,26 +117,16 @@ def bfs(graph, start, goal):
 
 ---
 
-## Part 3: Short Answer | الجزء 3: إجابة قصيرة
-**(30 points | 30 نقطة)**
+## Answer Key | مفتاح الإجابات
 
-### Question 6 (15 points)
-Explain when to use BFS vs DFS.
-
-**Answer Key:**
-- BFS: When you need the shortest path, or when the solution is likely close to the start
-- DFS: When memory is limited, or when you need any solution (not necessarily shortest)
-
----
-
-### Question 7 (15 points)
-What makes A* optimal and complete?
-
-**Answer Key:**
-- Optimal: Uses admissible heuristic (never overestimates), ensuring shortest path
-- Complete: Will find solution if one exists (given finite graph and admissible heuristic)
+1. ب  
+2. ب  
+3. ج  
+4. ب  
+5. See answer key above  
+6. See answer key above  
+7. See sample code above
 
 ---
 
 **For:** AIAT 111 - Introduction to AI Applications and Concepts
-

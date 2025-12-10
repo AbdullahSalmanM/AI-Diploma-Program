@@ -1,56 +1,112 @@
 # Quiz 04: Neural Networks Basics | اختبار 4: أساسيات الشبكات العصبية
 ## AIAT 111 - Unit 4
 
-**Time Limit:** 45 minutes  
-**Total Points:** 100 points
+**Time Limit:** 30 minutes | **الوقت المحدد:** 30 دقيقة  
+**Total Points:** 100 points | **إجمالي النقاط:** 100 نقطة
 
 ---
 
-## Part 1: Multiple Choice (40 points)
+## Part 1: Multiple Choice | الجزء 1: اختيار من متعدد
+**(40 points | 40 نقطة)**
 
 ### Question 1 (10 points)
-A perceptron can solve:
+What is a perceptron?
 
-أ) Only linearly separable problems  
-ب) All classification problems  
-ج) Only regression problems  
-د) All problems
-
-**Answer:** أ
-
----
-
-### Question 2 (10 points)
-The activation function in a perceptron is:
-
-أ) Linear  
-ب) Step function  
-ج) Sigmoid  
-د) Any function
+أ) A type of graph  
+ب) A single-layer neural network  
+ج) A search algorithm  
+د) A knowledge representation method
 
 **Answer:** ب
 
 ---
 
-## Part 2: Code Writing (30 points)
+### Question 2 (10 points)
+What does ReLU stand for?
 
-### Question 3 (30 points)
-Complete the perceptron prediction function:
+أ) Rectified Linear Unit  
+ب) Random Linear Unit  
+ج) Recursive Linear Unit  
+د) Regular Linear Unit
 
-```python
-def predict(self, X):
-    # TODO: Implement prediction
-    pass
-```
+**Answer:** أ
+
+---
+
+### Question 3 (10 points)
+What is the purpose of an activation function?
+
+أ) To add randomness  
+ب) To introduce non-linearity  
+ج) To reduce memory usage  
+د) To speed up computation
+
+**Answer:** ب
+
+---
+
+### Question 4 (10 points)
+A single perceptron can solve which type of problems?
+
+أ) Only linear problems  
+ب) Only non-linear problems  
+ج) Both linear and non-linear  
+د) No problems
+
+**Answer:** أ
+
+---
+
+## Part 2: Short Answer | الجزء 2: إجابة قصيرة
+**(30 points | 30 نقطة)**
+
+### Question 5 (15 points)
+Explain the difference between a perceptron and a multi-layer perceptron.
+
+اشرح الفرق بين البيرسبترون والشبكة العصبية متعددة الطبقات.
 
 **Answer Key:**
+- Perceptron: Single layer, can only solve linearly separable problems
+- Multi-layer perceptron: Multiple layers with hidden layers, can solve non-linear problems
+
+---
+
+### Question 6 (15 points)
+What is forward propagation in a neural network?
+
+ما هو الانتشار الأمامي في الشبكة العصبية؟
+
+**Answer Key:**
+- Process of passing input data through the network layers
+- Each layer applies weights and activation function
+- Produces output at the final layer
+
+---
+
+## Part 3: Code Writing | الجزء 3: كتابة الكود
+**(30 points | 30 نقطة)**
+
+### Question 7 (30 points)
+Implement a simple perceptron that can classify AND gate inputs.
+
+نفذ بيرسبترون بسيط يمكنه تصنيف مدخلات بوابة AND.
+
+**Sample Answer:**
 ```python
-def predict(self, X):
-    return [self.activation(np.dot(x, self.weights) + self.bias) 
-            for x in X]
+import numpy as np
+
+class Perceptron:
+    def __init__(self):
+        self.weights = np.zeros(2)
+        self.bias = 0
+    
+    def activation(self, x):
+        return 1 if x >= 0 else 0
+    
+    def predict(self, X):
+        return [self.activation(np.dot(x, self.weights) + self.bias) for x in X]
 ```
 
 ---
 
 **For:** AIAT 111 - Introduction to AI Applications and Concepts
-

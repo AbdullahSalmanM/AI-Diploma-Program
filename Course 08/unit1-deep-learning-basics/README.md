@@ -3,37 +3,41 @@
 ### Learning Objectives | أهداف التعلم
 
 By the end of this unit, students will be able to:
-- Understand neural network fundamentals
-- Implement feedforward networks
+- Understand deep learning fundamentals
+- Build neural networks using TensorFlow/Keras
 - Understand backpropagation
-- Use TensorFlow/PyTorch basics
-- Train simple neural networks
+- Train and evaluate deep learning models
+- Apply deep learning to classification problems
 
 ---
 
 ## Topics Covered | المواضيع المغطاة
 
-1. **Neural Network Review**
-   - Perceptrons
-   - Multi-layer perceptrons
+1. **Deep Learning Introduction**
+   - What is deep learning?
+   - Neural network architecture
+   - Layers and neurons
    - Activation functions
 
-2. **Deep Learning Introduction**
-   - What makes it "deep"
-   - Advantages of deep networks
-   - Common architectures
+2. **Building Neural Networks**
+   - Using TensorFlow/Keras
+   - Sequential models
+   - Dense layers
+   - Model compilation
 
-3. **Frameworks**
-   - TensorFlow basics
-   - PyTorch basics
-   - Keras high-level API
+3. **Training Neural Networks**
+   - Loss functions
+   - Optimizers
+   - Training process
+   - Validation
 
-4. **Training Deep Networks**
-   - Forward propagation
-   - Backpropagation
-   - Optimization algorithms
+4. **Model Evaluation**
+   - Metrics (accuracy, loss)
+   - Overfitting and underfitting
+   - Model improvement
 
 ---
 
-**Next Unit:** [Unit 2: Convolutional Neural Networks](../unit2-cnns/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Advanced  
+**Prerequisites:** Completion of Semester 1 courses, understanding of neural networks basics
