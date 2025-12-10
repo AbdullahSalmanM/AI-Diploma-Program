@@ -1,0 +1,33 @@
+# Projects Overview | نظرة عامة على المشاريع
+## AIAT 111 - Introduction to AI Applications and Concepts
+
+This folder contains project materials for the Introduction to AI course.
+
+---
+
+## 🎯 Available Projects | المشاريع المتاحة
+
+### Project 01: Simple AI Agent
+**Topic:** Search Algorithms & Knowledge Representation  
+**Difficulty:** Beginner  
+**Estimated Time:** 2 weeks
+
+Build a simple AI agent that uses search algorithms to solve problems.
+
+[View Details →](01_Simple_AI_Agent/README.md)
+
+---
+
+### Project 02: Knowledge-Based System
+**Topic:** Knowledge Representation  
+**Difficulty:** Intermediate  
+**Estimated Time:** 2-3 weeks
+
+Create a knowledge-based system using rule-based reasoning.
+
+[View Details →](02_Knowledge_Based_System/README.md)
+
+---
+
+**For**: AIAT 111 - Introduction to AI Applications and Concepts
+

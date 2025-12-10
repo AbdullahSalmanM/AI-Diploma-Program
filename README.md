@@ -20,7 +20,26 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ## 📚 Courses | الدورات
 
-### Course 02: AI Fundamentals | أساسيات الذكاء الاصطناعي
+### Semester 1 | الفصل الأول
+
+#### Course 01: Introduction to AI | مقدمة في الذكاء الاصطناعي
+**Code:** AIAT 111  
+**Directory:** `Course 01/`
+
+**Description:** Introduction to AI applications and concepts, covering fundamentals, search algorithms, knowledge representation, and neural network basics.
+
+**Topics:**
+- AI foundations and history
+- Search algorithms (BFS, DFS, A*)
+- Knowledge representation
+- Neural networks basics
+
+**Prerequisites:** Basic computer literacy
+
+---
+
+#### Course 02: AI Fundamentals | أساسيات الذكاء الاصطناعي
+**Code:** AIAT 112  
 **Directory:** `Course02/`
 
 **Description:** Introduction to AI concepts, search algorithms, knowledge representation, and machine learning models.
@@ -37,7 +56,8 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ---
 
-### Course 03: Mathematics for AI | الرياضيات للذكاء الاصطناعي
+#### Course 03: Mathematics for AI | الرياضيات للذكاء الاصطناعي
+**Code:** AIAT 113  
 **Directory:** `Course03/`
 
 **Description:** Mathematical foundations essential for understanding AI and machine learning algorithms.
@@ -53,7 +73,8 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ---
 
-### Course 04: Machine Learning | تعلم الآلة
+#### Course 04: Machine Learning | تعلم الآلة
+**Code:** AIAT 114  
 **Directory:** `Course 04/`
 
 **Description:** Comprehensive machine learning algorithms and applications using Python and scikit-learn.
@@ -69,7 +90,8 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ---
 
-### Course 05: Data Science | علوم البيانات
+#### Course 05: Data Science | علوم البيانات
+**Code:** AIAT 115  
 **Directory:** `Course 05/`
 
 **Description:** Scalable data science techniques using Python, pandas, and NVIDIA RAPIDS for large-scale data processing.
@@ -86,7 +108,8 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ---
 
-### Course 06: AI Ethics | أخلاقيات الذكاء الاصطناعي
+#### Course 06: AI Ethics | أخلاقيات الذكاء الاصطناعي
+**Code:** AIAT 116  
 **Directory:** `Course 06/`
 
 **Description:** Ethical considerations, bias detection, privacy, transparency, and governance in AI systems.
@@ -99,6 +122,108 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 - AI governance and regulations
 
 **Prerequisites:** Understanding of AI/ML concepts from previous courses
+
+---
+
+### Semester 2 | الفصل الثاني
+
+#### Course 07: Natural Language Processing | معالجة اللغة الطبيعية
+**Code:** AIAT 121  
+**Directory:** `Course 07/`
+
+**Description:** Comprehensive training in Natural Language Processing using Python, covering text processing, language models, and deep learning for NLP.
+
+**Topics:**
+- NLP fundamentals
+- Text preprocessing and tokenization
+- Language models and embeddings
+- Deep learning for NLP (RNNs, LSTMs, Transformers)
+- Practical NLP applications
+
+**Prerequisites:** Completion of Semester 1 courses
+
+---
+
+#### Course 08: Deep Learning | التعلم العميق
+**Code:** AIAT 122  
+**Directory:** `Course 08/`
+
+**Description:** Comprehensive training in Deep Learning using TensorFlow and PyTorch, covering CNNs, RNNs, and Transformers.
+
+**Topics:**
+- Deep learning fundamentals
+- Convolutional Neural Networks (CNNs)
+- Recurrent Neural Networks (RNNs)
+- Transformers and attention mechanisms
+- Advanced deep learning topics
+
+**Prerequisites:** Completion of Semester 1 courses, strong ML background
+
+---
+
+#### Course 09: Reinforcement Learning | التعلم المعزز
+**Code:** AIAT 123  
+**Directory:** `Course 09/`
+
+**Description:** Training in Reinforcement Learning, covering classical algorithms and deep reinforcement learning.
+
+**Topics:**
+- RL fundamentals (MDPs, value functions)
+- Classical RL algorithms (Q-Learning, SARSA)
+- Deep Reinforcement Learning (DQN, Policy Gradients)
+- RL applications
+
+**Prerequisites:** Completion of Courses 01-08
+
+---
+
+#### Course 10: Generative AI | الذكاء الاصطناعي التوليدي
+**Code:** AIAT 124  
+**Directory:** `Course 10/`
+
+**Description:** Training in Generative AI, covering GANs, VAEs, and modern generative models.
+
+**Topics:**
+- Generative models fundamentals
+- Generative Adversarial Networks (GANs)
+- Variational Autoencoders (VAEs)
+- Modern generative models (Diffusion models)
+- Ethical considerations
+
+**Prerequisites:** Completion of Courses 01-09, strong deep learning background
+
+---
+
+#### Course 11: AI Model Deployment | نشر نماذج الذكاء الاصطناعي
+**Code:** AIAT 125  
+**Directory:** `Course 11/`
+
+**Description:** Training in deploying AI models to production, covering MLOps, cloud deployment, and best practices.
+
+**Topics:**
+- Deployment fundamentals
+- Cloud deployment (AWS, Azure, GCP)
+- MLOps practices
+- Production best practices
+- Real-world applications
+
+**Prerequisites:** Completion of Courses 01-10
+
+---
+
+#### Course 12: Capstone Project | مشروع التخرج
+**Code:** AIAT 126  
+**Directory:** `Course 12/`
+
+**Description:** Capstone project where students apply all knowledge to solve a real-world AI problem.
+
+**Topics:**
+- Project planning and scoping
+- Full-stack AI system development
+- Production deployment
+- Project presentation and documentation
+
+**Prerequisites:** Completion of all previous courses (AIAT 111-125)
 
 ---
 
@@ -132,27 +257,40 @@ Each course follows a consistent structure:
 
 ## 🎯 Learning Path | مسار التعلم
 
-### Recommended Sequence:
+### Semester 1 | الفصل الأول
 
-1. **Start with Course 02** (AI Fundamentals)
+1. **Start with Course 01** (Introduction to AI)
    - Builds foundational AI concepts
-   - Introduces Python for AI
+   - No programming prerequisites
 
-2. **Continue with Course 03** (Mathematics)
-   - Provides mathematical background
+2. **Continue with Course 02** (AI Fundamentals)
+   - Python for AI
+   - Search algorithms and knowledge representation
+
+3. **Proceed to Course 03** (Mathematics)
+   - Mathematical foundations
    - Essential for understanding ML algorithms
 
-3. **Proceed to Course 04** (Machine Learning)
+4. **Advance to Course 04** (Machine Learning)
    - Core ML algorithms and techniques
    - Hands-on implementation
 
-4. **Advance to Course 05** (Data Science)
+5. **Continue with Course 05** (Data Science)
    - Scalable data processing
    - Production-ready techniques
 
-5. **Complete with Course 06** (AI Ethics)
+6. **Complete Semester 1 with Course 06** (AI Ethics)
    - Responsible AI development
    - Industry best practices
+
+### Semester 2 | الفصل الثاني
+
+7. **Course 07** (Natural Language Processing)
+8. **Course 08** (Deep Learning)
+9. **Course 09** (Reinforcement Learning)
+10. **Course 10** (Generative AI)
+11. **Course 11** (AI Model Deployment)
+12. **Course 12** (Capstone Project)
 
 ---
 
@@ -241,11 +379,19 @@ All courses are **bilingual** (Arabic/English):
 ```
 AI Diploma/
 │
-├── Course02/              AI Fundamentals
-├── Course03/              Mathematics for AI
-├── Course 04/             Machine Learning
-├── Course 05/             Data Science
-└── Course 06/             AI Ethics
+├── Course 01/             Introduction to AI (AIAT 111)
+├── Course02/              AI Fundamentals (AIAT 112)
+├── Course03/              Mathematics for AI (AIAT 113)
+├── Course 04/             Machine Learning (AIAT 114)
+├── Course 05/             Data Science (AIAT 115)
+├── Course 06/             AI Ethics (AIAT 116)
+│
+├── Course 07/             Natural Language Processing (AIAT 121)
+├── Course 08/             Deep Learning (AIAT 122)
+├── Course 09/             Reinforcement Learning (AIAT 123)
+├── Course 10/             Generative AI (AIAT 124)
+├── Course 11/             AI Model Deployment (AIAT 125)
+└── Course 12/             Capstone Project (AIAT 126)
 ```
 
 ---
@@ -253,11 +399,22 @@ AI Diploma/
 ## 🔗 Quick Links | روابط سريعة
 
 ### Course Entry Points:
-- [Course 02 - START_HERE](Course02/START_HERE.md)
-- [Course 03 - START_HERE](Course03/START_HERE.md)
-- [Course 04 - START_HERE](Course%2004/START_HERE.md)
-- [Course 05 - START_HERE](Course%2005/START_HERE.md)
-- [Course 06 - START_HERE](Course%2006/START_HERE.md)
+
+**Semester 1:**
+- [Course 01 - START_HERE](Course%2001/START_HERE.md) (AIAT 111)
+- [Course 02 - START_HERE](Course02/START_HERE.md) (AIAT 112)
+- [Course 03 - START_HERE](Course03/START_HERE.md) (AIAT 113)
+- [Course 04 - START_HERE](Course%2004/START_HERE.md) (AIAT 114)
+- [Course 05 - START_HERE](Course%2005/START_HERE.md) (AIAT 115)
+- [Course 06 - START_HERE](Course%2006/START_HERE.md) (AIAT 116)
+
+**Semester 2:**
+- [Course 07 - START_HERE](Course%2007/START_HERE.md) (AIAT 121)
+- [Course 08 - START_HERE](Course%2008/START_HERE.md) (AIAT 122)
+- [Course 09 - START_HERE](Course%2009/START_HERE.md) (AIAT 123)
+- [Course 10 - START_HERE](Course%2010/START_HERE.md) (AIAT 124)
+- [Course 11 - START_HERE](Course%2011/START_HERE.md) (AIAT 125)
+- [Course 12 - START_HERE](Course%2012/START_HERE.md) (AIAT 126)
 
 ---
 
@@ -273,12 +430,17 @@ AI Diploma/
 
 ## 🎓 Completion | الإكمال
 
-Upon completing all 5 courses, you will have:
+Upon completing all 12 courses, you will have:
 - ✅ Strong foundation in AI fundamentals
 - ✅ Mathematical background for ML
 - ✅ Practical ML implementation skills
 - ✅ Scalable data science expertise
 - ✅ Understanding of AI ethics and governance
+- ✅ Advanced NLP and Deep Learning skills
+- ✅ Reinforcement Learning expertise
+- ✅ Generative AI capabilities
+- ✅ Production deployment experience
+- ✅ Complete capstone project portfolio
 
 ---
 
@@ -310,6 +472,7 @@ cat START_HERE.md
 
 ---
 
-**Last Updated:** 2025-12-01  
-**Status:** ✅ All courses 100% complete and ready for use!
+**Last Updated:** 2025-12-10  
+**Status:** ✅ All 12 courses structure created!  
+**Note:** Course 01 and Semester 2 courses (07-12) have basic structure. Full content development in progress.
 
