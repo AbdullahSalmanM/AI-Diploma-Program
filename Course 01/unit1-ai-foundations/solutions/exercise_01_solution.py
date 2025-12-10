@@ -1,81 +1,76 @@
 """
-Unit 1 - Exercise 1: Solution
-الوحدة 1 - تمرين 1: الحل
+Unit 1 - Exercise 1: Solutions
+الوحدة 1 - تمرين 1: الحلول
 
 Complete solutions to Exercise 1.
+الحلول الكاملة للتمرين 1.
 """
-
-print("=" * 60)
-print("Exercise 1: Solutions")
-print("تمرين 1: الحلول")
-print("=" * 60)
 
 # Solution 1: AI Definition
-print("\nSolution 1: AI Definition")
-print("-" * 60)
-
 ai_definition = """
-Artificial Intelligence (AI) is a branch of computer science that aims 
-to create systems capable of performing tasks that typically require 
-human intelligence, such as learning, reasoning, and problem-solving.
+Artificial Intelligence (AI) is a branch of computer science that aims to 
+create systems capable of performing tasks that typically require human 
+intelligence, such as learning, reasoning, and problem-solving.
 
-الذكاء الاصطناعي هو فرع من علوم الحاسوب يهدف إلى إنشاء أنظمة قادرة 
-على أداء مهام تتطلب عادة ذكاء بشرياً، مثل التعلم والاستدلال وحل المشاكل.
+الذكاء الاصطناعي هو فرع من علوم الحاسوب يهدف إلى إنشاء أنظمة قادرة على
+أداء مهام تتطلب عادة ذكاءً بشرياً، مثل التعلم والاستدلال وحل المشاكل.
 """
 
-print(ai_definition)
-
-# Solution 2: AI Types Classification
-print("\nSolution 2: AI Types Classification")
-print("-" * 60)
-
-applications = {
-    "Email spam filter": "Narrow AI",
+# Solution 2: System Classification
+system_types = {
+    "Siri voice assistant": "Narrow AI",
     "Self-driving car": "Narrow AI",
-    "Calculator": "Not AI",
-    "ChatGPT": "Narrow AI",
-    "Human brain": "Not AI",
-    "Facial recognition system": "Narrow AI"
+    "Chess-playing computer": "Narrow AI",
+    "Human-like robot that can do any task": "General AI",
+    "AI that is smarter than all humans combined": "Superintelligent AI"
 }
 
-print("\nClassifications:")
-for app, classification in applications.items():
-    print(f"  {app}: {classification}")
-
-# Solution 3: Real-World Applications (Example: Healthcare)
-print("\nSolution 3: Real-World Applications (Example: Healthcare)")
-print("-" * 60)
-
-my_field = "Healthcare"
-applications_in_my_field = [
+# Solution 3: AI Applications (Example: Healthcare)
+chosen_field = "Healthcare"
+applications = [
     "Medical image analysis for disease detection",
     "Drug discovery and development",
     "Personalized treatment recommendations"
 ]
 
-print(f"\nAI applications in {my_field}:")
-for i, app in enumerate(applications_in_my_field, 1):
-    print(f"  {i}. {app}")
+# Solution 4: Movie Recommendation System
+def recommend_movie(age, genre_preference, mood):
+    """
+    Rule-based movie recommendation system.
+    """
+    # Age-based restrictions
+    if age < 13:
+        if genre_preference == 'horror':
+            return "Sorry, horror movies are not suitable for your age"
+    
+    # Mood-based recommendations
+    if mood == 'sad':
+        if genre_preference == 'comedy':
+            return "Comedy movie to cheer you up!"
+        else:
+            return "Light drama might help"
+    
+    elif mood == 'excited':
+        if genre_preference == 'action':
+            return "Action movie to match your energy!"
+        else:
+            return "Any genre works when you're excited"
+    
+    elif mood == 'relaxed':
+        return f"Enjoy a {genre_preference} movie to relax"
+    
+    else:  # happy
+        return f"Great time for a {genre_preference} movie!"
 
-# Solution 4: AI vs ML vs DL Classification
-print("\nSolution 4: AI vs ML vs DL Classification")
-print("-" * 60)
-
-techniques = {
-    "Rule-based expert system": "AI",
-    "Linear regression": "ML",
-    "Convolutional Neural Network": "DL",
-    "Decision tree": "ML",
-    "Recurrent Neural Network": "DL",
-    "If-else statements": "Not AI/ML/DL"
-}
-
-print("\nClassifications:")
-for technique, classification in techniques.items():
-    print(f"  {technique}: {classification}")
-
-print("\n" + "=" * 60)
-print("Solutions completed!")
-print("تم إكمال الحلول!")
-print("=" * 60)
-
+# Test the solution
+if __name__ == "__main__":
+    test_cases = [
+        (25, 'action', 'excited'),
+        (15, 'comedy', 'happy'),
+        (30, 'drama', 'sad')
+    ]
+    
+    for age, genre, mood in test_cases:
+        recommendation = recommend_movie(age, genre, mood)
+        print(f"Age: {age}, Genre: {genre}, Mood: {mood}")
+        print(f"Recommendation: {recommendation}\n")

@@ -6,9 +6,8 @@ By the end of this unit, students will be able to:
 - Understand search problems and state spaces
 - Implement Breadth-First Search (BFS)
 - Implement Depth-First Search (DFS)
-- Implement A* search algorithm
-- Apply search algorithms to solve pathfinding problems
-- Understand heuristic functions
+- Implement A* algorithm with heuristics
+- Apply search algorithms to pathfinding problems
 
 ---
 
@@ -20,18 +19,18 @@ By the end of this unit, students will be able to:
    - Search trees
 
 2. **Breadth-First Search (BFS)**
-   - Algorithm implementation
-   - Queue data structure
-   - Completeness and optimality
+   - Queue-based implementation
+   - Guaranteed shortest path
+   - Time and space complexity
 
 3. **Depth-First Search (DFS)**
-   - Algorithm implementation
-   - Stack data structure
-   - When to use DFS
+   - Stack-based implementation
+   - Memory efficient
+   - Applications
 
-4. **A* Search Algorithm**
+4. **A* Algorithm**
    - Heuristic functions
-   - Cost function (f = g + h)
+   - Cost function
    - Optimal pathfinding
 
 5. **Applications**
@@ -41,15 +40,5 @@ By the end of this unit, students will be able to:
 
 ---
 
-## Files Structure | هيكل الملفات
-
-- `examples/`: Complete code examples with explanations
-- `exercises/`: Practice problems for students
-- `solutions/`: Solutions to exercises
-- `quizzes/`: Unit quiz
-- `tests/`: Unit test
-
----
-
-**Next Unit:** [Unit 3: Knowledge Representation](../unit3-knowledge-representation/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Intermediate

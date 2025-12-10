@@ -84,4 +84,3 @@ Use `STUDENT_PROGRESS_CHECKLIST.md` to track your progress.
 
 **Course:** AIAT 111 - Introduction to AI Applications and Concepts  
 **Ready to begin?** Start with Unit 1!
-

@@ -6,7 +6,7 @@ By the end of this unit, students will be able to:
 - Define Artificial Intelligence and understand its scope
 - Explain the history and evolution of AI
 - Identify different types of AI systems
-- Understand AI applications in real-world scenarios
+- Understand AI applications in the real world
 - Distinguish between AI, Machine Learning, and Deep Learning
 
 ---
@@ -27,8 +27,8 @@ By the end of this unit, students will be able to:
 3. **Types of AI Systems**
    - Narrow AI (Weak AI)
    - General AI (Strong AI)
-   - Superintelligence
-   - Reactive vs Limited Memory vs Theory of Mind AI
+   - Superintelligent AI
+   - Reactive vs Limited Memory vs Theory of Mind vs Self-aware
 
 4. **AI Applications**
    - Healthcare
@@ -38,9 +38,8 @@ By the end of this unit, students will be able to:
    - Entertainment
 
 5. **AI vs Machine Learning vs Deep Learning**
-   - Relationship between concepts
+   - Understanding the relationships
    - When to use each approach
-   - Examples of each
 
 ---
 
@@ -48,30 +47,20 @@ By the end of this unit, students will be able to:
 
 - `examples/`: Complete code examples with explanations
 - `exercises/`: Practice problems for students
-- `solutions/`: Solutions to exercises
-- `quizzes/`: Unit quiz
-- `tests/`: Unit test
+- `solutions/`: Complete solutions to exercises
+- `quizzes/`: Unit quizzes
+- `tests/`: Comprehensive unit tests
 
 ---
 
-## Prerequisites | المتطلبات الأساسية
+## Learning Path | مسار التعلم
 
-Before starting, ensure you have:
-- Basic computer literacy
-- Interest in AI and technology
-- No prior programming experience required
-
----
-
-## How to Use This Unit | كيفية استخدام هذه الوحدة
-
-1. Start with `examples/` to understand concepts
-2. Read through the examples and explanations
-3. Complete exercises in `exercises/`
-4. Check your solutions against `solutions/`
-5. Take the quiz to assess understanding
+1. **Start with examples** - Understand concepts through code
+2. **Complete exercises** - Practice what you learned
+3. **Take the quiz** - Test your understanding
+4. **Review solutions** - Check your work
 
 ---
 
-**Next Unit:** [Unit 2: Search Algorithms](../unit2-search-algorithms/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Beginner

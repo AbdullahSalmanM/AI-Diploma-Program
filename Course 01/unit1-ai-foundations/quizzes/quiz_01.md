@@ -6,16 +6,16 @@
 
 ---
 
-## Part 1: Multiple Choice | الجزء 1: الاختيار من متعدد
+## Part 1: Multiple Choice | الجزء 1: اختيار من متعدد
 **(40 points | 40 نقطة)**
 
 ### Question 1 (10 points)
 What is the main goal of Artificial Intelligence?
 
-أ) To replace all human workers  
-ب) To create machines that can think and learn like humans  
-ج) To build faster computers  
-د) To eliminate all manual work
+أ) To replace all human jobs  
+ب) To simulate human intelligence in machines  
+ج) To create robots only  
+د) To eliminate human decision-making
 
 **Answer:** ب
 
@@ -25,33 +25,33 @@ What is the main goal of Artificial Intelligence?
 Which type of AI is currently achievable?
 
 أ) General AI  
-ب) Superintelligence  
+ب) Superintelligent AI  
 ج) Narrow AI  
-د) Human-level AI
+د) Self-aware AI
 
 **Answer:** ج
 
 ---
 
 ### Question 3 (10 points)
-Machine Learning is:
+What marked the "birth" of AI as a field?
 
-أ) A subset of Deep Learning  
-ب) A subset of AI  
-ج) The same as AI  
-د) Unrelated to AI
+أ) Turing Test (1950)  
+ب) Dartmouth Conference (1956)  
+ج) Deep Blue victory (1997)  
+د) ChatGPT release (2022)
 
 **Answer:** ب
 
 ---
 
 ### Question 4 (10 points)
-Which is an example of Narrow AI?
+Which is NOT an application of AI?
 
-أ) A calculator  
-ب) A human brain  
-ج) A chess-playing program  
-د) General problem-solving system
+أ) Medical image analysis  
+ب) Weather prediction  
+ج) Making coffee manually  
+د) Fraud detection
 
 **Answer:** ج
 
@@ -61,59 +61,78 @@ Which is an example of Narrow AI?
 **(30 points | 30 نقطة)**
 
 ### Question 5 (15 points)
-Explain the difference between AI, Machine Learning, and Deep Learning in 2-3 sentences.
+Explain the difference between Narrow AI and General AI. Give one example of each.
 
-اشرح الفرق بين الذكاء الاصطناعي وتعلم الآلة والتعلم العميق في 2-3 جمل.
+اشرح الفرق بين الذكاء الاصطناعي الضيق والعام. أعط مثالاً واحداً لكل منهما.
 
 **Answer Key:**
-- AI is the broadest concept, encompassing any technique that enables machines to mimic human intelligence.
-- Machine Learning is a subset of AI where systems learn from data without explicit programming.
-- Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.
+- Narrow AI: Designed for specific tasks, currently achievable (e.g., Siri, image recognition)
+- General AI: Human-level intelligence across all domains, not yet achieved
 
 ---
 
 ### Question 6 (15 points)
-List three real-world applications of AI and explain how each one works briefly.
+List three factors that contributed to the modern AI renaissance (2010s-present).
 
-اذكر ثلاثة تطبيقات للذكاء الاصطناعي في العالم الحقيقي واشرح كيف يعمل كل منها باختصار.
+اذكر ثلاثة عوامل ساهمت في نهضة الذكاء الاصطناعي الحديثة.
 
-**Answer Key (Example):**
-1. **Medical Image Analysis:** AI analyzes X-rays and MRIs to detect diseases like cancer, using pattern recognition.
-2. **Autonomous Vehicles:** AI processes sensor data to navigate roads, recognize obstacles, and make driving decisions.
-3. **Recommendation Systems:** AI analyzes user behavior to suggest products, movies, or content based on preferences.
+**Answer Key:**
+- Big Data availability
+- Increased computational power (GPUs)
+- Improved algorithms (Deep Learning)
+- Open source frameworks
+- Cloud computing
 
 ---
 
-## Part 3: Application | الجزء 3: التطبيق
+## Part 3: Code Writing | الجزء 3: كتابة الكود
 **(30 points | 30 نقطة)**
 
 ### Question 7 (30 points)
-Classify each of the following as Narrow AI, General AI, Not AI, or Not Yet Achieved:
+Write a simple rule-based AI system that recommends a study schedule based on:
+- Time available (hours: 1-2, 3-4, 5+)
+- Subject difficulty (easy, medium, hard)
+- Energy level (low, medium, high)
 
-صنف كل مما يلي كذكاء اصطناعي ضيق، عام، ليس ذكاء اصطناعي، أو لم يتحقق بعد:
+اكتب نظام ذكاء اصطناعي بسيط قائم على القواعد يوصي بجدول دراسة بناءً على:
+- الوقت المتاح (ساعات: 1-2، 3-4، 5+)
+- صعوبة المادة (سهلة، متوسطة، صعبة)
+- مستوى الطاقة (منخفض، متوسط، عالي)
 
-1. Voice assistant (Siri, Alexa)
-2. A system that can solve any problem a human can
-3. A simple calculator
-4. Image recognition system
-5. A robot with human-level consciousness
-
-**Answer Key:**
-1. Narrow AI
-2. General AI (Not Yet Achieved)
-3. Not AI
-4. Narrow AI
-5. General AI (Not Yet Achieved)
+**Sample Answer:**
+```python
+def recommend_study_schedule(time_available, difficulty, energy_level):
+    if time_available == "1-2":
+        if difficulty == "easy" and energy_level in ["medium", "high"]:
+            return "Focus on one easy topic"
+        else:
+            return "Take a break, study later"
+    elif time_available == "3-4":
+        if energy_level == "high":
+            return "Study hard topics"
+        elif energy_level == "medium":
+            return "Study medium difficulty topics"
+        else:
+            return "Review easy topics"
+    else:  # 5+ hours
+        if energy_level == "high":
+            return "Full study day - mix of all topics"
+        else:
+            return "Break into sessions with rest"
+```
 
 ---
 
-## Answer Key Summary | ملخص الإجابات
+## Answer Key | مفتاح الإجابات
 
-**Part 1:** ب، ج، ب، ج  
-**Part 2:** See detailed answers above  
-**Part 3:** Narrow AI, General AI (Not Yet Achieved), Not AI, Narrow AI, General AI (Not Yet Achieved)
+1. ب  
+2. ج  
+3. ب  
+4. ج  
+5. See answer key above  
+6. See answer key above  
+7. See sample code above
 
 ---
 
 **For:** AIAT 111 - Introduction to AI Applications and Concepts
-

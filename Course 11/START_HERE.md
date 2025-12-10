@@ -1,44 +1,32 @@
 # START HERE! | ابدأ من هنا!
-## AIAT 121 - Natural Language Processing
-
----
 
 ## 👋 Welcome! | مرحباً!
 
-This is your **first course in Semester 2**. You should have completed all Semester 1 courses before starting.
+This course is part of Semester 2 of the AI Diploma Program.
 
 ---
 
-## 📋 Prerequisites Checklist | قائمة المتطلبات
+## 📋 Prerequisites | المتطلبات الأساسية
 
-- [ ] Completed Course 01 (AIAT 111)
-- [ ] Completed Course 02 (AIAT 112)
-- [ ] Completed Course 03 (AIAT 113)
-- [ ] Completed Course 04 (AIAT 114)
-- [ ] Completed Course 05 (AIAT 115)
-- [ ] Completed Course 06 (AIAT 116)
+**Before starting this course, you must have completed:**
+- All Semester 1 courses (AIAT 111-116)
 
 ---
 
-## 📚 Course Structure | هيكل الدورة
+## 📚 Learning Path | مسار التعلم
 
-This course has 5 units:
-1. NLP Fundamentals
-2. Text Processing
-3. Language Models
-4. Deep Learning for NLP
-5. NLP Applications
-
----
-
-## 🚀 Getting Started | البدء
-
-1. Read `README.md` for course overview
-2. Install required libraries: `pip install nltk spacy transformers`
-3. Start with Unit 1
-4. Track progress using `STUDENT_PROGRESS_CHECKLIST.md`
+1. **Read README.md** - Understand course overview
+2. **Review prerequisites** - Ensure you have required knowledge
+3. **Start with Unit 1** - Follow unit README files
+4. **Complete exercises** - Practice what you learn
+5. **Take quizzes** - Test your understanding
 
 ---
 
-**Course:** AIAT 121 - Natural Language Processing
+## ✅ Progress Tracking | تتبع التقدم
 
+Use `STUDENT_PROGRESS_CHECKLIST.md` to track your progress.
+
+---
+
+**Ready to begin?** Read the course README.md first!
