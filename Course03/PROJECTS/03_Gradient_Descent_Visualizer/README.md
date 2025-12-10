@@ -1,0 +1,63 @@
+# Project 03: Gradient Descent Visualizer | المشروع 03: مصور نزول التدرج
+
+## Overview | نظرة عامة
+
+Create an interactive visualization tool for understanding gradient descent and optimization algorithms.
+
+**Learning Objectives:**
+- Visualize gradient descent process
+- Understand optimization landscapes
+- Compare different optimizers
+- Implement interactive visualizations
+- Demonstrate convergence behavior
+
+---
+
+## Requirements | المتطلبات
+
+### Functional Requirements
+1. **Visualization**
+   - Visualize cost function surface
+   - Show gradient descent path
+   - Animate optimization process
+   - Display convergence curves
+   - Compare multiple optimizers
+
+2. **Interactivity**
+   - Adjustable learning rate
+   - Different starting points
+   - Multiple optimizer selection
+   - Real-time parameter updates
+   - Step-by-step visualization
+
+3. **Analysis**
+   - Track convergence
+   - Measure optimization speed
+   - Compare optimizer performance
+   - Analyze learning rate effects
+
+---
+
+## Deliverables | المخرجات
+
+1. **Source Code**
+   - `optimizer.py` - Optimizer implementations
+   - `visualizer.py` - Visualization functions
+   - `interactive.py` - Interactive interface
+   - `main.py` - Main program
+
+2. **Documentation**
+   - README.md
+   - User guide
+   - Code comments
+
+3. **Results**
+   - Interactive visualizations
+   - Demo video or screenshots
+   - Analysis report
+
+---
+
+**Created**: 2025  
+**For**: Mathematics and Probabilities for Machine Learning - 113 AIAT
+
