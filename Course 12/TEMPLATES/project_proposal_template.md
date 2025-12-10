@@ -1,46 +1,90 @@
-# Capstone Project Proposal Template | قالب اقتراح مشروع التخرج
-
-## Project Title | عنوان المشروع
-
-[Your project title here]
+# Project Proposal Template | قالب اقتراح المشروع
+## AIAT 126 - Capstone Project
 
 ---
 
-## Problem Statement | بيان المشكلة
+## 1. Project Information | معلومات المشروع
 
-[Describe the problem you're solving]
+**Project Title:** [Your project title here]  
+**Student Name(s):** [Your name(s)]  
+**Date:** [Date]  
+**Course:** AIAT 126 - Capstone Project
 
 ---
 
-## Objectives | الأهداف
+## 2. Problem Statement | بيان المشكلة
 
+[Describe the problem you want to solve. Why is it important?]
+
+[صف المشكلة التي تريد حلها. لماذا هي مهمة؟]
+
+---
+
+## 3. Objectives | الأهداف
+
+### Primary Objectives:
 1. [Objective 1]
 2. [Objective 2]
 3. [Objective 3]
 
----
-
-## Technical Approach | النهج التقني
-
-[Describe your technical approach]
+### Secondary Objectives:
+1. [Objective 1]
+2. [Objective 2]
 
 ---
 
-## Timeline | الجدول الزمني
+## 4. Dataset | مجموعة البيانات
+
+**Dataset Name:** [Name]  
+**Source:** [Where you'll get the data]  
+**Size:** [Number of samples, features]  
+**Description:** [Brief description]
+
+---
+
+## 5. Methodology | المنهجية
+
+### Approach:
+[Describe your approach to solving the problem]
+
+### Technologies:
+- [Technology 1]
+- [Technology 2]
+- [Technology 3]
+
+### Algorithms/Models:
+- [Algorithm/Model 1]
+- [Algorithm/Model 2]
+
+---
+
+## 6. Expected Outcomes | النتائج المتوقعة
+
+[What do you expect to achieve?]
+
+[ماذا تتوقع تحقيقه؟]
+
+---
+
+## 7. Timeline | الجدول الزمني
 
 | Week | Tasks |
 |------|-------|
 | 1-2 | [Tasks] |
 | 3-4 | [Tasks] |
-| ... | ... |
+| 5-6 | [Tasks] |
+| 7-8 | [Tasks] |
+| 9-10 | [Tasks] |
+| 11-12 | [Tasks] |
 
 ---
 
-## Expected Outcomes | النتائج المتوقعة
+## 8. Resources Needed | الموارد المطلوبة
 
-[What you expect to achieve]
+- [Resource 1]
+- [Resource 2]
+- [Resource 3]
 
 ---
 
 **For:** AIAT 126 - Capstone Project
-

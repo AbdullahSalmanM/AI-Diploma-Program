@@ -1,38 +1,40 @@
-# Unit 1: Deployment Fundamentals | أساسيات النشر
+# Unit 1: Deployment Basics | أساسيات النشر
 
 ### Learning Objectives | أهداف التعلم
 
 By the end of this unit, students will be able to:
 - Understand model deployment concepts
-- Implement model versioning
-- Create REST APIs for models
-- Use containerization (Docker)
+- Save and load ML models
+- Create REST APIs for model serving
+- Use containerization (Docker basics)
+- Deploy models locally
 
 ---
 
 ## Topics Covered | المواضيع المغطاة
 
-1. **Deployment Concepts**
-   - Model serving
-   - API design
-   - Scalability
+1. **Model Serialization**
+   - Saving models (joblib, pickle)
+   - Loading models
+   - Model versioning
 
-2. **Model Versioning**
-   - Version control for models
-   - Model registry
-   - A/B testing basics
-
-3. **API Development**
-   - REST APIs
-   - FastAPI/Flask
+2. **API Development**
+   - REST API basics
+   - Flask/FastAPI for model serving
    - Request/response handling
 
-4. **Containerization**
-   - Docker basics
-   - Containerizing ML models
-   - Best practices
+3. **Containerization Basics**
+   - Docker introduction
+   - Creating Dockerfiles
+   - Running containers
+
+4. **Local Deployment**
+   - Running models as services
+   - Testing deployed models
+   - Monitoring basics
 
 ---
 
-**Next Unit:** [Unit 2: Cloud Deployment](../unit2-cloud-deployment/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Intermediate  
+**Prerequisites:** Completion of Courses 01-10, understanding of APIs

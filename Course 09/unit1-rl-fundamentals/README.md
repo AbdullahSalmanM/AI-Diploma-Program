@@ -4,35 +4,38 @@
 
 By the end of this unit, students will be able to:
 - Understand reinforcement learning concepts
-- Define Markov Decision Processes (MDPs)
-- Understand value functions
-- Implement basic RL algorithms
+- Understand Markov Decision Processes (MDPs)
+- Implement value functions
+- Understand policy and value iteration
+- Apply RL to simple problems
 
 ---
 
 ## Topics Covered | المواضيع المغطاة
 
-1. **RL Introduction**
-   - Agent-environment interaction
-   - Rewards and returns
-   - Episodes and trajectories
+1. **Introduction to Reinforcement Learning**
+   - What is RL?
+   - Agent, environment, actions, rewards
+   - RL vs supervised/unsupervised learning
 
-2. **Markov Decision Processes**
-   - States, actions, rewards
+2. **Markov Decision Processes (MDPs)**
+   - States and actions
    - Transition probabilities
-   - Policy definition
+   - Reward function
+   - Policy
 
 3. **Value Functions**
    - State value function
    - Action value function (Q-function)
    - Bellman equations
 
-4. **Exploration vs Exploitation**
-   - Epsilon-greedy
-   - UCB
-   - Thompson sampling basics
+4. **Basic Algorithms**
+   - Policy evaluation
+   - Policy iteration
+   - Value iteration
 
 ---
 
-**Next Unit:** [Unit 2: Classical RL Algorithms](../unit2-classical-algorithms/README.md)
-
+**Unit Duration:** 2 weeks  
+**Difficulty:** Advanced  
+**Prerequisites:** Completion of Courses 01-08, understanding of probability
