@@ -20,7 +20,7 @@ This project helps you build systems like:
 - ✅ Reduces medical errors
 - ✅ Available 24/7 for consultations
 
-**📖 New to programming?** Check out **[BEGINNER_GUIDE.md](BEGINNER_GUIDE.md)** for step-by-step instructions!
+**📖 New to programming?** Check out **[PROJECT_GUIDE.md](PROJECT_GUIDE.md)** for step-by-step instructions!
 
 ---
 

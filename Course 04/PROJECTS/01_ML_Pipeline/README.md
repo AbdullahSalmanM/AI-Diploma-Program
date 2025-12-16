@@ -17,7 +17,7 @@ This project helps you build systems like:
 - ✅ Available 24/7
 - ✅ Saves time and money for businesses
 
-**📖 New to machine learning?** Check out **[BEGINNER_GUIDE.md](BEGINNER_GUIDE.md)** for step-by-step instructions!
+**📖 New to machine learning?** Check out **[PROJECT_GUIDE.md](PROJECT_GUIDE.md)** for step-by-step instructions!
 
 ---
 

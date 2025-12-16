@@ -19,7 +19,7 @@ This project helps you build a system like those used by:
 - ✅ Better driver experience
 - ✅ Reduced environmental impact
 
-**📖 New to programming?** Check out **[BEGINNER_GUIDE.md](BEGINNER_GUIDE.md)** for step-by-step instructions!
+**📖 New to programming?** Check out **[PROJECT_GUIDE.md](PROJECT_GUIDE.md)** for step-by-step instructions!
 
 ---
 
