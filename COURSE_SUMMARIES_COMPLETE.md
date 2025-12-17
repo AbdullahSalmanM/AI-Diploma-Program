@@ -16,7 +16,7 @@ Successfully created and updated comprehensive text summaries (`COURSE_SUMMARY.m
 
 #### Course 01
 - **Files:** 15 PDFs from `DOCS/` folder
-- **Size:** 236,295 characters, 4,942 lines
+- **Size:** 236,295 characters, 4,928 lines
 - **Status:** ✅ Complete
 
 #### Course 02
@@ -26,22 +26,22 @@ Successfully created and updated comprehensive text summaries (`COURSE_SUMMARY.m
 
 #### Course 03
 - **Files:** 5 PPTX files from `course-content/` folder
-- **Size:** 31,561 characters, 887 lines
+- **Size:** 31,561 characters, 883 lines
 - **Status:** ✅ Complete
 
 #### Course 04
 - **Files:** 15 PDFs from `DOCS/PDFS/` folder
-- **Size:** 114,676 characters, 3,399 lines
+- **Size:** 114,676 characters, 3,385 lines
 - **Status:** ✅ Complete
 
 #### Course 05
 - **Files:** 15 PPTX files + 4 PDF files
-- **Size:** 185,115 characters, 5,055 lines
+- **Size:** 185,115 characters, 5,037 lines
 - **Status:** ✅ Complete
 
 #### Course 06
 - **Files:** 14 PPTX files
-- **Size:** 149,398 characters, 3,041 lines
+- **Size:** 149,398 characters, 3,028 lines
 - **Status:** ✅ Complete
 
 ### 3. Updated README Files

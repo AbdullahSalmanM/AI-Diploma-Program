@@ -8,12 +8,12 @@ Comprehensive text summaries have been created for all 6 courses, extracting con
 
 | Course | File | Lines | Source Materials |
 |--------|------|-------|------------------|
-| Course 01 | `COURSE_SUMMARY.md` | 4,971 | 15 PDFs (DOCS/) |
-| Course 02 | `COURSE_SUMMARY.md` | 9,710 | 1 compressed PDF |
-| Course 03 | `COURSE_SUMMARY.md` | 880 | 5 PPTX files (course-content/) |
-| Course 04 | `COURSE_SUMMARY.md` | 3,428 | 15 PDFs (DOCS/PDFS/) |
-| Course 05 | `COURSE_SUMMARY.md` | 5,083 | 15 PPTX + 4 PDFs |
-| Course 06 | `COURSE_SUMMARY.md` | 3,068 | 14 PPTX files |
+| Course 01 | `COURSE_SUMMARY.md` | 4,928 | 15 PDFs (DOCS/) |
+| Course 02 | `COURSE_SUMMARY.md` | 9,709 | 1 compressed PDF |
+| Course 03 | `COURSE_SUMMARY.md` | 883 | 5 PPTX files (course-content/) |
+| Course 04 | `COURSE_SUMMARY.md` | 3,385 | 15 PDFs (DOCS/PDFS/) |
+| Course 05 | `COURSE_SUMMARY.md` | 5,037 | 15 PPTX + 4 PDFs |
+| Course 06 | `COURSE_SUMMARY.md` | 3,028 | 14 PPTX files |
 
 ## Benefits for Students
 
