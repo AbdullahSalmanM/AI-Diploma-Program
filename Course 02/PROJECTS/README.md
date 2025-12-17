@@ -33,7 +33,7 @@ PROJECTS/
 **Topic:** Search Algorithms  
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks  
-**Folder:** `01_Pathfinding_Game/`  
+**Folder:** `01_Pathfinding_Game/`
 **Real-World Example:** Game AI (Strategy games, navigation)
 
 Build a pathfinding game using BFS, DFS, and A* algorithms.
@@ -48,7 +48,7 @@ Build a pathfinding game using BFS, DFS, and A* algorithms.
 **Topic:** Knowledge Representation  
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks  
-**Folder:** `02_Expert_System/`  
+**Folder:** `02_Expert_System/`
 **Real-World Example:** Technical Support (Customer service, troubleshooting)
 
 Build an expert system with knowledge graphs and rule-based reasoning.
@@ -63,7 +63,7 @@ Build an expert system with knowledge graphs and rule-based reasoning.
 **Topic:** Machine Learning  
 **Difficulty:** Advanced  
 **Estimated Time:** 3-4 weeks  
-**Folder:** `03_ML_Classifier/`  
+**Folder:** `03_ML_Classifier/`
 **Real-World Example:** Customer Churn Prediction (Netflix, Spotify, subscription services)
 
 Build a complete ML pipeline with multiple models and evaluation.

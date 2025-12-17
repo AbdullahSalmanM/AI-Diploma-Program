@@ -10,7 +10,7 @@ This folder contains project materials for the Introduction to AI course.
 ### Project 01: Simple AI Agent
 **Topic:** Search Algorithms & Knowledge Representation  
 **Difficulty:** Beginner  
-**Estimated Time:** 2 weeks  
+**Estimated Time:** 2 weeks
 **Real-World Example:** Delivery Route Optimizer (Uber Eats, DoorDash)
 
 Build a simple AI agent that uses search algorithms to solve problems.
@@ -24,7 +24,7 @@ Build a simple AI agent that uses search algorithms to solve problems.
 ### Project 02: Knowledge-Based System
 **Topic:** Knowledge Representation  
 **Difficulty:** Intermediate  
-**Estimated Time:** 2-3 weeks  
+**Estimated Time:** 2-3 weeks
 **Real-World Example:** Medical Diagnosis Assistant (WebMD, symptom checkers)
 
 Create a knowledge-based system using rule-based reasoning.

@@ -37,7 +37,7 @@ PROJECTS/
 **Topic:** End-to-End Machine Learning  
 **Difficulty:** Intermediate  
 **Estimated Time:** 3-4 weeks  
-**Folder:** `01_ML_Pipeline/`  
+**Folder:** `01_ML_Pipeline/`
 **Real-World Example:** House Price Prediction (Zillow, Redfin)
 
 Build a complete machine learning pipeline from data loading to model deployment, including data preprocessing, feature engineering, model training, and evaluation.
@@ -52,7 +52,7 @@ Build a complete machine learning pipeline from data loading to model deployment
 **Topic:** Classification Algorithms  
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks  
-**Folder:** `02_Classification_System/`  
+**Folder:** `02_Classification_System/`
 **Real-World Example:** Email Spam Detection (Gmail, email security)
 
 Build a classification system using multiple algorithms (Logistic Regression, Decision Trees, SVM) and compare their performance on a real-world dataset.

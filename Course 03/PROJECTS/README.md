@@ -10,7 +10,7 @@ This folder contains all project materials for the Mathematics and Probabilities
 **Topic:** Mathematical Foundations  
 **Difficulty:** Advanced  
 **Estimated Time:** 3-4 weeks  
-**Folder:** `01_Algorithms_From_Scratch/`  
+**Folder:** `01_Algorithms_From_Scratch/`
 **Real-World Example:** Building Your Own ML Library (Understanding ML internals)
 
 Implement core ML algorithms (Linear Regression, Logistic Regression, PCA) from scratch using only NumPy.
@@ -25,7 +25,7 @@ Implement core ML algorithms (Linear Regression, Logistic Regression, PCA) from 
 **Topic:** Dimensionality Reduction  
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks  
-**Folder:** `02_PCA_Implementation/`  
+**Folder:** `02_PCA_Implementation/`
 **Real-World Example:** Image Compression (Google Photos, iCloud)
 
 Implement Principal Component Analysis from scratch and create visualizations of the process.
@@ -40,7 +40,7 @@ Implement Principal Component Analysis from scratch and create visualizations of
 **Topic:** Optimization  
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks  
-**Folder:** `03_Gradient_Descent_Visualizer/`  
+**Folder:** `03_Gradient_Descent_Visualizer/`
 **Real-World Example:** Neural Network Training Visualization (TensorBoard, Weights & Biases)
 
 Create an interactive visualization tool for understanding gradient descent and optimization algorithms.
