@@ -86,7 +86,6 @@ This course delves into the ethical implications and responsibilities associated
 **Files:**
 - `examples/` - Code examples and case studies
 - `exercises/` - Practice problems
-- `quizzes/` - Assessment quizzes
 - `tests/` - Unit tests
 
 ---
@@ -167,7 +166,7 @@ All documentation is in the `DOCS/` folder:
 
 ## 📝 Assessment | التقييم
 
-- **Quizzes:** Each unit contains quizzes
+- **Quizzes:** `QUIZZES/` folder (all quizzes centralized)
 - **Tests:** Each unit contains tests
 - **Exercises:** Practice problems in each unit's `exercises/` folder
 

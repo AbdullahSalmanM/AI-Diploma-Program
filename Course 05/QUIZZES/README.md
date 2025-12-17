@@ -1,32 +1,30 @@
 # Course 05 Quizzes
 ## اختبارات الدورة 05
 
-This folder contains course-level quizzes. Unit-specific quizzes are located in each unit's `quizzes/` folder.
+This folder contains all course quizzes, organized by unit.
 
 ---
 
 ## Available Quizzes
 
-### Unit-Level Quizzes
-
-- **Unit 1: Introduction to Data Science**
-  - Location: `unit1-introduction/quizzes/quiz_01.md`
+- **Quiz 01: Introduction to Data Science**
+  - File: `Quiz_01_Introduction_Data_Science.md`
   - Topics: Pandas, NumPy, cuDF, Data Science Lifecycle
 
-- **Unit 2: Data Cleaning and Preparation**
-  - Location: `unit2-cleaning/quizzes/quiz_02.md`
+- **Quiz 02: Data Cleaning and Preparation**
+  - File: `Quiz_02_Data_Cleaning.md`
   - Topics: Missing values, duplicates, outliers, data transformation
 
-- **Unit 3: Data Visualization**
-  - Location: `unit3-visualization/quizzes/quiz_03.md`
+- **Quiz 03: Data Visualization**
+  - File: `Quiz_03_Data_Visualization.md`
   - Topics: Matplotlib, Seaborn, Plotly, visualization principles
 
-- **Unit 4: Machine Learning Introduction**
-  - Location: `unit4-ml-intro/quizzes/quiz_04.md`
+- **Quiz 04: Machine Learning Introduction**
+  - File: `Quiz_04_ML_Introduction.md`
   - Topics: Supervised/unsupervised learning, model evaluation, bias-variance tradeoff
 
-- **Unit 5: Scaling and Production**
-  - Location: `unit5-scaling/quizzes/quiz_05.md`
+- **Quiz 05: Scaling and Production**
+  - File: `Quiz_05_Scaling_Production.md`
   - Topics: Dask, RAPIDS, production pipelines, model deployment
 
 ---

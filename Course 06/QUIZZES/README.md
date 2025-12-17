@@ -1,32 +1,30 @@
 # Course 06 Quizzes
 ## اختبارات الدورة 06
 
-This folder contains course-level quizzes. Unit-specific quizzes are located in each unit's `quizzes/` folder.
+This folder contains all course quizzes, organized by unit.
 
 ---
 
 ## Available Quizzes
 
-### Unit-Level Quizzes
-
-- **Unit 1: Foundations of AI Ethics**
-  - Location: `unit1-ethics-foundations/quizzes/quiz_01.md`
+- **Quiz 01: Foundations of AI Ethics**
+  - File: `Quiz_01_Ethics_Foundations.md`
   - Topics: Ethical frameworks, ethical decision-making, case studies
 
-- **Unit 2: Bias, Justice, and Discrimination in AI**
-  - Location: `unit2-bias-justice/quizzes/quiz_02.md`
+- **Quiz 02: Bias, Justice, and Discrimination in AI**
+  - File: `Quiz_02_Bias_Justice.md`
   - Topics: Bias detection, fairness metrics, bias mitigation techniques
 
-- **Unit 3: Privacy, Security, and Data Protection**
-  - Location: `unit3-privacy-security/quizzes/quiz_03.md`
+- **Quiz 03: Privacy, Security, and Data Protection**
+  - File: `Quiz_03_Privacy_Security.md`
   - Topics: GDPR, differential privacy, privacy-preserving technologies
 
-- **Unit 4: Transparency and Accountability**
-  - Location: `unit4-transparency-accountability/quizzes/quiz_04.md`
+- **Quiz 04: Transparency and Accountability**
+  - File: `Quiz_04_Transparency_Accountability.md`
   - Topics: Explainable AI, SHAP, LIME, accountability frameworks
 
-- **Unit 5: Governance and Regulations**
-  - Location: `unit5-governance-regulations/quizzes/quiz_05.md`
+- **Quiz 05: Governance and Regulations**
+  - File: `Quiz_05_Governance_Regulations.md`
   - Topics: EU AI Act, AI governance, regulatory compliance
 
 ---

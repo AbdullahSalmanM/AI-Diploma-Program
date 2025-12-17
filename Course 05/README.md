@@ -164,7 +164,7 @@ All documentation is in the `DOCS/` folder:
 
 ## 📝 Assessment | التقييم
 
-- **Quizzes:** Each unit contains quizzes
+- **Quizzes:** `QUIZZES/` folder (all quizzes centralized)
 - **Tests:** Each unit contains tests
 - **Exercises:** Practice problems in each unit's `exercises/` folder
 
