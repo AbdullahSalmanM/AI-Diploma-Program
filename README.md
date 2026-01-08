@@ -8,16 +8,49 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 
 ---
 
+## 📚 Comprehensive Curriculum Documentation | الوثائق الشاملة للمنهج
+
+### 🎯 **START HERE - Official Curriculum Structure**
+
+Before diving into individual courses, review the comprehensive curriculum documentation:
+
+1. **[QUICK_REFERENCE_GUIDE.md](QUICK_REFERENCE_GUIDE.md)** ⚡ **START HERE**
+   - Quick overview of all 12 courses
+   - CLO counts, hours breakdown
+   - One-page navigation guide
+
+2. **[COMPLETE_COURSE_STRUCTURE_AND_CLOS.md](COMPLETE_COURSE_STRUCTURE_AND_CLOS.md)** 📋 **Complete Structure**
+   - Full course structure for all 12 courses
+   - All 75 Course Learning Outcomes (CLOs)
+   - Complete unit breakdowns with theory/practical separation
+   - Time allocations for each unit
+
+3. **[DETAILED_UNIT_DESCRIPTIONS.md](DETAILED_UNIT_DESCRIPTIONS.md)** 📖 **Detailed Content**
+   - Detailed theoretical and practical content for all 60 units
+   - Comprehensive topic breakdowns
+   - Practical exercises and activities
+
+4. **[CURRICULUM_SUMMARY_REPORT.md](CURRICULUM_SUMMARY_REPORT.md)** 📊 **Statistics & Analysis**
+   - Comprehensive statistics and metrics
+   - Hours breakdown (theory vs practical)
+   - Quality assurance verification
+   - Course progression analysis
+
+**📌 These documents are the official curriculum structure extracted from the source PDF.**
+
+---
+
 ## 🚀 Quick Start | البدء السريع
 
-1. **📖 Read `COURSE_MAP.md`** - Understand course structure and find topics quickly
-2. **Choose your course** from the list below
-3. **Navigate to the course directory** (e.g., `Course 04/`)
-4. **Read `START_HERE.md`** in that course directory
-5. **Follow the setup instructions** in `START_HERE.md`
-6. **Begin learning!**
+1. **📖 Review [QUICK_REFERENCE_GUIDE.md](QUICK_REFERENCE_GUIDE.md)** - Quick overview of curriculum
+2. **📋 Check [COMPLETE_COURSE_STRUCTURE_AND_CLOS.md](COMPLETE_COURSE_STRUCTURE_AND_CLOS.md)** - Full course structure
+3. **Choose your course** from the list below
+4. **Navigate to the course directory** (e.g., `Course 04/`)
+5. **Read `START_HERE.md`** in that course directory
+6. **Follow the setup instructions** in `START_HERE.md`
+7. **Begin learning!**
 
-**💡 New to the program?** Start with `COURSE_MAP.md` to understand how courses connect and which path is right for you!
+**💡 New to the program?** Start with the [QUICK_REFERENCE_GUIDE.md](QUICK_REFERENCE_GUIDE.md) for a complete curriculum overview!
 
 ---
 
@@ -231,6 +264,24 @@ Welcome to the **AI Diploma Program** - a comprehensive, hands-on curriculum cov
 ---
 
 ## 📋 Course Structure | هيكل الدورة
+
+### Standard Unit Structure
+
+Each course follows a consistent **5-unit structure** with clear theory/practical separation:
+
+1. **Unit 1:** Introduction and fundamental concepts
+2. **Unit 2:** Core techniques and methodologies  
+3. **Unit 3:** Advanced topics and applications
+4. **Unit 4:** Integration and optimization
+5. **Unit 5:** Projects, ethics, and future trends
+
+Each unit contains:
+- **Theoretical Content:** Concepts, topics, and theoretical foundations
+- **Practical Content:** Hands-on exercises, implementations, and projects
+
+📖 **For detailed unit structures, see [COMPLETE_COURSE_STRUCTURE_AND_CLOS.md](COMPLETE_COURSE_STRUCTURE_AND_CLOS.md)**
+
+### Course Directory Structure
 
 Each course follows a consistent structure:
 
@@ -475,7 +526,31 @@ cat START_HERE.md
 
 ---
 
-**Last Updated:** 2025-12-10  
-**Status:** ✅ All 12 courses structure created!  
-**Note:** Course 01 and Semester 2 courses (07-12) have basic structure. Full content development in progress.
+---
+
+## ✅ Curriculum Status | حالة المنهج
+
+### Documentation Status: **100% Complete** ✅
+
+- ✅ **Complete Course Structure:** All 12 courses with CLOs and unit breakdowns
+- ✅ **Detailed Unit Descriptions:** All 60 units with theory/practical content
+- ✅ **Quick Reference Guide:** One-page navigation guide
+- ✅ **Summary Report:** Comprehensive statistics and analysis
+- ✅ **Theory/Practical Separation:** All units clearly structured
+
+### Key Statistics
+
+- **Total Courses:** 12 courses + Graduation Project
+- **Total CLOs:** 75 Course Learning Outcomes
+- **Total Units:** 60 units (5 per course)
+- **Total Hours:** 944 training hours (368 theory + 576 practical)
+- **Documentation:** Complete and verified
+
+📊 **See [CURRICULUM_SUMMARY_REPORT.md](CURRICULUM_SUMMARY_REPORT.md) for detailed statistics**
+
+---
+
+**Last Updated:** January 7, 2025  
+**Status:** ✅ Complete curriculum structure and documentation ready!  
+**Source:** دبلوم مشارك الذكاء الاصطناعي (اكاديمية طويق للتدريب) نهائي.pdf
 
