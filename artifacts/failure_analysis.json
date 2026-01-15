@@ -1,20 +1,22 @@
 {
-  "total_failed": 309,
+  "total_failed": 94,
   "categories": {
-    "missing_imports": 34,
-    "syntax_errors": 0,
-    "missing_packages": 266,
-    "file_not_found": 1,
-    "api_errors": 5,
+    "missing_imports": 35,
+    "syntax_errors": 11,
+    "missing_packages": 36,
+    "file_not_found": 5,
+    "api_errors": 4,
     "timeout": 1,
     "other": 2
   },
   "missing_packages": [
-    "sklearn",
     "tensorflow",
-    "torch",
+    "scikit-learn",
     "gym",
-    "rdflib"
+    "transformers",
+    "torch",
+    "rdflib",
+    "sklearn"
   ],
   "sample_failures": {
     "missing_imports": [
@@ -24,11 +26,11 @@
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_01.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data\n_matrix(samples, features):\n    \n    # TODO: Create a matrix with the specified shap\ne\n   "
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data\n_matrix(samples, features):\n \n # TODO: Create a matrix with the specified shap\ne\n # Use np"
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_02.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef compute\n_determinant(matrix):\n    \n    # TODO: Compute determinant using np.linalg.de\nt()\n    pass\n\n\nd"
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef compute\n_determinant(matrix):\n \n # TODO: Compute determinant using np.linalg.de\nt()\n pass\n\n\ndef comput"
       },
       {
         "path": "Course 03/modules/module_01/scripts/utils.ipynb",
@@ -36,50 +38,83 @@
       },
       {
         "path": "Course 03/modules/module_02/exercises/exercise_01.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nfrom scipy.misc import derivative\n\n\ndef compute\n_derivative(func, x, h=1\ne-6):\n    \n    # TODO: Implement nu"
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nfrom scipy.misc import derivative\n\n\ndef compute\n_derivative(func, x, h=1\ne-6):\n \n # TODO: Implement numerica"
       }
     ],
-    "syntax_errors": [],
+    "syntax_errors": [
+      {
+        "path": "Course 03/unit1-linear-algebra/examples/06_transformation_matrices_orthogonal_basis.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 2: Computing Orthogonal Basis Sets\")\nprint(\"=\" * 60)\n\ndef gram_schmidt(vectors):\n \"\"\"\n Compu"
+      },
+      {
+        "path": "Course 03/unit2-calculus/examples/05_function_approximation_ml.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"=\" * 60)\nprint(\"Part 1: Taylor Series Approximation\")\nprint(\"=\" * 60)\n\n# Taylor series: f(x) \u2248 f(a) + f'(a)(x-a) + f''(a"
+      },
+      {
+        "path": "Course 03/unit5-probability/examples/06_maximum_likelihood_estimation.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"=\" * 60)\nprint(\"Part 1: MLE for Gaussian Distribution\")\nprint(\"=\" * 60)\n\n# Generate data from Gaussian distribution\nnp.r"
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/05_polynomial_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Visualize the data FIRST to see the relationship\n# This scatter plot shows us that the relationship is CURVED, not linear!\n# "
+      },
+      {
+        "path": "Course 04/unit3-classification/examples/03_svm.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Demonstrate SVM's optimal margin advantage\n# We'll use the CICIDS2017 cybersecurity dataset to show SVM's generalization\n\npri"
+      }
+    ],
     "missing_packages": [
-      {
-        "path": "Course 01/unit1-ai-foundations/examples/implementing_search_algorithms_uninformed_heuristic_greedy.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\n\nfrom sklearn.model_selection import from train_test_split\nfrom sklearn.preprocessing im"
-      },
-      {
-        "path": "Course 01/unit1-ai-foundations/examples/working_with_numpy_for_data_processing_in_ai_applications.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\n\nfrom sklearn.model_selection import from train_test_split\nfrom sklearn.preprocessing im"
-      },
       {
         "path": "Course 01/unit2-ai-concepts/examples/06_working_with_rdf_sparql.ipynb",
         "error": "An error occurred while executing the following cell:\n------------------\nfrom rdflib import Graph, Namespace\nfrom SPARQLWrapper import SPARQLWrapper, JSON\n\nprint(\"\u2705 Libraries imported!\")\nprint(\"\\nWork"
       },
       {
-        "path": "Course 01/unit2-search-algorithms/examples/06_machine_learning_intro.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\nfrom sklearn.preprocessing import from LabelEncoder, OneHotEncoder\nfrom sklearn.model_se"
-      },
-      {
         "path": "Course 01/unit2-search-algorithms/examples/07_rdf_sparql_knowledge_graph.ipynb",
         "error": "An error occurred while executing the following cell:\n------------------\n# Install required libraries if not already installed\n# !pip install rdflib sparqlwrapper\n\nimport rdflib\nfrom rdflib import Gra"
+      },
+      {
+        "path": "Course 01/unit2-search-algorithms/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n\"\"\"\nUnit 2 - Exercise 1: AI Concepts and Applications\n\u0627\u0644\u0648\u062d\u062f\u0629 2 - \u062a\u0645\u0631\u064a\u0646 1: \u0645\u0641\u0627\u0647\u064a\u0645 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0648\u0627\u0644\u062a\u0637\u0628\u064a\u0642\u0627\u062a\n\nComplete the foll"
+      },
+      {
+        "path": "Course 01/unit5-generative-ai-intro/examples/04_diabetes_classification_ffnn.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import S"
+      },
+      {
+        "path": "Course 03/unit3-optimization/examples/04_regression_real_datasets.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.model_selection import train_test_split\nfro"
       }
     ],
     "file_not_found": [
       {
         "path": "Course 04/unit1-data-processing/examples/01_data_loading_exploration.ipynb",
         "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world US Crime Statistics dataset (GDI-themed)\n# This is REAL government data about crime statistics by US state - "
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/03_data_preprocessing.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world Credit Card Fraud dataset for preprocessing\n# GDI Theme: Financial Investigations - Fraud Detection\n# This da"
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/04_linear_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (already loaded above, but use full sample for multiple regression)\n# For multiple regression,"
+      },
+      {
+        "path": "Course 04/unit3-classification/examples/01_logistic_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (GDI Theme: Terrorism Financing Detection)\n# This is a real-world financial dataset for binary"
+      },
+      {
+        "path": "Course 04/unit3-classification/examples/04_knn.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load the Credit Card Fraud dataset\n# This is REAL financial transaction data for binary classification (GDI: Financial Invest"
       }
     ],
     "api_errors": [
       {
+        "path": "Course 01/unit2-search-algorithms/examples/06_machine_learning_intro.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Method 1: Label Encoding (for ordinal data)\nlabel_encoder = LabelEncoder()\ndf['location_encoded'] = label_encoder.fit_transfo"
+      },
+      {
         "path": "Course 08/unit5-deployment/examples/02_tensorflow_serving.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Create a simple model for demonstration\nmodel = tf.keras.Sequential([\n    tf.keras.layers.Dense(64, activation='relu', input_"
-      },
-      {
-        "path": "Course 09/unit2-policy-value/examples/04_monte_carlo_value_estimation.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 2: First-Visit Monte Carlo Implementation\")\nprint(\"=\" * 60)\n\ndef generate_episode(policy, en"
-      },
-      {
-        "path": "Course 09/unit2-policy-value/examples/05_td_algorithms_td0_nstep.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 3: n-Step TD Implementation\")\nprint(\"=\" * 60)\n\ndef n_step_td(policy, env_simulator, n_episod"
+        "error": "An error occurred while executing the following cell:\n------------------\n# Create a simple model for demonstration\nmodel = tf.keras.Sequential([\n tf.keras.layers.Dense(64, activation='relu', input_sha"
       },
       {
         "path": "SOLUTIONS_ALL/Course 04/unit4-clustering/solutions/exercise_01_solution.ipynb",
@@ -93,17 +128,17 @@
     "timeout": [
       {
         "path": "Course 11/unit2-versioning-serving/examples/03_model_versioning.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Set MLflow tracking URI\nmlflow.set_tracking_uri('http://localhost:5000')  # Or use local file\n\n# Start experiment\nmlflow.set_"
+        "error": "An error occurred while executing the following cell:\n------------------\n# Set MLflow tracking URI\nmlflow.set_tracking_uri('http://localhost:5000') # Or use local file\n\n# Start experiment\nmlflow.set_e"
       }
     ],
     "other": [
       {
-        "path": "Course 03/unit1-linear-algebra/examples/06_transformation_matrices_orthogonal_basis.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 2: Computing Orthogonal Basis Sets\")\nprint(\"=\" * 60)\n\ndef gram_schmidt(vectors):\n    \"\"\"\n   "
+        "path": "Course 04/unit2-regression/examples/01_ridge_lasso_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Data summary comes first (showing what we loaded)\n# Then we'll check for multicollinearity\n\nprint(f\"\\n\ud83d\udcca Real Data Summary:\")\n"
       },
       {
         "path": "Course 08/unit3-rnns/exercises/01_rnn_exercise.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# TODO: Generate synthetic time series data\n# Hint: Use sine wave + trend + noise\ndef generate_stock_data(n_samples=1000):\n    "
+        "error": "An error occurred while executing the following cell:\n------------------\n# TODO: Generate synthetic time series data\n# Hint: Use sine wave + trend + noise\ndef generate_stock_data(n_samples=1000):\n # Y"
       }
     ]
   }
