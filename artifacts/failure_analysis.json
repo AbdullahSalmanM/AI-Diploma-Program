@@ -10,11 +10,11 @@
     "other": 2
   },
   "missing_packages": [
-    "keras",
+    "transformers",
+    "scikit-learn",
     "gym",
     "tensorflow",
     "torch",
-    "scikit-learn",
     "sklearn"
   ],
   "sample_failures": {
@@ -25,7 +25,7 @@
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_01.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data_matrix(samples, features):\n \n # TODO: Create a matrix with the specified shap\ne\n # Use np."
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data_matrix(samples, features):\n \n # TODO: Create a matrix with the specified shape\n # Use np.r"
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_02.ipynb",
