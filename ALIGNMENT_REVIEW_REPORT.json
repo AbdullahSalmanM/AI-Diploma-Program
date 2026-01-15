@@ -1,0 +1,2080 @@
+{
+  "1": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to AI and Applications",
+        "required_activities": [
+          "Lectures on AI history and evolution",
+          "Discussions on Weak vs Strong AI and their real-world implications",
+          "Case studies on intelligent agents and rational decision-making",
+          "Explanation of traditional and adversarial search algorithms",
+          "Introduction to knowledge representation and reasoning models in AI",
+          "Overview of generative AI and its applications",
+          "Applied workshops on Python basics for AI",
+          "Implementing search algorithms (uninformed, heuristic, greedy)",
+          "Developing simple intelligent agents using MiniMax and Alpha-Beta pruning",
+          "Exercises on knowledge representation and rule-based systems",
+          "Working with NumPy for data processing in AI applications",
+          "Introduction to generative AI frameworks with simple applications"
+        ],
+        "existing_notebooks": [
+          "07_python_basics_for_ai.ipynb",
+          "09_case_studies_intelligent_agents.ipynb",
+          "05_adversarial_search_minimax.ipynb",
+          "working_with_numpy_for_data_processing_in_ai_applications.ipynb",
+          "04_philosophy_turing_test.ipynb",
+          "08_generative_ai_intro.ipynb",
+          "06_knowledge_representation.ipynb",
+          "01_ai_introduction.ipynb",
+          "02_ai_history.ipynb",
+          "03_intelligent_agents_rationality.ipynb",
+          "implementing_search_algorithms_uninformed_heuristic_greedy.ipynb",
+          "11_working_with_numpy_data_processing.ipynb",
+          "10_implementing_search_algorithms.ipynb",
+          "10_search_algorithms_uninformed_heuristic.ipynb",
+          "11_numpy_data_processing.ipynb"
+        ],
+        "covered": [
+          "Case studies on intelligent agents and rational decision-making",
+          "Explanation of traditional and adversarial search algorithms",
+          "Introduction to knowledge representation and reasoning models in AI",
+          "Overview of generative AI and its applications",
+          "Applied workshops on Python basics for AI",
+          "Implementing search algorithms (uninformed, heuristic, greedy)",
+          "Developing simple intelligent agents using MiniMax and Alpha-Beta pruning",
+          "Exercises on knowledge representation and rule-based systems",
+          "Working with NumPy for data processing in AI applications",
+          "Introduction to generative AI frameworks with simple applications"
+        ],
+        "missing": [
+          "Lectures on AI history and evolution",
+          "Discussions on Weak vs Strong AI and their real-world implications"
+        ]
+      },
+      "2": {
+        "unit_name": "AI Concepts, Terminology, and Application Domains",
+        "required_activities": [
+          "Applied review of Python basics (lists, dictionaries, file handling)",
+          "Implementing a simple expert system using Python",
+          "Working with RDF and SPARQL for knowledge graph queries",
+          "Applying Bayes' theorem to real-world problems using Python",
+          "Encoding categorical features for ML models",
+          "Developing simple supervised and unsupervised learning models",
+          "Exploring the data generation process using Python and Pandas"
+        ],
+        "existing_notebooks": [
+          "05_bayes_theorem.ipynb",
+          "07_rdf_sparql_knowledge_graph.ipynb",
+          "04_expert_systems.ipynb",
+          "03_astar_algorithm.ipynb",
+          "02_dfs_algorithm.ipynb",
+          "06_machine_learning_intro.ipynb",
+          "01_bfs_algorithm.ipynb",
+          "10_data_generation_process.ipynb",
+          "07_bayes_theorem_applications.ipynb",
+          "06_applying_bayes_theorem.ipynb",
+          "02_encoding_categorical_features.ipynb",
+          "08_encoding_categorical_features.ipynb",
+          "04_implementing_expert_system.ipynb",
+          "05_implementing_simple_expert_system.ipynb",
+          "06_working_with_rdf_sparql.ipynb",
+          "05_working_with_rdf_sparql.ipynb",
+          "04_data_generation_process.ipynb",
+          "04_applied_python_review.ipynb",
+          "01_applied_python_review.ipynb",
+          "03_supervised_unsupervised_models.ipynb",
+          "07_applying_bayes_theorem.ipynb",
+          "09_supervised_unsupervised_models.ipynb",
+          "06_expert_system_python.ipynb"
+        ],
+        "covered": [
+          "Applied review of Python basics (lists, dictionaries, file handling)",
+          "Implementing a simple expert system using Python",
+          "Working with RDF and SPARQL for knowledge graph queries",
+          "Applying Bayes' theorem to real-world problems using Python",
+          "Encoding categorical features for ML models",
+          "Developing simple supervised and unsupervised learning models",
+          "Exploring the data generation process using Python and Pandas"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "AI Concepts, Terminology, and Application Domains Part 2",
+        "required_activities": [
+          "Implementing regression and classification models using Python",
+          "Building a perceptron and testing activation functions",
+          "Solving the XOR problem using a neural network in Keras"
+        ],
+        "existing_notebooks": [
+          "05_solving_xor_keras.ipynb",
+          "04_xor_problem_neural_network.ipynb",
+          "04_implementing_regression_classification.ipynb",
+          "05_perceptron_xor.ipynb",
+          "02_rule_based_systems.ipynb",
+          "01_knowledge_graph.ipynb",
+          "04_regression_classification.ipynb",
+          "03_expert_systems.ipynb"
+        ],
+        "covered": [
+          "Implementing regression and classification models using Python",
+          "Building a perceptron and testing activation functions",
+          "Solving the XOR problem using a neural network in Keras"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Neural Networks Fundamentals",
+        "required_activities": [
+          "Implementing a single neuron with different activation functions using Python",
+          "Building a multi-class classification model with Keras",
+          "Training a multi-layer perceptron (MLP) for classification tasks",
+          "Implementing a CNN for image classification using TensorFlow/Keras",
+          "Experimenting with RNN, LSTM, GRU for sequential data",
+          "Applying early stopping and regularization to prevent overfitting"
+        ],
+        "existing_notebooks": [
+          "01_simple_perceptron.ipynb",
+          "experimenting_with_rnn_lstm_gru_for_sequential_data.ipynb",
+          "02_generative_ai_intro.ipynb",
+          "03_cnn_rnn_architectures.ipynb",
+          "implementing_a_single_neuron_with_different_activation_functions_using_python.ipynb",
+          "implementing_a_cnn_for_image_classification_using_tensorflowkeras.ipynb",
+          "building_a_multi_class_classification_model_with_keras.ipynb",
+          "applying_early_stopping_and_regularization_to_prevent_overfitting.ipynb",
+          "09_early_stopping_regularization.ipynb",
+          "06_multiclass_classification_keras.ipynb",
+          "08_rnn_lstm_gru_sequential.ipynb",
+          "05_single_neuron_activation_functions.ipynb",
+          "07_cnn_image_classification.ipynb"
+        ],
+        "covered": [
+          "Implementing a single neuron with different activation functions using Python",
+          "Building a multi-class classification model with Keras",
+          "Training a multi-layer perceptron (MLP) for classification tasks",
+          "Implementing a CNN for image classification using TensorFlow/Keras",
+          "Experimenting with RNN, LSTM, GRU for sequential data",
+          "Applying early stopping and regularization to prevent overfitting"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Introduction to Generative AI and Course Summary",
+        "required_activities": [
+          "EDA and data preprocessing for medical datasets",
+          "Building and training an FFNN for diabetes classification using Python",
+          "Implementing feature scaling, encoding, and handling missing data in a medical dataset",
+          "Experimenting with a simple GAN model or Transformer model for generative AI applications"
+        ],
+        "existing_notebooks": [
+          "01_generative_ai_introduction.ipynb",
+          "implementing_a_simple_expert_system_using_python.ipynb",
+          "solving_the_xor_problem_using_a_neural_network_in_keras.ipynb",
+          "eda_and_data_preprocessing_for_medical_datasets.ipynb",
+          "encoding_categorical_features_for_ml_models.ipynb",
+          "03_course_summary.ipynb",
+          "implementing_feature_scaling_encoding_and_handling_missing_data_in_a_medical_dat.ipynb",
+          "developing_simple_supervised_and_unsupervised_learning_models.ipynb",
+          "02_generative_vs_discriminative.ipynb",
+          "04_diabetes_classification_ffnn.ipynb",
+          "exploring_the_data_generation_process_using_python_and_pandas.ipynb",
+          "04_gan_transformer_generative.ipynb",
+          "05_eda_data_preprocessing_medical.ipynb",
+          "06_feature_scaling_encoding_missing_data.ipynb"
+        ],
+        "covered": [
+          "EDA and data preprocessing for medical datasets",
+          "Building and training an FFNN for diabetes classification using Python",
+          "Implementing feature scaling, encoding, and handling missing data in a medical dataset",
+          "Experimenting with a simple GAN model or Transformer model for generative AI applications"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 32,
+    "covered_activities": 30,
+    "missing_activities": [
+      "Unit 1: Lectures on AI history and evolution",
+      "Unit 1: Discussions on Weak vs Strong AI and their real-world implications"
+    ]
+  },
+  "2": {
+    "units": {
+      "1": {
+        "unit_name": "Course Introduction and Search Algorithms",
+        "required_activities": [
+          "Real-world AI applications",
+          "Implementing AI algorithms",
+          "Implementing search algorithms",
+          "Implementing adversarial search",
+          "AI learning methods and research",
+          "Evaluating AI models"
+        ],
+        "existing_notebooks": [
+          "05_ai_learning_methods_research.ipynb",
+          "implementing_ai_algorithms.ipynb",
+          "01_Introduction_Search_Algorithms.ipynb",
+          "02_real_world_ai_applications.ipynb",
+          "00_Python_Libraries_for_AI.ipynb",
+          "03_implementing_ai_algorithms.ipynb",
+          "ai_learning_methods_and_research.ipynb",
+          "04_implementing_adversarial_search.ipynb",
+          "real_world_ai_applications.ipynb",
+          "implementing_adversarial_search.ipynb",
+          "evaluating_ai_models.ipynb"
+        ],
+        "covered": [
+          "Real-world AI applications",
+          "Implementing AI algorithms",
+          "Implementing search algorithms",
+          "Implementing adversarial search",
+          "AI learning methods and research",
+          "Evaluating AI models"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Knowledge Representation",
+        "required_activities": [
+          "Building truth tables for logical propositions using Python",
+          "Implementing logical operators (AND, OR, NOT, IMPLIES, BICONDITIONAL)",
+          "Applying inference rules (Modus Ponens, Modus Tollens, Disjunctive Syllogism) to solve logical problems",
+          "Building logical arguments and validating them programmatically",
+          "Implementing model checking algorithms for temporal logic",
+          "Working with First-Order Logic (FOL) syntax and semantics",
+          "Applying logical reasoning to solve AI problems (like knowledge-based systems)",
+          "Writing code to parse and evaluate FOL formulas"
+        ],
+        "existing_notebooks": [
+          "05_first_order_logic_fol.ipynb",
+          "02_Knowledge_Representation.ipynb",
+          "04_inference_rules_logical_reasoning.ipynb",
+          "06_logical_operators_implementation.ipynb",
+          "building_logical_arguments_and_validating_them_programmatically.ipynb",
+          "08_model_checking_temporal_logic.ipynb",
+          "09_fol_parsing_evaluation.ipynb",
+          "07_logical_arguments_validation.ipynb",
+          "writing_code_to_parse_and_evaluate_fol_formulas.ipynb",
+          "implementing_logical_operators_and_or_not_implies_biconditional.ipynb",
+          "implementing_model_checking_algorithms_for_temporal_logic.ipynb",
+          "03_propositional_logic_truth_tables.ipynb"
+        ],
+        "covered": [
+          "Building truth tables for logical propositions using Python",
+          "Implementing logical operators (AND, OR, NOT, IMPLIES, BICONDITIONAL)",
+          "Applying inference rules (Modus Ponens, Modus Tollens, Disjunctive Syllogism) to solve logical problems",
+          "Building logical arguments and validating them programmatically",
+          "Implementing model checking algorithms for temporal logic",
+          "Working with First-Order Logic (FOL) syntax and semantics",
+          "Applying logical reasoning to solve AI problems (like knowledge-based systems)",
+          "Writing code to parse and evaluate FOL formulas"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Learning Under Uncertainty",
+        "required_activities": [
+          "Building Bayesian networks using Python libraries (pgmpy)",
+          "Implementing inference algorithms for Bayesian networks",
+          "Working with Hidden Markov Models (HMMs) for sequence prediction",
+          "Implementing Viterbi algorithm for sequence decoding",
+          "Applying HMMs to practical problems (speech recognition, POS tagging)",
+          "Introduction to reinforcement learning: setting up environments and agents",
+          "Implementing simple MDPs and value iteration algorithms"
+        ],
+        "existing_notebooks": [
+          "03_Learning_Under_Uncertainty.ipynb",
+          "04_mdp_value_iteration.ipynb",
+          "03_hmm_viterbi.ipynb",
+          "02_bayesian_networks.ipynb"
+        ],
+        "covered": [
+          "Building Bayesian networks using Python libraries (pgmpy)",
+          "Implementing inference algorithms for Bayesian networks",
+          "Working with Hidden Markov Models (HMMs) for sequence prediction",
+          "Implementing Viterbi algorithm for sequence decoding",
+          "Applying HMMs to practical problems (speech recognition, POS tagging)",
+          "Implementing simple MDPs and value iteration algorithms"
+        ],
+        "missing": [
+          "Introduction to reinforcement learning: setting up environments and agents"
+        ]
+      },
+      "4": {
+        "unit_name": "Optimization Techniques",
+        "required_activities": [
+          "Implementing gradient descent algorithms (batch, stochastic, mini-batch)",
+          "Applying advanced optimizers (Adam, RMSprop) in neural networks",
+          "Implementing regularization techniques (L1, L2, Dropout, Early Stopping)",
+          "Performing hyperparameter tuning using grid search and random search",
+          "Using cross-validation to select optimal hyperparameters",
+          "Comparing different optimization algorithms on real datasets",
+          "Implementing Bayesian optimization for hyperparameter search"
+        ],
+        "existing_notebooks": [
+          "implementing_regularization_techniques_l1_l2_dropout_early_stopping.ipynb",
+          "03_gradient_descent_variants.ipynb",
+          "implementing_gradient_descent_algorithms_batch_stochastic_mini_batch.ipynb",
+          "implementing_bayesian_optimization_for_hyperparameter_search.ipynb",
+          "performing_hyperparameter_tuning_using_grid_search_and_random_search.ipynb",
+          "applying_advanced_optimizers_adam_rmsprop_in_neural_networks.ipynb",
+          "04_Optimization_Techniques.ipynb",
+          "04_advanced_optimizers_adam_rmsprop.ipynb",
+          "comparing_different_optimization_algorithms_on_real_datasets.ipynb",
+          "using_cross_validation_to_select_optimal_hyperparameters.ipynb"
+        ],
+        "covered": [
+          "Implementing gradient descent algorithms (batch, stochastic, mini-batch)",
+          "Applying advanced optimizers (Adam, RMSprop) in neural networks",
+          "Implementing regularization techniques (L1, L2, Dropout, Early Stopping)",
+          "Performing hyperparameter tuning using grid search and random search",
+          "Using cross-validation to select optimal hyperparameters",
+          "Comparing different optimization algorithms on real datasets",
+          "Implementing Bayesian optimization for hyperparameter search"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "AI-Based Learning Models",
+        "required_activities": [
+          "Implementing different neural network architectures (feedforward, CNN, RNN)",
+          "Applying transfer learning with pre-trained models (VGG, ResNet, BERT)",
+          "Fine-tuning pre-trained models for domain-specific tasks",
+          "Performing model evaluation and comparison using cross-validation",
+          "Implementing model selection techniques",
+          "Serializing and saving models for deployment",
+          "Building simple APIs for model serving (Flask, FastAPI)",
+          "Working on end-to-end projects integrating multiple AI techniques"
+        ],
+        "existing_notebooks": [
+          "building_simple_apis_for_model_serving_flask_fastapi.ipynb",
+          "05_AI_Learning_Models.ipynb",
+          "04_transfer_learning_pretrained.ipynb",
+          "introduction_to_reinforcement_learning_setting_up_environments_and_agents.ipynb",
+          "implementing_different_neural_network_architectures_feedforward_cnn_rnn.ipynb",
+          "implementing_model_selection_techniques.ipynb",
+          "serializing_and_saving_models_for_deployment.ipynb",
+          "performing_model_evaluation_and_comparison_using_cross_validation.ipynb",
+          "03_neural_network_architectures.ipynb",
+          "working_on_end_to_end_projects_integrating_multiple_ai_techniques.ipynb",
+          "05_model_evaluation_comparison.ipynb",
+          "applying_transfer_learning_with_pre_trained_models_vgg_resnet_bert.ipynb",
+          "fine_tuning_pre_trained_models_for_domain_specific_tasks.ipynb"
+        ],
+        "covered": [
+          "Implementing different neural network architectures (feedforward, CNN, RNN)",
+          "Applying transfer learning with pre-trained models (VGG, ResNet, BERT)",
+          "Fine-tuning pre-trained models for domain-specific tasks",
+          "Performing model evaluation and comparison using cross-validation",
+          "Implementing model selection techniques",
+          "Serializing and saving models for deployment",
+          "Building simple APIs for model serving (Flask, FastAPI)",
+          "Working on end-to-end projects integrating multiple AI techniques"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 36,
+    "covered_activities": 35,
+    "missing_activities": [
+      "Unit 3: Introduction to reinforcement learning: setting up environments and agents"
+    ]
+  },
+  "3": {
+    "units": {
+      "1": {
+        "unit_name": "Linear Algebra for Machine Learning and Data Transformations",
+        "required_activities": [
+          "Performing vector and matrix operations using Python/NumPy",
+          "Implementing substitution/elimination techniques for solving linear equations",
+          "Computing determinants and inverse matrices computationally",
+          "Writing code to apply transformation matrices and compute orthogonal basis sets",
+          "Solving eigenvalue problems programmatically and applying eigenvalue analysis on large-dimensional matrices",
+          "Experimenting with changes in ML model parameters and observing changes in model fit"
+        ],
+        "existing_notebooks": [
+          "implementing_substitutionelimination_techniques_for_solving_linear_equations.ipynb",
+          "solving_eigenvalue_problems_programmatically_and_applying_eigenvalue_analysis_on.ipynb",
+          "experimenting_with_changes_in_ml_model_parameters_and_observing_changes_in_model.ipynb",
+          "08_ml_parameter_experiments.ipynb",
+          "writing_code_to_apply_transformation_matrices_and_compute_orthogonal_basis_sets.ipynb",
+          "performing_vector_and_matrix_operations_using_pythonnumpy.ipynb",
+          "computing_determinants_and_inverse_matrices_computationally.ipynb",
+          "04_substitution_elimination_linear_equations.ipynb",
+          "01_vectors_matrices_basics.ipynb",
+          "06_transformation_matrices_orthogonal_basis.ipynb",
+          "05_determinants_inverse_matrices.ipynb",
+          "03_eigenvalues_eigenvectors.ipynb",
+          "07_eigenvalue_analysis_large_matrices.ipynb",
+          "02_matrix_operations.ipynb"
+        ],
+        "covered": [
+          "Performing vector and matrix operations using Python/NumPy",
+          "Implementing substitution/elimination techniques for solving linear equations",
+          "Computing determinants and inverse matrices computationally",
+          "Writing code to apply transformation matrices and compute orthogonal basis sets",
+          "Solving eigenvalue problems programmatically and applying eigenvalue analysis on large-dimensional matrices",
+          "Experimenting with changes in ML model parameters and observing changes in model fit"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Calculus and Multivariate Calculus for Machine Learning",
+        "required_activities": [
+          "Solving differentiation problems using symbolic computation tools",
+          "Implementing gradient computations for multivariate functions",
+          "Programming backpropagation in neural networks using differentiation techniques",
+          "Applying function approximation on real-world ML models"
+        ],
+        "existing_notebooks": [
+          "implementing_gradient_computations_for_multivariate_functions.ipynb",
+          "programming_backpropagation_in_neural_networks_using_differentiation_techniques.ipynb",
+          "01_derivatives_basics.ipynb",
+          "applying_function_approximation_on_real_world_ml_models.ipynb",
+          "05_function_approximation_ml.ipynb",
+          "02_gradients_multivariable.ipynb",
+          "04_backpropagation_neural_networks.ipynb",
+          "03_gradient_descent.ipynb",
+          "solving_differentiation_problems_using_symbolic_computation_tools.ipynb"
+        ],
+        "covered": [
+          "Solving differentiation problems using symbolic computation tools",
+          "Implementing gradient computations for multivariate functions",
+          "Programming backpropagation in neural networks using differentiation techniques",
+          "Applying function approximation on real-world ML models"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Optimization and Statistical Foundations for Machine Learning",
+        "required_activities": [
+          "Implementing gradient descent for optimization problems",
+          "Applying regression techniques to fit models on real datasets",
+          "Writing code to compute basic statistical properties of datasets",
+          "Representing images as vectors and computing angles and distances between them",
+          "Implementing projection and dimensionality reduction techniques in ML"
+        ],
+        "existing_notebooks": [
+          "implementing_gradient_descent_for_optimization_problems.ipynb",
+          "03_statistical_measures.ipynb",
+          "writing_code_to_compute_basic_statistical_properties_of_datasets.ipynb",
+          "05_image_similarity_measures.ipynb",
+          "02_loss_functions.ipynb",
+          "01_optimizers_comparison.ipynb",
+          "representing_images_as_vectors_and_computing_angles_and_distances_between_them.ipynb",
+          "04_regression_real_datasets.ipynb",
+          "applying_regression_techniques_to_fit_models_on_real_datasets.ipynb",
+          "implementing_projection_and_dimensionality_reduction_techniques_in_ml.ipynb"
+        ],
+        "covered": [
+          "Implementing gradient descent for optimization problems",
+          "Applying regression techniques to fit models on real datasets",
+          "Writing code to compute basic statistical properties of datasets",
+          "Representing images as vectors and computing angles and distances between them",
+          "Implementing projection and dimensionality reduction techniques in ML"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Dimensionality Reduction and Data Representation Techniques",
+        "required_activities": [
+          "Implementing PCA using Python for dimensionality reduction of datasets",
+          "Applying SVD for matrix decomposition, data compression, and noise reduction",
+          "Using t-SNE for visualizing high-dimensional data in 2D or 3D dimensions",
+          "Comparing PCA, SVD, and t-SNE for different data analysis tasks",
+          "Writing code to apply these dimensionality reduction techniques on real-world datasets including images and text data"
+        ],
+        "existing_notebooks": [
+          "01_pca_implementation.ipynb",
+          "04_svd_implementation.ipynb",
+          "writing_code_to_apply_these_dimensionality_reduction_techniques_on_real_world_da.ipynb",
+          "implementing_pca_using_python_for_dimensionality_reduction_of_datasets.ipynb",
+          "06_dimensionality_reduction_real_world_datasets.ipynb",
+          "03_feature_selection.ipynb",
+          "05_tsne_visualization.ipynb",
+          "02_curse_dimensionality.ipynb"
+        ],
+        "covered": [
+          "Implementing PCA using Python for dimensionality reduction of datasets",
+          "Applying SVD for matrix decomposition, data compression, and noise reduction",
+          "Using t-SNE for visualizing high-dimensional data in 2D or 3D dimensions",
+          "Comparing PCA, SVD, and t-SNE for different data analysis tasks",
+          "Writing code to apply these dimensionality reduction techniques on real-world datasets including images and text data"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Probability, Sampling, and Statistical Inference",
+        "required_activities": [
+          "Implementing probability distributions in Python (Gaussian, Bernoulli, Poisson)",
+          "Applying Central Limit Theorem with simulations",
+          "Performing sampling and point estimation",
+          "Implementing Maximum Likelihood Estimation (MLE) for different distributions",
+          "Applying Bayesian inference using Python (PyMC3, Stan)",
+          "Implementing hypothesis testing procedures",
+          "Computing p-values and confidence intervals",
+          "Connecting probability theory to ML model implementations"
+        ],
+        "existing_notebooks": [
+          "connecting_probability_theory_to_ml_model_implementations.ipynb",
+          "09_probability_ml_connections.ipynb",
+          "03_bayesian_inference.ipynb",
+          "06_maximum_likelihood_estimation.ipynb",
+          "02_statistical_inference.ipynb",
+          "performing_sampling_and_point_estimation.ipynb",
+          "07_hypothesis_testing_procedures.ipynb",
+          "implementing_maximum_likelihood_estimation_mle_for_different_distributions.ipynb",
+          "01_probability_distributions.ipynb",
+          "08_pvalues_confidence_intervals.ipynb",
+          "05_sampling_point_estimation.ipynb",
+          "04_central_limit_theorem_simulations.ipynb",
+          "implementing_hypothesis_testing_procedures.ipynb",
+          "computing_p_values_and_confidence_intervals.ipynb",
+          "applying_central_limit_theorem_with_simulations.ipynb"
+        ],
+        "covered": [
+          "Implementing probability distributions in Python (Gaussian, Bernoulli, Poisson)",
+          "Applying Central Limit Theorem with simulations",
+          "Performing sampling and point estimation",
+          "Implementing Maximum Likelihood Estimation (MLE) for different distributions",
+          "Applying Bayesian inference using Python (PyMC3, Stan)",
+          "Implementing hypothesis testing procedures",
+          "Computing p-values and confidence intervals",
+          "Connecting probability theory to ML model implementations"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 28,
+    "covered_activities": 28,
+    "missing_activities": []
+  },
+  "4": {
+    "units": {
+      "1": {
+        "unit_name": "Regression Algorithms",
+        "required_activities": [
+          "Implementing simple and multiple linear regression using scikit-learn",
+          "Applying polynomial regression for non-linear relationships",
+          "Implementing Ridge and Lasso regression with regularization",
+          "Building SVR models with different kernels",
+          "Implementing decision tree and random forest regression",
+          "Comparing regression algorithms on real datasets",
+          "Visualizing regression results and residuals"
+        ],
+        "existing_notebooks": [
+          "03_data_preprocessing.ipynb",
+          "05_polynomial_regression.ipynb",
+          "02_data_cleaning.ipynb",
+          "06_ridge_lasso_regression.ipynb",
+          "comparing_regression_algorithms_on_real_datasets.ipynb",
+          "01_data_loading_exploration.ipynb",
+          "07_svr_decision_tree_regression.ipynb",
+          "visualizing_regression_results_and_residuals.ipynb",
+          "04_linear_regression.ipynb",
+          "implementing_decision_tree_and_random_forest_regression.ipynb"
+        ],
+        "covered": [
+          "Implementing simple and multiple linear regression using scikit-learn",
+          "Applying polynomial regression for non-linear relationships",
+          "Implementing Ridge and Lasso regression with regularization",
+          "Building SVR models with different kernels",
+          "Implementing decision tree and random forest regression",
+          "Comparing regression algorithms on real datasets",
+          "Visualizing regression results and residuals"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Regression and Model Evaluation",
+        "required_activities": [
+          "Computing regression evaluation metrics (MSE, RMSE, MAE, R\u00b2)",
+          "Implementing k-fold cross-validation for regression models",
+          "Performing leave-one-out and stratified cross-validation",
+          "Analyzing bias-variance tradeoff through learning curves",
+          "Identifying and handling overfitting/underfitting",
+          "Selecting optimal model complexity using validation sets",
+          "Comparing model performance across different algorithms"
+        ],
+        "existing_notebooks": [
+          "08_decision_tree_random_forest_regression.ipynb",
+          "identifying_and_handling_overfittingunderfitting.ipynb",
+          "performing_leave_one_out_and_stratified_cross_validation.ipynb",
+          "10_visualizing_regression_results_residuals.ipynb",
+          "05_leave_one_out_stratified_cv.ipynb",
+          "02_cross_validation.ipynb",
+          "08_comparing_model_performance.ipynb",
+          "04_regression_evaluation_metrics.ipynb",
+          "06_overfitting_underfitting_handling.ipynb",
+          "07_optimal_model_complexity.ipynb",
+          "03_bias_variance_learning_curves.ipynb",
+          "comparing_model_performance_across_different_algorithms.ipynb",
+          "computing_regression_evaluation_metrics_mse_rmse_mae_r\u00b2.ipynb",
+          "selecting_optimal_model_complexity_using_validation_sets.ipynb",
+          "09_comparing_regression_algorithms.ipynb",
+          "01_ridge_lasso_regression.ipynb"
+        ],
+        "covered": [
+          "Computing regression evaluation metrics (MSE, RMSE, MAE, R\u00b2)",
+          "Implementing k-fold cross-validation for regression models",
+          "Performing leave-one-out and stratified cross-validation",
+          "Analyzing bias-variance tradeoff through learning curves",
+          "Identifying and handling overfitting/underfitting",
+          "Selecting optimal model complexity using validation sets",
+          "Comparing model performance across different algorithms"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Classification Algorithms",
+        "required_activities": [
+          "Implementing logistic regression for binary and multi-class classification using Python (scikit-learn)",
+          "Building decision tree models and understanding pruning techniques to avoid overfitting",
+          "Applying random forest classifiers to improve prediction accuracy",
+          "Using SVM with different kernels (linear, polynomial, RBF) to handle complex classification tasks",
+          "Implementing Naive Bayes for text classification tasks like spam filtering",
+          "Evaluating classification models using confusion matrices, ROC curves, and analyzing precision and recall",
+          "Experimenting with ensemble techniques (Bagging, Boosting) to improve classification performance"
+        ],
+        "existing_notebooks": [
+          "01_logistic_regression.ipynb",
+          "05_random_forest_naive_bayes.ipynb",
+          "08_classification_evaluation_metrics.ipynb",
+          "03_svm.ipynb",
+          "07_svm_kernels_comparison.ipynb",
+          "02_decision_trees.ipynb",
+          "06_ensemble_methods_bagging_boosting.ipynb",
+          "using_svm_with_different_kernels_linear_polynomial_rbf_to_handle_complex_classif.ipynb",
+          "evaluating_classification_models_using_confusion_matrices_roc_curves_and_analyzi.ipynb",
+          "04_knn.ipynb"
+        ],
+        "covered": [
+          "Implementing logistic regression for binary and multi-class classification using Python (scikit-learn)",
+          "Building decision tree models and understanding pruning techniques to avoid overfitting",
+          "Applying random forest classifiers to improve prediction accuracy",
+          "Using SVM with different kernels (linear, polynomial, RBF) to handle complex classification tasks",
+          "Implementing Naive Bayes for text classification tasks like spam filtering",
+          "Evaluating classification models using confusion matrices, ROC curves, and analyzing precision and recall",
+          "Experimenting with ensemble techniques (Bagging, Boosting) to improve classification performance"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Clustering and Dimensionality Reduction",
+        "required_activities": [
+          "Implementing K-Means, hierarchical clustering, and DBSCAN in Python",
+          "Using Elbow method and Silhouette score to determine optimal number of clusters",
+          "Applying PCA for dimensionality reduction and visualization of high-dimensional data",
+          "Implementing LDA for improving classification performance",
+          "Evaluating clustering models using appropriate metrics",
+          "Visualizing transformed data using tools like t-SNE and UMAP"
+        ],
+        "existing_notebooks": [
+          "02_hierarchical_clustering.ipynb",
+          "06_evaluating_clustering_metrics.ipynb",
+          "05_elbow_method_silhouette_score.ipynb",
+          "03_pca.ipynb",
+          "01_kmeans_clustering.ipynb",
+          "04_lda_tsne_umap.ipynb",
+          "evaluating_clustering_models_using_appropriate_metrics.ipynb",
+          "using_elbow_method_and_silhouette_score_to_determine_optimal_number_of_clusters.ipynb"
+        ],
+        "covered": [
+          "Implementing K-Means, hierarchical clustering, and DBSCAN in Python",
+          "Using Elbow method and Silhouette score to determine optimal number of clusters",
+          "Applying PCA for dimensionality reduction and visualization of high-dimensional data",
+          "Implementing LDA for improving classification performance",
+          "Evaluating clustering models using appropriate metrics",
+          "Visualizing transformed data using tools like t-SNE and UMAP"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Model Selection and Boosting",
+        "required_activities": [
+          "Implementing cross-validation and hyperparameter tuning using Python",
+          "Using Grid Search and Random Search in scikit-learn to optimize parameters",
+          "Building and training boosting models using libraries like XGBoost and LightGBM",
+          "Comparing performance with traditional methods",
+          "Evaluating models on real datasets using performance metrics",
+          "Applying confusion matrices, plotting ROC curves for classification models",
+          "Tuning models for optimal performance and documenting improvements",
+          "Implementing final project: applying learned techniques on real dataset, evaluating results, presenting key insights"
+        ],
+        "existing_notebooks": [
+          "implementing_final_project_applying_learned_techniques_on_real_dataset_evaluatin.ipynb",
+          "01_grid_search.ipynb",
+          "05_comparing_boosting_traditional_methods.ipynb",
+          "applying_confusion_matrices_plotting_roc_curves_for_classification_models.ipynb",
+          "02_boosting.ipynb",
+          "evaluating_models_on_real_datasets_using_performance_metrics.ipynb",
+          "implementing_cross_validation_and_hyperparameter_tuning_using_python.ipynb",
+          "04_grid_search_random_search.ipynb",
+          "comparing_performance_with_traditional_methods.ipynb",
+          "using_grid_search_and_random_search_in_scikit_learn_to_optimize_parameters.ipynb",
+          "03_cross_validation_hyperparameter_tuning.ipynb",
+          "tuning_models_for_optimal_performance_and_documenting_improvements.ipynb"
+        ],
+        "covered": [
+          "Implementing cross-validation and hyperparameter tuning using Python",
+          "Using Grid Search and Random Search in scikit-learn to optimize parameters",
+          "Building and training boosting models using libraries like XGBoost and LightGBM",
+          "Comparing performance with traditional methods",
+          "Evaluating models on real datasets using performance metrics",
+          "Applying confusion matrices, plotting ROC curves for classification models",
+          "Tuning models for optimal performance and documenting improvements",
+          "Implementing final project: applying learned techniques on real dataset, evaluating results, presenting key insights"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 35,
+    "covered_activities": 35,
+    "missing_activities": []
+  },
+  "5": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to Data Science",
+        "required_activities": [
+          "Python Programming: Executing Python code to solve basic tasks like arithmetic operations, loops, and conditions",
+          "Using Jupyter Notebooks: Writing and executing code in Jupyter Notebooks, combining explanation and code to ensure reproducibility",
+          "Working with Data Structures: Performing tasks like indexing, slicing, and transforming data using lists and dictionaries",
+          "NumPy, Pandas, cuDF: Practicing data manipulation tasks like handling missing data and aggregation using NumPy and Pandas",
+          "Data Science Applications: Working on small real-world projects using data science principles to solve industry-specific problems"
+        ],
+        "existing_notebooks": [
+          "data_science_applications_working_on_small_real_world_projects_using_data_scienc.ipynb",
+          "using_jupyter_notebooks_writing_and_executing_code_in_jupyter_notebooks_combinin.ipynb",
+          "02_pandas_numpy_basics.ipynb",
+          "05_jupyter_notebooks_best_practices.ipynb",
+          "06_data_structures_lists_dictionaries.ipynb",
+          "04_python_basics_loops_conditions.ipynb",
+          "03_cudf_introduction.ipynb",
+          "python_programming_executing_python_code_to_solve_basic_tasks_like_arithmetic_op.ipynb",
+          "01_data_science_intro.ipynb",
+          "07_data_science_applications.ipynb",
+          "working_with_data_structures_performing_tasks_like_indexing_slicing_and_transfor.ipynb"
+        ],
+        "covered": [
+          "Python Programming: Executing Python code to solve basic tasks like arithmetic operations, loops, and conditions",
+          "Using Jupyter Notebooks: Writing and executing code in Jupyter Notebooks, combining explanation and code to ensure reproducibility",
+          "Working with Data Structures: Performing tasks like indexing, slicing, and transforming data using lists and dictionaries",
+          "NumPy, Pandas, cuDF: Practicing data manipulation tasks like handling missing data and aggregation using NumPy and Pandas",
+          "Data Science Applications: Working on small real-world projects using data science principles to solve industry-specific problems"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Data Cleaning and Preparation",
+        "required_activities": [
+          "Import/Export using cuDF: Importing and exporting data in different formats using cuDF functions",
+          "Data Cleaning: Discovering and fixing data issues like duplication and inconsistency using cuDF",
+          "Handling Missing Data: Applying techniques to manage missing values including imputation and removal",
+          "Feature Transformation: Transforming data (e.g., scaling, encoding) to prepare it for analysis",
+          "Performing EDA: Visualizing data distributions and relationships to discover insights",
+          "Optimization using cuDF: Using GPU acceleration from cuDF to process data faster"
+        ],
+        "existing_notebooks": [
+          "06_outliers_transformation.ipynb",
+          "performing_eda_visualizing_data_distributions_and_relationships_to_discover_insi.ipynb",
+          "05_missing_values_duplicates.ipynb",
+          "feature_transformation_transforming_data_eg_scaling_encoding_to_prepare_it_for_a.ipynb",
+          "04_data_loading.ipynb",
+          "05_feature_transformation_scaling_encoding.ipynb",
+          "06_eda_visualizations.ipynb",
+          "07_cudf_import_export_gpu.ipynb"
+        ],
+        "covered": [
+          "Import/Export using cuDF: Importing and exporting data in different formats using cuDF functions",
+          "Data Cleaning: Discovering and fixing data issues like duplication and inconsistency using cuDF",
+          "Handling Missing Data: Applying techniques to manage missing values including imputation and removal",
+          "Feature Transformation: Transforming data (e.g., scaling, encoding) to prepare it for analysis",
+          "Performing EDA: Visualizing data distributions and relationships to discover insights",
+          "Optimization using cuDF: Using GPU acceleration from cuDF to process data faster"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Data Visualization",
+        "required_activities": [
+          "Creating various chart types using Matplotlib and Seaborn",
+          "Building interactive visualizations and dashboards with Plotly",
+          "Customizing and annotating visualizations for presentations",
+          "Applying visualization best practices for data storytelling"
+        ],
+        "existing_notebooks": [
+          "05_interactive_visualizations_plotly.ipynb",
+          "07_matplotlib_basics.ipynb",
+          "04_chart_types_matplotlib_seaborn.ipynb",
+          "building_interactive_visualizations_and_dashboards_with_plotly.ipynb",
+          "09_plotly_interactive.ipynb",
+          "08_seaborn_plots.ipynb",
+          "07_visualization_best_practices.ipynb",
+          "06_customizing_annotating_visualizations.ipynb",
+          "applying_visualization_best_practices_for_data_storytelling.ipynb",
+          "creating_various_chart_types_using_matplotlib_and_seaborn.ipynb"
+        ],
+        "covered": [
+          "Creating various chart types using Matplotlib and Seaborn",
+          "Building interactive visualizations and dashboards with Plotly",
+          "Customizing and annotating visualizations for presentations",
+          "Applying visualization best practices for data storytelling"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Introduction to Machine Learning",
+        "required_activities": [
+          "Working with data using Python libraries like Pandas",
+          "Cleaning and preparing data for ML tasks (handling missing values, encoding categorical variables)",
+          "Implementing ML models using Scikit-learn library (regression, classification)",
+          "Applying supervised learning algorithms on labeled data (e.g., logistic regression)",
+          "Applying unsupervised learning techniques (e.g., K-means clustering) on unlabeled data",
+          "Model selection and evaluation: Training models on training datasets and evaluating them on test datasets",
+          "Hyperparameter tuning using techniques like Grid Search and Random Search",
+          "Real-world problem solving using a mix of supervised and unsupervised learning algorithms"
+        ],
+        "existing_notebooks": [
+          "06_data_preparation_ml_tasks.ipynb",
+          "05_pandas_data_manipulation.ipynb",
+          "07_implementing_ml_models_sklearn.ipynb",
+          "08_supervised_learning_logistic_regression.ipynb",
+          "07_implementing_ml_models_scikit_learn.ipynb",
+          "10_hyperparameter_tuning_grid_random_search.ipynb",
+          "09_unsupervised_learning_kmeans.ipynb",
+          "hyperparameter_tuning_using_techniques_like_grid_search_and_random_search.ipynb",
+          "cleaning_and_preparing_data_for_ml_tasks_handling_missing_values_encoding_catego.ipynb",
+          "12_model_evaluation.ipynb",
+          "10_linear_regression.ipynb",
+          "real_world_problem_solving_using_a_mix_of_supervised_and_unsupervised_learning_a.ipynb",
+          "11_classification.ipynb",
+          "working_with_data_using_python_libraries_like_pandas.ipynb",
+          "applying_unsupervised_learning_techniques_eg_k_means_clustering_on_unlabeled_dat.ipynb",
+          "13_cpu_vs_gpu_ml.ipynb",
+          "implementing_ml_models_using_scikit_learn_library_regression_classification.ipynb",
+          "applying_supervised_learning_algorithms_on_labeled_data_eg_logistic_regression.ipynb",
+          "11_real_world_problem_solving.ipynb"
+        ],
+        "covered": [
+          "Working with data using Python libraries like Pandas",
+          "Cleaning and preparing data for ML tasks (handling missing values, encoding categorical variables)",
+          "Implementing ML models using Scikit-learn library (regression, classification)",
+          "Applying supervised learning algorithms on labeled data (e.g., logistic regression)",
+          "Applying unsupervised learning techniques (e.g., K-means clustering) on unlabeled data",
+          "Model selection and evaluation: Training models on training datasets and evaluating them on test datasets",
+          "Hyperparameter tuning using techniques like Grid Search and Random Search",
+          "Real-world problem solving using a mix of supervised and unsupervised learning algorithms"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Extending the Scope of Data Science",
+        "required_activities": [
+          "Working with Dask: Using Dask to distribute operations on large datasets, allowing faster data processing and analysis across multiple cores or machines",
+          "Data Processing using PySpark: Implementing PySpark to perform distributed data processing on large datasets and integrating with existing Python workflows",
+          "Accelerated Data with GPU using RAPIDS: Using RAPIDS libraries (like cuDF data frame) to accelerate data processing tasks like filtering, merging, and aggregation on large datasets",
+          "Deploying Models using API Interfaces: Deploying machine learning models using frameworks like Flask or FastAPI to serve predictions in real-time, making them integrable with web applications",
+          "Scaling and Monitoring for Deployed Models: Implementing strategies for monitoring models, tracking real-time performance, and scaling model deployment to handle larger data loads"
+        ],
+        "existing_notebooks": [
+          "18_large_datasets.ipynb",
+          "16_production_pipelines.ipynb",
+          "14_dask_distributed.ipynb",
+          "accelerated_data_with_gpu_using_rapids_using_rapids_libraries_like_cudf_data_fra.ipynb",
+          "15_rapids_workflows.ipynb",
+          "19_deployment.ipynb",
+          "17_performance_optimization.ipynb"
+        ],
+        "covered": [
+          "Working with Dask: Using Dask to distribute operations on large datasets, allowing faster data processing and analysis across multiple cores or machines",
+          "Data Processing using PySpark: Implementing PySpark to perform distributed data processing on large datasets and integrating with existing Python workflows",
+          "Accelerated Data with GPU using RAPIDS: Using RAPIDS libraries (like cuDF data frame) to accelerate data processing tasks like filtering, merging, and aggregation on large datasets",
+          "Deploying Models using API Interfaces: Deploying machine learning models using frameworks like Flask or FastAPI to serve predictions in real-time, making them integrable with web applications",
+          "Scaling and Monitoring for Deployed Models: Implementing strategies for monitoring models, tracking real-time performance, and scaling model deployment to handle larger data loads"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 28,
+    "covered_activities": 28,
+    "missing_activities": []
+  },
+  "6": {
+    "units": {
+      "1": {
+        "unit_name": "Foundations of AI Ethics",
+        "required_activities": [
+          "Case Studies Analysis: Investigating real ethical failures in AI systems",
+          "Detecting Bias in AI Models: Identifying biases in datasets and algorithms and applying mitigation strategies",
+          "Privacy Simulation: Assessing privacy risks in AI applications",
+          "Debate on Ethical Dilemmas: Discussing ethical conflicts related to AI and associated responsibilities",
+          "Ethics Review Board (Simulation): Evaluating an AI system in terms of ethical risks and regulatory compliance",
+          "Algorithmic Fairness Testing: Applying fairness metrics and interpreting AI decisions",
+          "Policy Writing Exercise: Formulating an AI ethics policy for a company or organization"
+        ],
+        "existing_notebooks": [
+          "detecting_bias_in_ai_models_identifying_biases_in_datasets_and_algorithms_and_ap.ipynb",
+          "01_ethical_frameworks.ipynb",
+          "03_case_study_analysis.ipynb",
+          "algorithmic_fairness_testing_applying_fairness_metrics_and_interpreting_ai_decis.ipynb",
+          "02_ethical_decision_making.ipynb",
+          "case_studies_analysis_investigating_real_ethical_failures_in_ai_systems.ipynb",
+          "privacy_simulation_assessing_privacy_risks_in_ai_applications.ipynb"
+        ],
+        "covered": [
+          "Case Studies Analysis: Investigating real ethical failures in AI systems",
+          "Detecting Bias in AI Models: Identifying biases in datasets and algorithms and applying mitigation strategies",
+          "Privacy Simulation: Assessing privacy risks in AI applications",
+          "Ethics Review Board (Simulation): Evaluating an AI system in terms of ethical risks and regulatory compliance",
+          "Algorithmic Fairness Testing: Applying fairness metrics and interpreting AI decisions"
+        ],
+        "missing": [
+          "Debate on Ethical Dilemmas: Discussing ethical conflicts related to AI and associated responsibilities",
+          "Policy Writing Exercise: Formulating an AI ethics policy for a company or organization"
+        ]
+      },
+      "2": {
+        "unit_name": "Bias, Fairness, and Discrimination in AI",
+        "required_activities": [
+          "Detecting Bias in AI Models: Identifying biases in datasets and algorithms",
+          "Fairness Testing: Using fairness metrics to evaluate AI decisions",
+          "Implementing Bias Mitigation Techniques: Applying correction techniques and evaluating impact",
+          "Case Studies Analysis: Investigating bias incidents in AI in real world",
+          "AI Fairness Auditing: Evaluating and improving ethical compliance in AI systems",
+          "Developing AI Ethics Policies: Formulating guidelines for responsible AI use",
+          "Policy Writing Exercise: Formulating an AI ethics policy for a company or organization"
+        ],
+        "existing_notebooks": [
+          "case_studies_analysis_investigating_bias_incidents_in_ai_in_real_world.ipynb",
+          "ai_fairness_auditing_evaluating_and_improving_ethical_compliance_in_ai_systems.ipynb",
+          "02_bias_mitigation.ipynb",
+          "04_bias_case_studies.ipynb",
+          "developing_ai_ethics_policies_formulating_guidelines_for_responsible_ai_use.ipynb",
+          "01_bias_detection.ipynb",
+          "detecting_bias_in_ai_models_identifying_biases_in_datasets_and_algorithms.ipynb",
+          "03_fair_representation.ipynb",
+          "fairness_testing_using_fairness_metrics_to_evaluate_ai_decisions.ipynb",
+          "05_fair_ai_development.ipynb",
+          "implementing_bias_mitigation_techniques_applying_correction_techniques_and_evalu.ipynb",
+          "07_fairness_testing_metrics.ipynb",
+          "06_detecting_bias_ai_models.ipynb"
+        ],
+        "covered": [
+          "Detecting Bias in AI Models: Identifying biases in datasets and algorithms",
+          "Fairness Testing: Using fairness metrics to evaluate AI decisions",
+          "Implementing Bias Mitigation Techniques: Applying correction techniques and evaluating impact",
+          "Case Studies Analysis: Investigating bias incidents in AI in real world",
+          "AI Fairness Auditing: Evaluating and improving ethical compliance in AI systems",
+          "Developing AI Ethics Policies: Formulating guidelines for responsible AI use",
+          "Policy Writing Exercise: Formulating an AI ethics policy for a company or organization"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Privacy, Security, and Data Protection",
+        "required_activities": [
+          "Data Encryption: Implementing encryption techniques for data protection",
+          "Anonymization Techniques: Applying anonymization and pseudonymization methods",
+          "Privacy Risk Assessment: Evaluating privacy risks in AI applications",
+          "Security Auditing: Conducting security audits on AI systems",
+          "Compliance Testing: Ensuring AI systems comply with GDPR and other regulations",
+          "Case Study Analysis: Investigating real-world privacy breaches and security failures"
+        ],
+        "existing_notebooks": [
+          "case_study_analysis_investigating_real_world_privacy_breaches_and_security_failu.ipynb",
+          "security_auditing_conducting_security_audits_on_ai_systems.ipynb",
+          "01_data_protection.ipynb",
+          "compliance_testing_ensuring_ai_systems_comply_with_gdpr_and_other_regulations.ipynb",
+          "02_privacy_technologies.ipynb",
+          "06_data_encryption_techniques.ipynb",
+          "anonymization_techniques_applying_anonymization_and_pseudonymization_methods.ipynb",
+          "05_secure_development.ipynb",
+          "privacy_risk_assessment_evaluating_privacy_risks_in_ai_applications.ipynb",
+          "04_gdpr_compliance.ipynb",
+          "data_encryption_implementing_encryption_techniques_for_data_protection.ipynb",
+          "03_differential_privacy.ipynb",
+          "07_anonymization_pseudonymization.ipynb"
+        ],
+        "covered": [
+          "Data Encryption: Implementing encryption techniques for data protection",
+          "Anonymization Techniques: Applying anonymization and pseudonymization methods",
+          "Privacy Risk Assessment: Evaluating privacy risks in AI applications",
+          "Security Auditing: Conducting security audits on AI systems",
+          "Compliance Testing: Ensuring AI systems comply with GDPR and other regulations",
+          "Case Study Analysis: Investigating real-world privacy breaches and security failures"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Interpretability, Transparency, and Accountability",
+        "required_activities": [
+          "Implementing XAI Techniques: Applying techniques like LIME and SHAP to interpret black-box models",
+          "Evaluating Model Transparency: Evaluating and interpreting AI model transparency using different tools",
+          "Case Studies Analysis: Analyzing success and failure in transparency and accountability in real-world AI",
+          "Building Accountable AI Systems: Designing AI models with clear accountability frameworks and auditing mechanisms",
+          "Ethical Review and Compliance: Conducting ethical review of AI models to ensure transparency and compliance with legal standards"
+        ],
+        "existing_notebooks": [
+          "02_lime_explanations.ipynb",
+          "04_accountability_frameworks.ipynb",
+          "case_studies_analysis_analyzing_success_and_failure_in_transparency_and_accounta.ipynb",
+          "07_explainable_ai_techniques.ipynb",
+          "06_transparency_tools.ipynb",
+          "03_counterfactual_analysis.ipynb",
+          "01_shap_explanations.ipynb",
+          "implementing_xai_techniques_applying_techniques_like_lime_and_shap_to_interpret_.ipynb",
+          "05_hitl_approaches.ipynb"
+        ],
+        "covered": [
+          "Implementing XAI Techniques: Applying techniques like LIME and SHAP to interpret black-box models",
+          "Evaluating Model Transparency: Evaluating and interpreting AI model transparency using different tools",
+          "Case Studies Analysis: Analyzing success and failure in transparency and accountability in real-world AI",
+          "Building Accountable AI Systems: Designing AI models with clear accountability frameworks and auditing mechanisms"
+        ],
+        "missing": [
+          "Ethical Review and Compliance: Conducting ethical review of AI models to ensure transparency and compliance with legal standards"
+        ]
+      },
+      "5": {
+        "unit_name": "AI Governance, Regulations, and Future Challenges",
+        "required_activities": [
+          "AI Governance Frameworks: Analyzing and comparing different AI governance models",
+          "Regulatory Compliance Auditing: Evaluating AI systems to ensure compliance with global regulations (GDPR, AI Act in EU)",
+          "Transparency and Interpretability Tools: Implementing and testing interpretability techniques like LIME and SHAP",
+          "Case Studies Evaluation: Evaluating regulatory challenges and AI in real world",
+          "Accountability Practices in AI: Developing and simulating monitoring systems for AI decisions",
+          "Predictive Analysis for Future Challenges: Identifying and predicting upcoming challenges in AI regulation"
+        ],
+        "existing_notebooks": [
+          "04_legal_challenges.ipynb",
+          "06_ai_governance_frameworks.ipynb",
+          "predictive_analysis_for_future_challenges_identifying_and_predicting_upcoming_ch.ipynb",
+          "02_industry_regulations.ipynb",
+          "case_studies_evaluation_evaluating_regulatory_challenges_and_ai_in_real_world.ipynb",
+          "transparency_and_interpretability_tools_implementing_and_testing_interpretabilit.ipynb",
+          "01_global_regulations.ipynb",
+          "03_governance_frameworks.ipynb",
+          "accountability_practices_in_ai_developing_and_simulating_monitoring_systems_for_.ipynb"
+        ],
+        "covered": [
+          "AI Governance Frameworks: Analyzing and comparing different AI governance models",
+          "Regulatory Compliance Auditing: Evaluating AI systems to ensure compliance with global regulations (GDPR, AI Act in EU)",
+          "Transparency and Interpretability Tools: Implementing and testing interpretability techniques like LIME and SHAP",
+          "Case Studies Evaluation: Evaluating regulatory challenges and AI in real world",
+          "Accountability Practices in AI: Developing and simulating monitoring systems for AI decisions",
+          "Predictive Analysis for Future Challenges: Identifying and predicting upcoming challenges in AI regulation"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 31,
+    "covered_activities": 28,
+    "missing_activities": [
+      "Unit 1: Debate on Ethical Dilemmas: Discussing ethical conflicts related to AI and associated responsibilities",
+      "Unit 1: Policy Writing Exercise: Formulating an AI ethics policy for a company or organization",
+      "Unit 4: Ethical Review and Compliance: Conducting ethical review of AI models to ensure transparency and compliance with legal standards"
+    ]
+  },
+  "7": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to Natural Language Processing",
+        "required_activities": [
+          "Implementing basic text processing techniques using NLTK and spaCy",
+          "Performing tokenization, stemming, and lemmatization on sample datasets",
+          "Writing a simple text conversion script using Python",
+          "Exploring and analyzing real datasets like movie reviews or news articles"
+        ],
+        "existing_notebooks": [
+          "05_exploring_real_datasets.ipynb",
+          "03_real_world_nlp_applications.ipynb",
+          "02_nltk_spacy_introduction.ipynb",
+          "01_text_preprocessing.ipynb",
+          "04_text_conversion_script.ipynb"
+        ],
+        "covered": [
+          "Writing a simple text conversion script using Python",
+          "Exploring and analyzing real datasets like movie reviews or news articles"
+        ],
+        "missing": [
+          "Implementing basic text processing techniques using NLTK and spaCy",
+          "Performing tokenization, stemming, and lemmatization on sample datasets"
+        ]
+      },
+      "2": {
+        "unit_name": "Text Representation and Feature Engineering",
+        "required_activities": [
+          "Converting text to numerical representations using TF-IDF and Word2Vec",
+          "Training and representing word embeddings using Word2Vec from Gensim",
+          "Implementing BERT embeddings using Hugging Face Transformers",
+          "Applying dimensionality reduction on high-dimensional vectors and visualizing results"
+        ],
+        "existing_notebooks": [
+          "implementing_bert_embeddings_using_hugging_face_transformers.ipynb",
+          "03_word_embeddings_word2vec.ipynb",
+          "04_word_embeddings_glove_fasttext.ipynb",
+          "02_text_vectorization_bow_tfidf.ipynb",
+          "01_advanced_tokenization.ipynb",
+          "writing_a_simple_text_conversion_script_using_python.ipynb",
+          "applying_dimensionality_reduction_on_high_dimensional_vectors_and_visualizing_re.ipynb",
+          "performing_tokenization_stemming_and_lemmatization_on_sample_datasets.ipynb",
+          "implementing_basic_text_processing_techniques_using_nltk_and_spacy.ipynb"
+        ],
+        "covered": [
+          "Converting text to numerical representations using TF-IDF and Word2Vec",
+          "Training and representing word embeddings using Word2Vec from Gensim",
+          "Implementing BERT embeddings using Hugging Face Transformers",
+          "Applying dimensionality reduction on high-dimensional vectors and visualizing results"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Machine Learning for NLP",
+        "required_activities": [
+          "Training a spam detection model using Naive Bayes and Scikit-learn",
+          "Building a sentiment analysis model for customer reviews using logistic regression",
+          "Implementing NER and POS tagging using spaCy",
+          "Applying topic modeling (LDA, NMF) on news article datasets"
+        ],
+        "existing_notebooks": [
+          "01_text_classification.ipynb",
+          "03_topic_modeling_lda_nmf.ipynb",
+          "04_model_evaluation_metrics_nlp.ipynb",
+          "02_named_entity_recognition.ipynb"
+        ],
+        "covered": [
+          "Training a spam detection model using Naive Bayes and Scikit-learn",
+          "Implementing NER and POS tagging using spaCy",
+          "Applying topic modeling (LDA, NMF) on news article datasets"
+        ],
+        "missing": [
+          "Building a sentiment analysis model for customer reviews using logistic regression"
+        ]
+      },
+      "4": {
+        "unit_name": "Deep Learning for NLP",
+        "required_activities": [
+          "Building an LSTM-based text classifier using TensorFlow/Keras",
+          "Fine-tuning BERT model for text classification using Hugging Face Transformers",
+          "Implementing machine translation model using seq2seq with attention mechanisms",
+          "Experimenting with GPT-3/GPT-4 for text generation using OpenAI API"
+        ],
+        "existing_notebooks": [
+          "05_gpt_openai_text_generation.ipynb",
+          "building_an_lstm_based_text_classifier_using_tensorflowkeras.ipynb",
+          "fine_tuning_bert_model_for_text_classification_using_hugging_face_transformers.ipynb",
+          "building_a_simple_chatbot.ipynb",
+          "01_rnn_lstm_nlp.ipynb",
+          "04_seq2seq_attention_translation.ipynb",
+          "implementing_text_summarization.ipynb",
+          "03_bert_advanced_usage.ipynb",
+          "02_lstm_text_generation.ipynb",
+          "06_text_summarization.ipynb",
+          "07_building_simple_chatbot.ipynb"
+        ],
+        "covered": [
+          "Building an LSTM-based text classifier using TensorFlow/Keras",
+          "Fine-tuning BERT model for text classification using Hugging Face Transformers",
+          "Implementing machine translation model using seq2seq with attention mechanisms",
+          "Experimenting with GPT-3/GPT-4 for text generation using OpenAI API"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "NLP Applications and Ethics Standards",
+        "required_activities": [
+          "Building an LSTM-based text classifier using TensorFlow/Keras",
+          "Fine-tuning BERT model for text classification using Hugging Face Transformers",
+          "Implementing text summarization",
+          "Building a simple chatbot"
+        ],
+        "existing_notebooks": [
+          "03_chatbot_implementation.ipynb",
+          "01_bias_detection.ipynb",
+          "02_text_summarization.ipynb"
+        ],
+        "covered": [],
+        "missing": [
+          "Building an LSTM-based text classifier using TensorFlow/Keras",
+          "Fine-tuning BERT model for text classification using Hugging Face Transformers",
+          "Implementing text summarization",
+          "Building a simple chatbot"
+        ]
+      }
+    },
+    "total_activities": 20,
+    "covered_activities": 13,
+    "missing_activities": [
+      "Unit 1: Implementing basic text processing techniques using NLTK and spaCy",
+      "Unit 1: Performing tokenization, stemming, and lemmatization on sample datasets",
+      "Unit 3: Building a sentiment analysis model for customer reviews using logistic regression",
+      "Unit 5: Building an LSTM-based text classifier using TensorFlow/Keras",
+      "Unit 5: Fine-tuning BERT model for text classification using Hugging Face Transformers",
+      "Unit 5: Implementing text summarization",
+      "Unit 5: Building a simple chatbot"
+    ]
+  },
+  "8": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to Deep Learning and Neural Networks",
+        "required_activities": [
+          "Deep learning fundamentals compared to traditional ML",
+          "Neural network structure and operation",
+          "Activation functions and optimization algorithms",
+          "Forward and backward propagation",
+          "Setting up TensorFlow and PyTorch",
+          "Implementing basic perceptron and MLP",
+          "Training a neural network on simple dataset (e.g., MNIST handwritten digits)"
+        ],
+        "existing_notebooks": [
+          "deep_learning_fundamentals_compared_to_traditional_ml.ipynb",
+          "activation_functions_and_optimization_algorithms.ipynb",
+          "forward_and_backward_propagation.ipynb",
+          "05_image_processing_feature_extraction.ipynb",
+          "02_backpropagation_detailed.ipynb",
+          "reinforcement_learning_fundamentals_deep_q_networks_policy_gradients.ipynb",
+          "implementing_a_vae_variational_autoencoder_for_anomaly_detection.ipynb",
+          "gans_and_autoencoders_vaes.ipynb",
+          "01_simple_neural_network.ipynb",
+          "03_optimization_techniques.ipynb",
+          "04_perceptron_mlp_tensorflow_pytorch_setup.ipynb",
+          "ethical_concerns_in_ai_bias_fairness_interpretability.ipynb"
+        ],
+        "covered": [
+          "Deep learning fundamentals compared to traditional ML",
+          "Neural network structure and operation",
+          "Activation functions and optimization algorithms",
+          "Forward and backward propagation",
+          "Setting up TensorFlow and PyTorch",
+          "Implementing basic perceptron and MLP",
+          "Training a neural network on simple dataset (e.g., MNIST handwritten digits)"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Convolutional Neural Networks (CNNs) for Computer Vision",
+        "required_activities": [
+          "Image processing fundamentals and feature extraction",
+          "CNN architecture: convolutional layers, pooling layers, fully connected layers",
+          "Introduction to pre-trained CNN architectures (ResNet, VGG, Inception)",
+          "Implementing a CNN from scratch using TensorFlow/PyTorch",
+          "Training a CNN on image datasets (e.g., CIFAR-10, ImageNet)",
+          "Transfer learning using a pre-trained model for object detection"
+        ],
+        "existing_notebooks": [
+          "introduction_to_pre_trained_cnn_architectures_resnet_vgg_inception.ipynb",
+          "implementing_a_cnn_from_scratch_using_tensorflowpytorch.ipynb",
+          "04_pretrained_cnn_architectures.ipynb",
+          "06_transfer_learning_object_detection.ipynb",
+          "03_transfer_learning_cnns.ipynb",
+          "02_cnn_advanced_architectures.ipynb",
+          "training_a_cnn_on_image_datasets_eg_cifar_10_imagenet.ipynb",
+          "cnn_architecture_convolutional_layers_pooling_layers_fully_connected_layers.ipynb",
+          "05_training_cnn_image_datasets.ipynb",
+          "01_cnn_architecture.ipynb",
+          "image_processing_fundamentals_and_feature_extraction.ipynb"
+        ],
+        "covered": [
+          "Image processing fundamentals and feature extraction",
+          "CNN architecture: convolutional layers, pooling layers, fully connected layers",
+          "Introduction to pre-trained CNN architectures (ResNet, VGG, Inception)",
+          "Implementing a CNN from scratch using TensorFlow/PyTorch",
+          "Training a CNN on image datasets (e.g., CIFAR-10, ImageNet)",
+          "Transfer learning using a pre-trained model for object detection"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Recurrent Neural Networks (RNNs) and Transformers for Sequential Data",
+        "required_activities": [
+          "Understanding sequential data and time series prediction",
+          "RNN structure and challenges (vanishing gradients problem)",
+          "Advanced architectures: LSTM, GRU, Transformers, attention mechanism",
+          "Applications in NLP",
+          "Implementing RNN, LSTM, and GRU for text generation",
+          "Using Transformer models like BERT and GPT for NLP tasks",
+          "Performing sentiment analysis, machine translation, and speech recognition"
+        ],
+        "existing_notebooks": [
+          "using_transformer_models_like_bert_and_gpt_for_nlp_tasks.ipynb",
+          "advanced_architectures_lstm_gru_transformers_attention_mechanism.ipynb",
+          "understanding_sequential_data_and_time_series_prediction.ipynb",
+          "04_text_generation_rnn_lstm_gru.ipynb",
+          "applications_in_nlp.ipynb",
+          "05_transformer_models_bert_gpt_nlp.ipynb",
+          "02_lstm_advanced.ipynb",
+          "implementing_rnn_lstm_and_gru_for_text_generation.ipynb",
+          "03_sequence_to_sequence.ipynb",
+          "01_rnn_basics.ipynb",
+          "06_sentiment_analysis_translation_speech.ipynb",
+          "performing_sentiment_analysis_machine_translation_and_speech_recognition.ipynb",
+          "rnn_structure_and_challenges_vanishing_gradients_problem.ipynb"
+        ],
+        "covered": [
+          "Understanding sequential data and time series prediction",
+          "RNN structure and challenges (vanishing gradients problem)",
+          "Advanced architectures: LSTM, GRU, Transformers, attention mechanism",
+          "Implementing RNN, LSTM, and GRU for text generation",
+          "Using Transformer models like BERT and GPT for NLP tasks",
+          "Performing sentiment analysis, machine translation, and speech recognition"
+        ],
+        "missing": [
+          "Applications in NLP"
+        ]
+      },
+      "4": {
+        "unit_name": "Advanced Deep Learning Techniques",
+        "required_activities": [
+          "GANs and Autoencoders (VAEs)",
+          "Reinforcement learning fundamentals (Deep Q-Networks, policy gradients)",
+          "Transfer learning and fine-tuning models",
+          "Ethical concerns in AI (bias, fairness, interpretability)",
+          "Building and training GANs for image generation",
+          "Implementing a VAE (Variational Autoencoder) for anomaly detection",
+          "Fine-tuning a pre-trained model (e.g., using BERT for text classification)",
+          "Exploring reinforcement learning using OpenAI Gym"
+        ],
+        "existing_notebooks": [
+          "02_bert_finetuning.ipynb",
+          "03_gpt_text_generation.ipynb",
+          "01_transformer_attention.ipynb"
+        ],
+        "covered": [
+          "Transfer learning and fine-tuning models",
+          "Building and training GANs for image generation",
+          "Fine-tuning a pre-trained model (e.g., using BERT for text classification)",
+          "Exploring reinforcement learning using OpenAI Gym"
+        ],
+        "missing": [
+          "GANs and Autoencoders (VAEs)",
+          "Reinforcement learning fundamentals (Deep Q-Networks, policy gradients)",
+          "Ethical concerns in AI (bias, fairness, interpretability)",
+          "Implementing a VAE (Variational Autoencoder) for anomaly detection"
+        ]
+      },
+      "5": {
+        "unit_name": "Model Optimization and Deployment",
+        "required_activities": [
+          "Regularization and hyperparameter tuning",
+          "Regularization techniques (Dropout, Batch Normalization)",
+          "Model compression for edge devices",
+          "Cloud deployment of deep learning models",
+          "Optimizing deep learning models using regularization",
+          "Deploying models using Flask, FastAPI, and TensorFlow Serving",
+          "Running models on cloud platforms (Google Cloud, AWS)",
+          "Implementing deep learning on mobile devices (TensorFlow Lite, ONNX)"
+        ],
+        "existing_notebooks": [
+          "01_model_optimization.ipynb",
+          "regularization_techniques_dropout_batch_normalization.ipynb",
+          "cloud_deployment_of_deep_learning_models.ipynb",
+          "regularization_and_hyperparameter_tuning.ipynb",
+          "03_onnx_conversion.ipynb",
+          "02_tensorflow_serving.ipynb",
+          "07_model_optimization_quantization.ipynb",
+          "optimizing_deep_learning_models_using_regularization.ipynb",
+          "06_flask_fastapi_deployment.ipynb",
+          "04_model_pruning.ipynb",
+          "05_model_distillation.ipynb",
+          "model_compression_for_edge_devices.ipynb"
+        ],
+        "covered": [
+          "Regularization and hyperparameter tuning",
+          "Regularization techniques (Dropout, Batch Normalization)",
+          "Model compression for edge devices",
+          "Cloud deployment of deep learning models",
+          "Optimizing deep learning models using regularization",
+          "Deploying models using Flask, FastAPI, and TensorFlow Serving",
+          "Running models on cloud platforms (Google Cloud, AWS)",
+          "Implementing deep learning on mobile devices (TensorFlow Lite, ONNX)"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 36,
+    "covered_activities": 31,
+    "missing_activities": [
+      "Unit 3: Applications in NLP",
+      "Unit 4: GANs and Autoencoders (VAEs)",
+      "Unit 4: Reinforcement learning fundamentals (Deep Q-Networks, policy gradients)",
+      "Unit 4: Ethical concerns in AI (bias, fairness, interpretability)",
+      "Unit 4: Implementing a VAE (Variational Autoencoder) for anomaly detection"
+    ]
+  },
+  "9": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to Reinforcement Learning",
+        "required_activities": [
+          "Setting up RL environment: installing OpenAI Gym and using Python-based frameworks for RL",
+          "Implementing MDPs: solving simple MDPs using Value Iteration and Policy Iteration algorithms",
+          "Exploration strategies: programming Epsilon-Greedy strategy and visualizing its impact",
+          "Solving RL problems: defining states, actions, and rewards, running RL simulations",
+          "Mini projects: applying RL in games like CartPole and FrozenLake, implementing Q-learning and DQN"
+        ],
+        "existing_notebooks": [
+          "05_exploration_strategies_epsilon_greedy.ipynb",
+          "03_value_iteration.ipynb",
+          "01_mdp_example.ipynb",
+          "setting_up_rl_environment_installing_openai_gym_and_using_python_based_framework.ipynb",
+          "exploration_strategies_programming_epsilon_greedy_strategy_and_visualizing_its_i.ipynb",
+          "04_openai_gym_setup.ipynb",
+          "06_solving_rl_problems_states_actions_rewards.ipynb",
+          "mini_projects_applying_rl_in_games_like_cartpole_and_frozenlake_implementing_q_l.ipynb",
+          "solving_rl_problems_defining_states_actions_and_rewards_running_rl_simulations.ipynb",
+          "07_mini_projects_cartpole_frozenlake_qlearning_dqn.ipynb",
+          "02_mdp_solving.ipynb"
+        ],
+        "covered": [
+          "Setting up RL environment: installing OpenAI Gym and using Python-based frameworks for RL",
+          "Implementing MDPs: solving simple MDPs using Value Iteration and Policy Iteration algorithms",
+          "Exploration strategies: programming Epsilon-Greedy strategy and visualizing its impact",
+          "Solving RL problems: defining states, actions, and rewards, running RL simulations",
+          "Mini projects: applying RL in games like CartPole and FrozenLake, implementing Q-learning and DQN"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Prediction and Control without a Model",
+        "required_activities": [
+          "Implementing Monte Carlo methods for estimating value functions",
+          "Applying Q-learning and SARSA in OpenAI Gym (CartPole, FrozenLake)",
+          "Using Python to update Q-tables and display agent learning progress",
+          "Running TD(0) and n-step TD algorithms in simple RL environments",
+          "Comparing policy iteration vs value iteration through code-based experiments"
+        ],
+        "existing_notebooks": [
+          "02_sarsa_algorithm.ipynb",
+          "applying_q_learning_and_sarsa_in_openai_gym_cartpole_frozenlake.ipynb",
+          "05_td_algorithms_td0_nstep.ipynb",
+          "01_q_learning.ipynb",
+          "running_td0_and_n_step_td_algorithms_in_simple_rl_environments.ipynb",
+          "implementing_monte_carlo_methods_for_estimating_value_functions.ipynb",
+          "03_policy_gradient_basics.ipynb",
+          "06_policy_vs_value_iteration_comparison.ipynb",
+          "using_python_to_update_q_tables_and_display_agent_learning_progress.ipynb",
+          "comparing_policy_iteration_vs_value_iteration_through_code_based_experiments.ipynb",
+          "04_monte_carlo_value_estimation.ipynb"
+        ],
+        "covered": [
+          "Implementing Monte Carlo methods for estimating value functions",
+          "Applying Q-learning and SARSA in OpenAI Gym (CartPole, FrozenLake)",
+          "Using Python to update Q-tables and display agent learning progress",
+          "Running TD(0) and n-step TD algorithms in simple RL environments",
+          "Comparing policy iteration vs value iteration through code-based experiments"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Deep Reinforcement Learning",
+        "required_activities": [
+          "Implementing Deep RL: starting with simple algorithms like DQN and progressing to advanced algorithms like Actor-Critic, DDPG in environments like OpenAI Gym",
+          "Training and evaluation: monitoring learning curves, rewards, and stability to evaluate model performance",
+          "Optimization: experimenting with techniques like experience replay, reward shaping, and hyperparameter tuning to improve learning efficiency",
+          "Applications: applying Deep RL in games, robotics, and optimization tasks in simulation environments",
+          "Handling challenges: working on exploration vs exploitation problems, stability, and experimenting with techniques like intrinsic motivation and curriculum learning"
+        ],
+        "existing_notebooks": [
+          "implementing_deep_rl_starting_with_simple_algorithms_like_dqn_and_progressing_to.ipynb",
+          "04_training_evaluation_monitoring.ipynb",
+          "01_dqn_implementation.ipynb",
+          "handling_challenges_working_on_exploration_vs_exploitation_problems_stability_an.ipynb",
+          "applications_applying_deep_rl_in_games_robotics_and_optimization_tasks_in_simula.ipynb",
+          "02_actor_critic.ipynb",
+          "training_and_evaluation_monitoring_learning_curves_rewards_and_stability_to_eval.ipynb",
+          "optimization_experimenting_with_techniques_like_experience_replay_reward_shaping.ipynb",
+          "05_optimization_experience_replay_reward_shaping.ipynb",
+          "03_ppo_algorithm.ipynb"
+        ],
+        "covered": [
+          "Optimization: experimenting with techniques like experience replay, reward shaping, and hyperparameter tuning to improve learning efficiency",
+          "Applications: applying Deep RL in games, robotics, and optimization tasks in simulation environments",
+          "Handling challenges: working on exploration vs exploitation problems, stability, and experimenting with techniques like intrinsic motivation and curriculum learning"
+        ],
+        "missing": [
+          "Implementing Deep RL: starting with simple algorithms like DQN and progressing to advanced algorithms like Actor-Critic, DDPG in environments like OpenAI Gym",
+          "Training and evaluation: monitoring learning curves, rewards, and stability to evaluate model performance"
+        ]
+      },
+      "4": {
+        "unit_name": "Exploration and Exploitation Strategies",
+        "required_activities": [
+          "Implementing various exploration strategies",
+          "Comparing performance of different exploration methods",
+          "Tuning exploration parameters"
+        ],
+        "existing_notebooks": [
+          "05_tuning_exploration_parameters.ipynb",
+          "tuning_exploration_parameters.ipynb",
+          "04_comparing_exploration_methods.ipynb",
+          "02_balancing_exploration.ipynb",
+          "01_exploration_strategies.ipynb",
+          "comparing_performance_of_different_exploration_methods.ipynb",
+          "03_adaptive_exploration_ucb.ipynb"
+        ],
+        "covered": [
+          "Implementing various exploration strategies",
+          "Comparing performance of different exploration methods",
+          "Tuning exploration parameters"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Advanced Topics and Applications",
+        "required_activities": [
+          "Implementing multi-agent RL environments and training cooperative/competitive agents",
+          "Experimenting with hierarchical RL using options framework",
+          "Building model-based RL systems with learned world models",
+          "Applying RL in practical scenarios: robotics simulations, game playing, resource optimization",
+          "Comparing model-based vs model-free approaches",
+          "Implementing goal-conditioned RL for complex tasks"
+        ],
+        "existing_notebooks": [
+          "comparing_model_based_vs_model_free_approaches.ipynb",
+          "experimenting_with_hierarchical_rl_using_options_framework.ipynb",
+          "04_multi_agent_rl.ipynb",
+          "implementing_goal_conditioned_rl_for_complex_tasks.ipynb",
+          "07_model_based_vs_model_free_comparison.ipynb",
+          "implementing_multi_agent_rl_environments_and_training_cooperativecompetitive_age.ipynb",
+          "02_game_playing_agent.ipynb",
+          "building_model_based_rl_systems_with_learned_world_models.ipynb",
+          "01_rl_applications.ipynb",
+          "06_model_based_rl_world_models.ipynb",
+          "08_goal_conditioned_rl.ipynb",
+          "05_hierarchical_rl_options.ipynb",
+          "03_resource_optimization.ipynb"
+        ],
+        "covered": [
+          "Implementing multi-agent RL environments and training cooperative/competitive agents",
+          "Experimenting with hierarchical RL using options framework",
+          "Building model-based RL systems with learned world models",
+          "Applying RL in practical scenarios: robotics simulations, game playing, resource optimization",
+          "Comparing model-based vs model-free approaches",
+          "Implementing goal-conditioned RL for complex tasks"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 24,
+    "covered_activities": 22,
+    "missing_activities": [
+      "Unit 3: Implementing Deep RL: starting with simple algorithms like DQN and progressing to advanced algorithms like Actor-Critic, DDPG in environments like OpenAI Gym",
+      "Unit 3: Training and evaluation: monitoring learning curves, rewards, and stability to evaluate model performance"
+    ]
+  },
+  "10": {
+    "units": {
+      "1": {
+        "unit_name": "Foundations of Generative AI",
+        "required_activities": [
+          "Building and training a simple GAN using TensorFlow/PyTorch",
+          "Implementing a VAE (Variational Autoencoder) for image generation",
+          "Comparing different generative model architectures (GANs vs VAEs)",
+          "Experimenting with training techniques like gradient penalties and spectral normalization",
+          "Evaluating generative models using metrics like FID and BLEU scores",
+          "Generating samples from trained generative models",
+          "Exploring latent spaces and interpolation in VAEs"
+        ],
+        "existing_notebooks": [
+          "05_implementing_vae_image_generation.ipynb",
+          "02_generative_model_comparison.ipynb",
+          "06_comparing_gan_vae_architectures.ipynb",
+          "07_training_techniques_gradient_penalties.ipynb",
+          "08_evaluating_generative_models_fid_bleu.ipynb",
+          "04_building_training_simple_gan.ipynb",
+          "01_generative_vs_discriminative.ipynb",
+          "building_and_training_a_simple_gan_using_tensorflowpytorch.ipynb",
+          "exploring_latent_spaces_and_interpolation_in_vaes.ipynb",
+          "10_exploring_latent_spaces_interpolation.ipynb",
+          "03_probabilistic_generative_models.ipynb",
+          "09_generating_samples_trained_models.ipynb",
+          "experimenting_with_training_techniques_like_gradient_penalties_and_spectral_norm.ipynb",
+          "06_comparing_generative_models_gans_vae.ipynb"
+        ],
+        "covered": [
+          "Building and training a simple GAN using TensorFlow/PyTorch",
+          "Implementing a VAE (Variational Autoencoder) for image generation",
+          "Comparing different generative model architectures (GANs vs VAEs)",
+          "Experimenting with training techniques like gradient penalties and spectral normalization",
+          "Evaluating generative models using metrics like FID and BLEU scores",
+          "Generating samples from trained generative models",
+          "Exploring latent spaces and interpolation in VAEs"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Text and Language Generation",
+        "required_activities": [
+          "Implementing text generation using GPT models",
+          "Fine-tuning language models for specific tasks",
+          "Practicing prompt engineering with OpenAI API or Hugging Face Transformers",
+          "Building a text-to-text generation system using Transformers",
+          "Generating creative text (stories, poems) using language models",
+          "Implementing conversational AI or chatbot using generative models",
+          "Evaluating text generation quality using metrics like BLEU and perplexity"
+        ],
+        "existing_notebooks": [
+          "05_finetuning_language_models.ipynb",
+          "practicing_prompt_engineering_with_openai_api_or_hugging_face_transformers.ipynb",
+          "implementing_conversational_ai_or_chatbot_using_generative_models.ipynb",
+          "implementing_text_generation_using_gpt_models.ipynb",
+          "fine_tuning_language_models_for_specific_tasks.ipynb",
+          "generating_creative_text_stories_poems_using_language_models.ipynb",
+          "07_text_to_text_generation_transformers.ipynb",
+          "03_stylegan_basics.ipynb",
+          "05_fine_tuning_language_models.ipynb",
+          "building_a_text_to_text_generation_system_using_transformers.ipynb",
+          "08_generating_creative_text_stories_poems.ipynb",
+          "06_prompt_engineering_openai_huggingface.ipynb",
+          "04_training_techniques_gradient_penalties.ipynb",
+          "02_conditional_gans.ipynb",
+          "01_gan_architecture.ipynb",
+          "07_building_text_to_text_generation.ipynb",
+          "evaluating_text_generation_quality_using_metrics_like_bleu_and_perplexity.ipynb",
+          "09_evaluating_text_quality_bleu_perplexity.ipynb",
+          "04_text_generation_gpt_models.ipynb"
+        ],
+        "covered": [
+          "Implementing text generation using GPT models",
+          "Practicing prompt engineering with OpenAI API or Hugging Face Transformers",
+          "Building a text-to-text generation system using Transformers",
+          "Generating creative text (stories, poems) using language models",
+          "Implementing conversational AI or chatbot using generative models",
+          "Evaluating text generation quality using metrics like BLEU and perplexity"
+        ],
+        "missing": [
+          "Fine-tuning language models for specific tasks"
+        ]
+      },
+      "3": {
+        "unit_name": "Image and Visual Generation",
+        "required_activities": [
+          "Generating AI-created images using StyleGAN, DALL-E, or Stable Diffusion",
+          "Experimenting with Deepfake techniques",
+          "Audio and voice synthesis using AI tools like WaveNet or Jukebox",
+          "Creating AI-generated music and human voice synthesis",
+          "Applying models like OpenAI Codex or GitHub Copilot for code generation",
+          "Automating code generation and software development tasks",
+          "Developing comprehensive projects integrating generative AI in real-world applications like marketing, healthcare, or gaming",
+          "Reviewing AI-generated outputs for accuracy, fairness, and potential biases"
+        ],
+        "existing_notebooks": [
+          "audio_and_voice_synthesis_using_ai_tools_like_wavenet_or_jukebox.ipynb",
+          "01_vae_implementation.ipynb",
+          "automating_code_generation_and_software_development_tasks.ipynb",
+          "applying_models_like_openai_codex_or_github_copilot_for_code_generation.ipynb",
+          "developing_comprehensive_projects_integrating_generative_ai_in_real_world_applic.ipynb",
+          "generating_ai_created_images_using_stylegan_dall_e_or_stable_diffusion.ipynb",
+          "02_vae_applications.ipynb",
+          "03_vae_advanced_topics.ipynb",
+          "creating_ai_generated_music_and_human_voice_synthesis.ipynb",
+          "experimenting_with_deepfake_techniques.ipynb"
+        ],
+        "covered": [
+          "Generating AI-created images using StyleGAN, DALL-E, or Stable Diffusion",
+          "Experimenting with Deepfake techniques",
+          "Audio and voice synthesis using AI tools like WaveNet or Jukebox",
+          "Creating AI-generated music and human voice synthesis",
+          "Applying models like OpenAI Codex or GitHub Copilot for code generation",
+          "Automating code generation and software development tasks",
+          "Developing comprehensive projects integrating generative AI in real-world applications like marketing, healthcare, or gaming",
+          "Reviewing AI-generated outputs for accuracy, fairness, and potential biases"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Ethical and Regulatory Considerations",
+        "required_activities": [
+          "Implementing techniques for detecting and mitigating bias in generative models",
+          "Experimenting with deepfake creation and using tools to detect AI-generated content",
+          "Discussing real-world cases related to AI-generated content and intellectual property rights",
+          "Applying AI regulatory guidelines (like GDPR) to ensure compliance in model development",
+          "Building ethical AI models with principles like fairness and transparency",
+          "Participating in discussions on ethical issues in AI development and use"
+        ],
+        "existing_notebooks": [
+          "01_generative_ai_applications.ipynb",
+          "02_image_generation_advanced.ipynb",
+          "05_audio_voice_synthesis_wavenet_jukebox.ipynb",
+          "building_ethical_ai_models_with_principles_like_fairness_and_transparency.ipynb",
+          "applying_ai_regulatory_guidelines_like_gdpr_to_ensure_compliance_in_model_develo.ipynb",
+          "03_music_generation.ipynb",
+          "06_code_generation_openai_codex_copilot.ipynb",
+          "04_generating_ai_images_stylegan_dalle.ipynb"
+        ],
+        "covered": [
+          "Implementing techniques for detecting and mitigating bias in generative models",
+          "Experimenting with deepfake creation and using tools to detect AI-generated content",
+          "Discussing real-world cases related to AI-generated content and intellectual property rights",
+          "Applying AI regulatory guidelines (like GDPR) to ensure compliance in model development",
+          "Building ethical AI models with principles like fairness and transparency"
+        ],
+        "missing": [
+          "Participating in discussions on ethical issues in AI development and use"
+        ]
+      },
+      "5": {
+        "unit_name": "Future Trends and Research in Generative AI",
+        "required_activities": [
+          "Experimenting with advanced generative models (StyleGAN, Stable Diffusion, DALL-E)",
+          "Building multimodal applications that generate content from multiple inputs",
+          "Generating creative content (images, text, audio) for artistic projects",
+          "Implementing scientific applications using generative AI (e.g., data augmentation for research)",
+          "Evaluating model quality and ethics: testing for bias, fairness, and accuracy in generated content",
+          "Building a comprehensive project integrating generative AI in real-world applications (marketing, healthcare, or gaming)",
+          "Reviewing AI-generated outputs for accuracy, fairness, and potential biases"
+        ],
+        "existing_notebooks": [
+          "05_experimenting_advanced_generative_models.ipynb",
+          "01_generative_ai_ethics.ipynb",
+          "03_future_trends_research.ipynb",
+          "04_detecting_mitigating_bias_generative.ipynb",
+          "02_deepfake_detection.ipynb"
+        ],
+        "covered": [
+          "Experimenting with advanced generative models (StyleGAN, Stable Diffusion, DALL-E)",
+          "Building multimodal applications that generate content from multiple inputs",
+          "Generating creative content (images, text, audio) for artistic projects",
+          "Implementing scientific applications using generative AI (e.g., data augmentation for research)",
+          "Evaluating model quality and ethics: testing for bias, fairness, and accuracy in generated content",
+          "Building a comprehensive project integrating generative AI in real-world applications (marketing, healthcare, or gaming)",
+          "Reviewing AI-generated outputs for accuracy, fairness, and potential biases"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 35,
+    "covered_activities": 33,
+    "missing_activities": [
+      "Unit 2: Fine-tuning language models for specific tasks",
+      "Unit 4: Participating in discussions on ethical issues in AI development and use"
+    ]
+  },
+  "11": {
+    "units": {
+      "1": {
+        "unit_name": "Introduction to AI Model Deployment",
+        "required_activities": [
+          "Preparing AI model for deployment: training and saving a model using TensorFlow or PyTorch",
+          "Building API interface for AI models: implementing a simple API using Flask or FastAPI to serve predictions",
+          "Containerizing AI model: using Docker to package a trained model for scalable deployment",
+          "Deploying model on cloud: hosting a model on AWS, Google Cloud, or Azure",
+          "Model validation and testing: running unit tests and performance evaluations before deployment",
+          "Monitoring and updating deployed models: implementing logs, feedback loops, and retraining strategies"
+        ],
+        "existing_notebooks": [
+          "implementing_security_measures_applying_authentication_encryption_and_access_con.ipynb",
+          "preparing_ai_model_for_deployment_training_and_saving_a_model_using_tensorflow_o.ipynb",
+          "managing_ai_model_deployment_using_kubernetes_running_and_scaling_a_deployed_mod.ipynb",
+          "monitoring_and_updating_deployed_models_implementing_logs_feedback_loops_and_ret.ipynb",
+          "creating_rest_api_for_ai_model_inference_using_flask_or_fastapi_to_serve_predict.ipynb",
+          "01_model_serving_api.ipynb",
+          "building_api_interface_for_ai_models_implementing_a_simple_api_using_flask_or_fa.ipynb",
+          "monitoring_and_logging_deployed_models_on_cloud_setting_up_logging_tracking_api_.ipynb",
+          "03_local_deployment_testing.ipynb",
+          "containerizing_ai_model_using_docker_to_package_a_trained_model_for_scalable_dep.ipynb",
+          "model_validation_and_testing_running_unit_tests_and_performance_evaluations_befo.ipynb",
+          "06_monitoring_updating_models.ipynb",
+          "deploying_model_on_cloud_hosting_a_model_on_aws_google_cloud_or_azure.ipynb",
+          "04_model_preparation_saving.ipynb",
+          "containerizing_ai_model_using_docker_packaging_ai_model_into_a_container_and_dep.ipynb",
+          "05_model_validation_testing.ipynb",
+          "02_model_packaging.ipynb"
+        ],
+        "covered": [
+          "Preparing AI model for deployment: training and saving a model using TensorFlow or PyTorch",
+          "Building API interface for AI models: implementing a simple API using Flask or FastAPI to serve predictions",
+          "Containerizing AI model: using Docker to package a trained model for scalable deployment",
+          "Deploying model on cloud: hosting a model on AWS, Google Cloud, or Azure",
+          "Model validation and testing: running unit tests and performance evaluations before deployment",
+          "Monitoring and updating deployed models: implementing logs, feedback loops, and retraining strategies"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Model Packaging and Serving",
+        "required_activities": [
+          "Saving and loading AI model using Pickle, ONNX, or SavedModel for TensorFlow",
+          "Containerizing AI model using Docker: creating Docker image for trained AI model and running it as a container",
+          "Building REST API for model serving: implementing a simple API using Flask or FastAPI to serve predictions",
+          "Deploying using TensorFlow Serving or TorchServe: using ready-made frameworks for optimal model inference",
+          "Testing batch vs real-time inference: running batch processing scripts and deploying real-time API for comparison",
+          "Scaling model deployment using Kubernetes: deploying container-based AI model on Kubernetes cluster for load balancing and scalability"
+        ],
+        "existing_notebooks": [
+          "testing_batch_vs_real_time_inference_running_batch_processing_scripts_and_deploy.ipynb",
+          "07_kubernetes_scaling.ipynb",
+          "scaling_model_deployment_using_kubernetes_deploying_container_based_ai_model_on_.ipynb",
+          "06_batch_vs_realtime_inference.ipynb",
+          "01_flask_api_deployment.ipynb",
+          "03_model_versioning.ipynb",
+          "04_saving_loading_models_pickle_onnx.ipynb",
+          "saving_and_loading_ai_model_using_pickle_onnx_or_savedmodel_for_tensorflow.ipynb",
+          "02_fastapi_deployment.ipynb",
+          "05_tensorflow_serving_torchserve.ipynb",
+          "containerizing_ai_model_using_docker_creating_docker_image_for_trained_ai_model_.ipynb",
+          "deploying_using_tensorflow_serving_or_torchserve_using_ready_made_frameworks_for.ipynb"
+        ],
+        "covered": [
+          "Saving and loading AI model using Pickle, ONNX, or SavedModel for TensorFlow",
+          "Containerizing AI model using Docker: creating Docker image for trained AI model and running it as a container",
+          "Building REST API for model serving: implementing a simple API using Flask or FastAPI to serve predictions",
+          "Deploying using TensorFlow Serving or TorchServe: using ready-made frameworks for optimal model inference",
+          "Testing batch vs real-time inference: running batch processing scripts and deploying real-time API for comparison",
+          "Scaling model deployment using Kubernetes: deploying container-based AI model on Kubernetes cluster for load balancing and scalability"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Cloud Deployment and Infrastructure",
+        "required_activities": [
+          "Deploying model on AWS, GCP, or Azure: hosting an AI model on a cloud platform and testing its functionality",
+          "Creating REST API for AI model inference: using Flask or FastAPI to serve predictions through an endpoint",
+          "Containerizing AI model using Docker: packaging AI model into a container and deploying it on cloud-based container",
+          "Managing AI model deployment using Kubernetes: running and scaling a deployed model using Kubernetes",
+          "Implementing security measures: applying authentication, encryption, and access control in cloud AI services",
+          "Monitoring and logging deployed models on cloud: setting up logging, tracking API usage, and handling model updates"
+        ],
+        "existing_notebooks": [
+          "04_gcp_vertex_ai.ipynb",
+          "03_azure_ml_deployment.ipynb",
+          "05_security_measures.ipynb",
+          "06_monitoring_logging_cloud.ipynb",
+          "02_aws_sagemaker.ipynb",
+          "01_cloud_deployment.ipynb"
+        ],
+        "covered": [
+          "Deploying model on AWS, GCP, or Azure: hosting an AI model on a cloud platform and testing its functionality",
+          "Implementing security measures: applying authentication, encryption, and access control in cloud AI services",
+          "Monitoring and logging deployed models on cloud: setting up logging, tracking API usage, and handling model updates"
+        ],
+        "missing": [
+          "Creating REST API for AI model inference: using Flask or FastAPI to serve predictions through an endpoint",
+          "Containerizing AI model using Docker: packaging AI model into a container and deploying it on cloud-based container",
+          "Managing AI model deployment using Kubernetes: running and scaling a deployed model using Kubernetes"
+        ]
+      },
+      "4": {
+        "unit_name": "Containers and Orchestration",
+        "required_activities": [
+          "Building and running Docker containers for AI models",
+          "Creating Kubernetes deployments",
+          "Setting up CI/CD pipelines"
+        ],
+        "existing_notebooks": [
+          "setting_up_cicd_pipelines.ipynb",
+          "01_docker_deployment.ipynb",
+          "04_cicd_pipelines.ipynb",
+          "03_cloud_deployment_comparison.ipynb",
+          "02_kubernetes_deployment.ipynb"
+        ],
+        "covered": [
+          "Building and running Docker containers for AI models",
+          "Creating Kubernetes deployments",
+          "Setting up CI/CD pipelines"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Monitoring, Maintenance, and MLOps",
+        "required_activities": [
+          "Setting up model monitoring and performance tracking systems",
+          "Implementing drift detection algorithms",
+          "Using experiment tracking tools (MLflow, Weights & Biases)",
+          "Implementing model versioning and reproducibility practices",
+          "Setting up retraining pipelines",
+          "Performing A/B testing for model comparison",
+          "Implementing canary deployment strategies"
+        ],
+        "existing_notebooks": [
+          "performing_ab_testing_for_model_comparison.ipynb",
+          "03_alerting_incident_management.ipynb",
+          "01_model_monitoring.ipynb",
+          "04_drift_detection.ipynb",
+          "setting_up_model_monitoring_and_performance_tracking_systems.ipynb",
+          "02_retraining_pipeline.ipynb",
+          "implementing_drift_detection_algorithms.ipynb",
+          "using_experiment_tracking_tools_mlflow_weights_biases.ipynb",
+          "implementing_canary_deployment_strategies.ipynb",
+          "implementing_model_versioning_and_reproducibility_practices.ipynb",
+          "05_experiment_tracking_mlflow_wandb.ipynb",
+          "setting_up_retraining_pipelines.ipynb",
+          "07_ab_testing_canary_deployment.ipynb",
+          "06_model_versioning_reproducibility.ipynb"
+        ],
+        "covered": [
+          "Setting up model monitoring and performance tracking systems",
+          "Implementing drift detection algorithms",
+          "Using experiment tracking tools (MLflow, Weights & Biases)",
+          "Implementing model versioning and reproducibility practices",
+          "Setting up retraining pipelines",
+          "Performing A/B testing for model comparison",
+          "Implementing canary deployment strategies"
+        ],
+        "missing": []
+      }
+    },
+    "total_activities": 28,
+    "covered_activities": 25,
+    "missing_activities": [
+      "Unit 3: Creating REST API for AI model inference: using Flask or FastAPI to serve predictions through an endpoint",
+      "Unit 3: Containerizing AI model using Docker: packaging AI model into a container and deploying it on cloud-based container",
+      "Unit 3: Managing AI model deployment using Kubernetes: running and scaling a deployed model using Kubernetes"
+    ]
+  },
+  "12": {
+    "units": {
+      "1": {
+        "unit_name": "Project Planning and Proposal",
+        "required_activities": [
+          "Selecting and defining a graduation project topic",
+          "Conducting literature review and compiling relevant research papers",
+          "Writing a comprehensive project proposal document",
+          "Creating project timeline and resource allocation plan",
+          "Defining success metrics and evaluation criteria for the project",
+          "Presenting project proposal to advisors/peers for feedback"
+        ],
+        "existing_notebooks": [
+          "selecting_and_defining_a_graduation_project_topic.ipynb",
+          "compiling_source_code_documents_and_final_submission_package.ipynb",
+          "preparing_recorded_video_or_live_demonstration_of_project.ipynb",
+          "04_literature_review_research_papers.ipynb",
+          "creating_project_timeline_and_resource_allocation_plan.ipynb",
+          "01_project_proposal_literature_review.ipynb",
+          "defining_success_metrics_and_evaluation_criteria_for_the_project.ipynb"
+        ],
+        "covered": [
+          "Selecting and defining a graduation project topic",
+          "Conducting literature review and compiling relevant research papers",
+          "Writing a comprehensive project proposal document",
+          "Creating project timeline and resource allocation plan",
+          "Defining success metrics and evaluation criteria for the project",
+          "Presenting project proposal to advisors/peers for feedback"
+        ],
+        "missing": []
+      },
+      "2": {
+        "unit_name": "Data Collection and Preparation",
+        "required_activities": [
+          "Collecting and acquiring datasets for the graduation project",
+          "Performing data cleaning and preprocessing using Python libraries (Pandas, NumPy)",
+          "Implementing feature engineering techniques",
+          "Validating data quality and preparing train/validation/test splits",
+          "Documenting data collection and preprocessing procedures",
+          "Creating data exploration notebooks with visualizations"
+        ],
+        "existing_notebooks": [
+          "04_data_sourcing_strategies.ipynb",
+          "validating_data_quality_and_preparing_trainvalidationtest_splits.ipynb",
+          "creating_data_exploration_notebooks_with_visualizations.ipynb",
+          "implementing_feature_engineering_techniques.ipynb",
+          "01_data_collection_preprocessing.ipynb",
+          "performing_data_cleaning_and_preprocessing_using_python_libraries_pandas_numpy.ipynb",
+          "collecting_and_acquiring_datasets_for_the_graduation_project.ipynb"
+        ],
+        "covered": [
+          "Collecting and acquiring datasets for the graduation project",
+          "Performing data cleaning and preprocessing using Python libraries (Pandas, NumPy)",
+          "Implementing feature engineering techniques",
+          "Validating data quality and preparing train/validation/test splits",
+          "Documenting data collection and preprocessing procedures",
+          "Creating data exploration notebooks with visualizations"
+        ],
+        "missing": []
+      },
+      "3": {
+        "unit_name": "Model Development and Training",
+        "required_activities": [
+          "Implementing model architecture and training pipeline",
+          "Training models with different hyperparameter configurations",
+          "Performing hyperparameter optimization using grid search or automated tools",
+          "Evaluating model performance using appropriate metrics",
+          "Analyzing model outputs and identifying areas for improvement",
+          "Iteratively refining the model based on validation results",
+          "Documenting training procedures and results"
+        ],
+        "existing_notebooks": [
+          "01_model_training_hyperparameter_optimization.ipynb",
+          "evaluating_model_performance_using_appropriate_metrics.ipynb",
+          "analyzing_model_outputs_and_identifying_areas_for_improvement.ipynb",
+          "documenting_training_procedures_and_results.ipynb",
+          "performing_hyperparameter_optimization_using_grid_search_or_automated_tools.ipynb",
+          "iteratively_refining_the_model_based_on_validation_results.ipynb",
+          "04_model_selection_architecture_design.ipynb"
+        ],
+        "covered": [
+          "Implementing model architecture and training pipeline",
+          "Training models with different hyperparameter configurations",
+          "Performing hyperparameter optimization using grid search or automated tools",
+          "Evaluating model performance using appropriate metrics",
+          "Analyzing model outputs and identifying areas for improvement",
+          "Iteratively refining the model based on validation results",
+          "Documenting training procedures and results"
+        ],
+        "missing": []
+      },
+      "4": {
+        "unit_name": "Evaluation and Optimization",
+        "required_activities": [
+          "Conducting experiments and collecting performance metrics",
+          "Comparing results with baseline or standard models",
+          "Analyzing failure cases and identifying weaknesses in the model",
+          "Visualizing results using graphs, confusion matrices, or heat maps",
+          "Iteratively improving model parameters or retraining with improved data"
+        ],
+        "existing_notebooks": [
+          "04_experiments_performance_metrics.ipynb",
+          "conducting_experiments_and_collecting_performance_metrics.ipynb",
+          "06_analyzing_failure_cases.ipynb",
+          "05_comparing_baseline_models.ipynb",
+          "comparing_results_with_baseline_or_standard_models.ipynb",
+          "01_model_evaluation_optimization.ipynb",
+          "08_iterative_improvement_retraining.ipynb",
+          "iteratively_improving_model_parameters_or_retraining_with_improved_data.ipynb",
+          "visualizing_results_using_graphs_confusion_matrices_or_heat_maps.ipynb",
+          "07_visualizing_results_graphs_matrices.ipynb",
+          "analyzing_failure_cases_and_identifying_weaknesses_in_the_model.ipynb"
+        ],
+        "covered": [
+          "Conducting experiments and collecting performance metrics",
+          "Comparing results with baseline or standard models",
+          "Analyzing failure cases and identifying weaknesses in the model",
+          "Visualizing results using graphs, confusion matrices, or heat maps",
+          "Iteratively improving model parameters or retraining with improved data"
+        ],
+        "missing": []
+      },
+      "5": {
+        "unit_name": "Project Documentation and Final Presentation",
+        "required_activities": [
+          "Writing final project report (including summary, methodology, results, discussion)",
+          "Designing slide decks or posters for presentation",
+          "Preparing recorded video or live demonstration of project",
+          "Practicing oral presentation or defense of project",
+          "Compiling source code, documents, and final submission package"
+        ],
+        "existing_notebooks": [
+          "01_project_documentation_presentation.ipynb",
+          "04_writing_final_project_report.ipynb"
+        ],
+        "covered": [
+          "Writing final project report (including summary, methodology, results, discussion)",
+          "Practicing oral presentation or defense of project"
+        ],
+        "missing": [
+          "Designing slide decks or posters for presentation",
+          "Preparing recorded video or live demonstration of project",
+          "Compiling source code, documents, and final submission package"
+        ]
+      }
+    },
+    "total_activities": 29,
+    "covered_activities": 26,
+    "missing_activities": [
+      "Unit 5: Designing slide decks or posters for presentation",
+      "Unit 5: Preparing recorded video or live demonstration of project",
+      "Unit 5: Compiling source code, documents, and final submission package"
+    ]
+  }
+}
