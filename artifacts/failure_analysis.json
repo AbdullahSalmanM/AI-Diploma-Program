@@ -1,21 +1,20 @@
 {
-  "total_failed": 94,
+  "total_failed": 93,
   "categories": {
-    "missing_imports": 35,
-    "syntax_errors": 11,
+    "missing_imports": 36,
+    "syntax_errors": 15,
     "missing_packages": 36,
-    "file_not_found": 5,
-    "api_errors": 4,
+    "file_not_found": 0,
+    "api_errors": 3,
     "timeout": 1,
     "other": 2
   },
   "missing_packages": [
-    "tensorflow",
-    "scikit-learn",
+    "keras",
     "gym",
-    "transformers",
+    "tensorflow",
     "torch",
-    "rdflib",
+    "scikit-learn",
     "sklearn"
   ],
   "sample_failures": {
@@ -26,11 +25,11 @@
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_01.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data\n_matrix(samples, features):\n \n # TODO: Create a matrix with the specified shap\ne\n # Use np"
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef create_data_matrix(samples, features):\n \n # TODO: Create a matrix with the specified shap\ne\n # Use np."
       },
       {
         "path": "Course 03/modules/module_01/exercises/exercise_02.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef compute\n_determinant(matrix):\n \n # TODO: Compute determinant using np.linalg.de\nt()\n pass\n\n\ndef comput"
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\n\n\ndef compute_determinant(matrix):\n \n # TODO: Compute determinant using np.linalg.de\nt()\n pass\n\n\ndef compute"
       },
       {
         "path": "Course 03/modules/module_01/scripts/utils.ipynb",
@@ -38,7 +37,7 @@
       },
       {
         "path": "Course 03/modules/module_02/exercises/exercise_01.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nfrom scipy.misc import derivative\n\n\ndef compute\n_derivative(func, x, h=1\ne-6):\n \n # TODO: Implement numerica"
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nfrom scipy.optimize import approx_fprime\n# Note: scipy.misc.derivative moved, using approx_fprime instead\n\n\n"
       }
     ],
     "syntax_errors": [
@@ -55,22 +54,18 @@
         "error": "An error occurred while executing the following cell:\n------------------\nprint(\"=\" * 60)\nprint(\"Part 1: MLE for Gaussian Distribution\")\nprint(\"=\" * 60)\n\n# Generate data from Gaussian distribution\nnp.r"
       },
       {
-        "path": "Course 04/unit1-data-processing/examples/05_polynomial_regression.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Visualize the data FIRST to see the relationship\n# This scatter plot shows us that the relationship is CURVED, not linear!\n# "
+        "path": "Course 04/unit1-data-processing/examples/01_data_loading_exploration.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world US Crime Statistics dataset (GDI-themed)\n# This is REAL government data about crime statistics by US state - "
       },
       {
-        "path": "Course 04/unit3-classification/examples/03_svm.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Demonstrate SVM's optimal margin advantage\n# We'll use the CICIDS2017 cybersecurity dataset to show SVM's generalization\n\npri"
+        "path": "Course 04/unit1-data-processing/examples/04_linear_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world financial transaction dataset (GDI-themed)\n# Using publicly available dataset - relevant to GDI financial inv"
       }
     ],
     "missing_packages": [
       {
-        "path": "Course 01/unit2-ai-concepts/examples/06_working_with_rdf_sparql.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\nfrom rdflib import Graph, Namespace\nfrom SPARQLWrapper import SPARQLWrapper, JSON\n\nprint(\"\u2705 Libraries imported!\")\nprint(\"\\nWork"
-      },
-      {
-        "path": "Course 01/unit2-search-algorithms/examples/07_rdf_sparql_knowledge_graph.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Install required libraries if not already installed\n# !pip install rdflib sparqlwrapper\n\nimport rdflib\nfrom rdflib import Gra"
+        "path": "Course 01/unit2-search-algorithms/examples/06_machine_learning_intro.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nfrom sklearn.preprocessing import LabelEncoder\n# Method 1: Label Encoding (for ordinal data)\nlabel_encoder = LabelEncoder()\ndf["
       },
       {
         "path": "Course 01/unit2-search-algorithms/exercises/exercise_01.ipynb",
@@ -83,35 +78,14 @@
       {
         "path": "Course 03/unit3-optimization/examples/04_regression_real_datasets.ipynb",
         "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.model_selection import train_test_split\nfro"
-      }
-    ],
-    "file_not_found": [
-      {
-        "path": "Course 04/unit1-data-processing/examples/01_data_loading_exploration.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world US Crime Statistics dataset (GDI-themed)\n# This is REAL government data about crime statistics by US state - "
       },
       {
         "path": "Course 04/unit1-data-processing/examples/03_data_preprocessing.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world Credit Card Fraud dataset for preprocessing\n# GDI Theme: Financial Investigations - Fraud Detection\n# This da"
-      },
-      {
-        "path": "Course 04/unit1-data-processing/examples/04_linear_regression.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (already loaded above, but use full sample for multiple regression)\n# For multiple regression,"
-      },
-      {
-        "path": "Course 04/unit3-classification/examples/01_logistic_regression.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (GDI Theme: Terrorism Financing Detection)\n# This is a real-world financial dataset for binary"
-      },
-      {
-        "path": "Course 04/unit3-classification/examples/04_knn.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Load the Credit Card Fraud dataset\n# This is REAL financial transaction data for binary classification (GDI: Financial Invest"
+        "error": "An error occurred while executing the following cell:\n------------------\n# Step 1: Import necessary libraries\n# These libraries help us preprocess data for machine learning\n\nimport pandas as pd # For "
       }
     ],
+    "file_not_found": [],
     "api_errors": [
-      {
-        "path": "Course 01/unit2-search-algorithms/examples/06_machine_learning_intro.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Method 1: Label Encoding (for ordinal data)\nlabel_encoder = LabelEncoder()\ndf['location_encoded'] = label_encoder.fit_transfo"
-      },
       {
         "path": "Course 08/unit5-deployment/examples/02_tensorflow_serving.ipynb",
         "error": "An error occurred while executing the following cell:\n------------------\n# Create a simple model for demonstration\nmodel = tf.keras.Sequential([\n tf.keras.layers.Dense(64, activation='relu', input_sha"
@@ -133,8 +107,8 @@
     ],
     "other": [
       {
-        "path": "Course 04/unit2-regression/examples/01_ridge_lasso_regression.ipynb",
-        "error": "An error occurred while executing the following cell:\n------------------\n# Data summary comes first (showing what we loaded)\n# Then we'll check for multicollinearity\n\nprint(f\"\\n\ud83d\udcca Real Data Summary:\")\n"
+        "path": "Course 01/unit2-search-algorithms/examples/07_rdf_sparql_knowledge_graph.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Serialize the graph in different formats\nprint(\"=\" * 60)\nprint(\"RDF/XML Format:\")\nprint(\"=\" * 60)\nprint(g.serialize(format='x"
       },
       {
         "path": "Course 08/unit3-rnns/exercises/01_rnn_exercise.ipynb",
