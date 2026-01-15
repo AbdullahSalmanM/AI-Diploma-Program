@@ -1,0 +1,164 @@
+{
+  "total_failed": 320,
+  "categories": {
+    "missing_imports": 30,
+    "syntax_errors": 6,
+    "missing_packages": 259,
+    "file_not_found": 6,
+    "api_errors": 7,
+    "timeout": 2,
+    "other": 10
+  },
+  "missing_packages": [
+    "scikit-learn",
+    "rdflib",
+    "keras",
+    "sklearn",
+    "gym",
+    "torch"
+  ],
+  "sample_failures": {
+    "missing_imports": [
+      {
+        "path": "Course 01/unit4-neural-networks-basics/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n\"\"\"\nUnit 4 - Exercise 1: Neural Networks Basics\n\u0627\u0644\u0648\u062d\u062f\u0629 4 - \u062a\u0645\u0631\u064a\u0646 1: \u0623\u0633\u0627\u0633\u064a\u0627\u062a \u0627\u0644\u0634\u0628\u0643\u0627\u062a \u0627\u0644\u0639\u0635\u0628\u064a\u0629\n\nComplete the following exercises.\n"
+      },
+      {
+        "path": "Course 03/modules/module_01/scripts/utils.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n\"\"\"Utility functions for Module 01 demonstrations.This file contains helper functions used in the module notebooks and exercise"
+      },
+      {
+        "path": "Course 03/modules/module_02/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nfrom scipy.misc import derivative\n\n\ndef compute_derivative(func, x, h=1e-6):\n    \n    # TODO: Implement nume"
+      },
+      {
+        "path": "Course 03/modules/module_02/notebook_02_why_how_after.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Example: Basic Calculus Operations in Python for ML\n# This shows HOW each calculus concept works and WHY it's used\n\nimport nu"
+      },
+      {
+        "path": "Course 03/modules/module_02/scripts/utils.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n\"\"\"Utility functions for Module 02 demonstrations.This file contains helper functions used in the module notebooks and exercise"
+      }
+    ],
+    "syntax_errors": [
+      {
+        "path": "Course 04/unit1-data-processing/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Sample dataset - Sales data# \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0646\u0645\u0648\u0630\u062c\u064a\u0629 - \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0628\u064a\u0639\u0627\u062a\nnp.random.seed(42)data = {    'product_id': range(1, 101), "
+      },
+      {
+        "path": "Course 04/unit1-data-processing/exercises/exercise_02.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Generate sample housing data\nnp.random.seed(42)house_sizes = np.random.uniform(800, 4000, 150)house_prices = 45 * house_sizes"
+      },
+      {
+        "path": "Course 04/unit2-regression/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nnp.random.seed(42)n_samples = 300X = np.random.randn(n_samples, 8)# Make some features correlatedX[:, 2] = X[:, 0] + 0.3 * np.r"
+      },
+      {
+        "path": "Course 04/unit4-clustering/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Generate sample data\nnp.random.seed(42)cluster1 = np.random.normal([2, 2], 0.6, (80, 2))cluster2 = np.random.normal([6, 6], 0"
+      },
+      {
+        "path": "Course 04/unit5-model-selection/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nnp.random.seed(42)X, y = make_classification(    n_samples=1000,    n_features=10,    n_informative=5,    random_state=42)df = "
+      }
+    ],
+    "missing_packages": [
+      {
+        "path": "Course 01/unit1-ai-foundations/examples/implementing_search_algorithms_uninformed_heuristic_greedy.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\n\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import "
+      },
+      {
+        "path": "Course 01/unit1-ai-foundations/examples/working_with_numpy_for_data_processing_in_ai_applications.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport pandas as pd\n\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import "
+      },
+      {
+        "path": "Course 01/unit2-ai-concepts/examples/05_working_with_rdf_sparql.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nfrom rdflib import Graph, Namespace, Literal\nfrom rdflib.namespace import RDF, RDFS\n\nprint(\"\u2705 Libraries imported!\")\nprint(\"\\nWo"
+      },
+      {
+        "path": "Course 01/unit2-ai-concepts/examples/06_working_with_rdf_sparql.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nfrom rdflib import Graph, Namespace\nfrom SPARQLWrapper import SPARQLWrapper, JSON\n\nprint(\"\u2705 Libraries imported!\")\nprint(\"\\nWork"
+      },
+      {
+        "path": "Course 01/unit2-search-algorithms/examples/07_rdf_sparql_knowledge_graph.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Install required libraries if not already installed\n# !pip install rdflib sparqlwrapper\n\nimport rdflib\nfrom rdflib import Gra"
+      }
+    ],
+    "file_not_found": [
+      {
+        "path": "Course 04/unit1-data-processing/examples/01_data_loading_exploration.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world US Crime Statistics dataset (GDI-themed)\n# This is REAL government data about crime statistics by US state - "
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/03_data_preprocessing.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load real-world Credit Card Fraud dataset for preprocessing\n# GDI Theme: Financial Investigations - Fraud Detection\n# This da"
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/04_linear_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (already loaded above, but use full sample for multiple regression)\n# For multiple regression,"
+      },
+      {
+        "path": "Course 04/unit3-classification/examples/01_logistic_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load Credit Card Fraud dataset (GDI Theme: Terrorism Financing Detection)\n# This is a real-world financial dataset for binary"
+      },
+      {
+        "path": "Course 04/unit3-classification/examples/03_svm.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Demonstrate SVM's optimal margin advantage\n# We'll use the CICIDS2017 cybersecurity dataset to show SVM's generalization\n\npri"
+      }
+    ],
+    "api_errors": [
+      {
+        "path": "Course 01/unit2-search-algorithms/examples/06_machine_learning_intro.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Method 1: Label Encoding (for ordinal data)\nlabel_encoder = LabelEncoder()\ndf['location_encoded'] = label_encoder.fit_transfo"
+      },
+      {
+        "path": "Course 04/unit1-data-processing/examples/05_polynomial_regression.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# 9. Visualizing the Bias-Variance Tradeoff\n# \u062a\u0635\u0648\u0631 \u0627\u0644\u0645\u0642\u0627\u064a\u0636\u0629 \u0628\u064a\u0646 \u0627\u0644\u062a\u062d\u064a\u0632 \u0648\u0627\u0644\u062a\u0628\u0627\u064a\u0646\nprint(\"\\n\" + \"=\" * 60)\nprint(\"9. Visualizing th"
+      },
+      {
+        "path": "Course 08/unit5-deployment/examples/02_tensorflow_serving.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Create a simple model for demonstration\nmodel = tf.keras.Sequential([\n    tf.keras.layers.Dense(64, activation='relu', input_"
+      },
+      {
+        "path": "Course 09/unit2-policy-value/examples/04_monte_carlo_value_estimation.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 2: First-Visit Monte Carlo Implementation\")\nprint(\"=\" * 60)\n\ndef generate_episode(policy, en"
+      },
+      {
+        "path": "Course 09/unit2-policy-value/examples/05_td_algorithms_td0_nstep.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nprint(\"\\n\" + \"=\" * 60)\nprint(\"Part 3: n-Step TD Implementation\")\nprint(\"=\" * 60)\n\ndef n_step_td(policy, env_simulator, n_episod"
+      }
+    ],
+    "timeout": [
+      {
+        "path": "Course 08/unit4-transformers/examples/03_gpt_text_generation.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Load pre-trained GPT-2 model (smaller version for demonstration)\ntokenizer = GPT2Tokenizer.from_pretrained('gpt2')\nmodel = GP"
+      },
+      {
+        "path": "Course 11/unit2-versioning-serving/examples/03_model_versioning.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\n# Set MLflow tracking URI\nmlflow.set_tracking_uri('http://localhost:5000')  # Or use local file\n\n# Start experiment\nmlflow.set_"
+      }
+    ],
+    "other": [
+      {
+        "path": "Course 03/modules/module_01/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nif __name__ == \"__main__\":\n    print(\"Testing Exercise 01: Vector and Matrix Operations\")\n    print(\"=\" * 60)\n    \n    # Test 1"
+      },
+      {
+        "path": "Course 03/modules/module_01/exercises/exercise_02.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nif __name__ == \"__main__\":\n    print(\"Testing Exercise 02: Matrix Properties\")\n    print(\"=\" * 60)\n    \n    # Test 1: Determina"
+      },
+      {
+        "path": "Course 03/modules/module_02/exercises/exercise_02.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nif __name__ == \"__main__\":\n    print(\"Testing Exercise 02: Gradient Descent\")\n    print(\"=\" * 60)\n    \n    # Test 1: Gradient d"
+      },
+      {
+        "path": "Course 03/modules/module_03/exercises/exercise_01.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nif __name__ == \"__main__\":\n    print(\"Testing Exercise 01: Optimization Algorithms\")\n    print(\"=\" * 60)\n    \n    # Test 1: Sim"
+      },
+      {
+        "path": "Course 03/modules/module_03/exercises/exercise_02.ipynb",
+        "error": "An error occurred while executing the following cell:\n------------------\nif __name__ == \"__main__\":\n    print(\"Testing Exercise 02: Statistical Measures\")\n    print(\"=\" * 60)\n    \n    # Test data\n    "
+      }
+    ]
+  }
+}
