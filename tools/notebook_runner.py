@@ -277,7 +277,7 @@ def main():
             by_course[course]["notebooks"].append(result)
         
         f.write("## Results by Course\n\n")
-        for course in sorted(by_course.keys()):
+        for course in sorted([k for k in by_course.keys() if k is not None]):
             course_data = by_course[course]
             total = course_data["passed"] + course_data["failed"]
             pass_rate = (course_data["passed"] / total * 100) if total > 0 else 0
