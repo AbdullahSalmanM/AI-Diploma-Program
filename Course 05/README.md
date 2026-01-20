@@ -58,11 +58,11 @@ This course provides comprehensive training in scalable data science techniques 
 ├── 📄 STUDENT_PROGRESS_CHECKLIST.md    ✅ Track progress
 ├── 📄 ../requirements.txt              📦 Dependencies (in root directory)
 │
-├── 📂 unit1-introduction/              📚 Unit 1 (3 examples)
-├── 📂 unit2-cleaning/                  📚 Unit 2 (3 examples)
-├── 📂 unit3-visualization/             📚 Unit 3 (3 examples)
-├── 📂 unit4-ml-intro/                 📚 Unit 4 (4 examples)
-├── 📂 unit5-scaling/                   📚 Unit 5 (6 examples)
+├── 📂 unit1-introduction/              📚 Unit 1 (7 examples)
+├── 📂 unit2-cleaning/                  📚 Unit 2 (6 examples)
+├── 📂 unit3-visualization/             📚 Unit 3 (7 examples)
+├── 📂 unit4-ml-intro/                 📚 Unit 4 (12 examples)
+├── 📂 unit5-scaling/                   📚 Unit 5 (7 examples)
 ├── 📖 DOCS/                            📄 Documentation
 └── 📊 META/                            📈 Course Metadata
 ```
@@ -217,8 +217,37 @@ This summary allows you to:
 - **Visualization:** matplotlib, seaborn, plotly
 - **Distributed Computing:** dask
 - **Utilities:** jupyter, ipython
+- **GPU Acceleration (Optional):** cuDF, RAPIDS (requires NVIDIA GPU)
 
 See `../requirements.txt` for complete list with versions.
+
+---
+
+## 🖥️ GPU Requirements | متطلبات GPU
+
+**Important:** This course works perfectly **WITHOUT a GPU**!
+
+- **GPU is OPTIONAL** - All notebooks have pandas fallbacks
+- **NVIDIA GPU recommended** for best performance with large datasets
+- **CPU works fine** - You can complete the entire course using pandas (CPU)
+- **cuDF/RAPIDS** are optional enhancements, not requirements
+
+**If you don't have NVIDIA GPU:**
+- ✅ Course works perfectly with pandas (CPU)
+- ✅ All concepts are taught the same way
+- ✅ You'll learn GPU benefits even without GPU hardware
+- ✅ Performance will be slower on large datasets, but functionality is identical
+
+**If you have NVIDIA GPU:**
+- ✅ Install RAPIDS for GPU acceleration
+- ✅ See 10-100x speedup on large datasets
+- ✅ Experience production-level performance
+
+**Installation (Optional):**
+```bash
+# Only if you have NVIDIA GPU
+conda install -c rapidsai -c conda-forge cudf cuml
+```
 
 ---
 

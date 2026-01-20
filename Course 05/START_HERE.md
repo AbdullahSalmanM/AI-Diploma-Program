@@ -71,6 +71,14 @@ pip install -r ../requirements.txt
 pip check
 ```
 
+**🖥️ GPU Installation (OPTIONAL):**
+- **GPU is NOT required** - Course works perfectly on CPU!
+- If you have NVIDIA GPU and want GPU acceleration:
+  ```bash
+  conda install -c rapidsai -c conda-forge cudf cuml
+  ```
+- All notebooks have pandas fallbacks - you can complete the course without GPU
+
 **If you see errors:** Read `DOCS/SETUP_INSTRUCTIONS.md` for troubleshooting.
 
 ---
