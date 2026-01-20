@@ -248,6 +248,21 @@ merge_*.py
 # GITHUB_SETUP.md - student guide (KEEP)
 # SEMESTER2_OFFICIAL_GOALS.md - useful reference (KEEP)
 
+# Root-level generated output files (students can generate these by running notebooks)
+# Hide only root-level outputs, keep Course directory files (they're examples/references)
+/*.png
+/*.html
+/*.pkl
+/*.joblib
+# But keep important root-level images/docs if they exist
+!README*.png
+!logo*.png
+!diagram*.png
+
+# Internal analysis/cleanup documentation (not for students)
+FILE_IMPORTANCE_ANALYSIS.md
+CLEANUP_PLAN*.md
+
 # Course-level meta files (hide from students)
 **/COURSE_SUMMARY.md
 **/COURSE_*_COMPLETE*.md
